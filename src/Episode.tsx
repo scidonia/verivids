@@ -23,7 +23,9 @@ export const Episode: React.FC<{ episode: EpisodeTiming; series: string }> = ({
   series,
 }) => {
   useFontsReady();
-  const episodeNumber = Number.parseInt(episode.id.slice(0, 2), 10);
+  const episodeLabel = episode.standalone
+    ? "Companion film"
+    : `Episode ${Number.parseInt(episode.id.slice(0, 2), 10)}`;
 
   return (
     <AbsoluteFill>
@@ -36,7 +38,7 @@ export const Episode: React.FC<{ episode: EpisodeTiming; series: string }> = ({
             <Scene
               series={series}
               episodeTitle={episode.title}
-              episodeNumber={episodeNumber}
+              episodeLabel={episodeLabel}
               index={index}
               count={episode.scenes.length}
               visual={scene.visual}

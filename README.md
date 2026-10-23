@@ -1,6 +1,6 @@
 # verivids
 
-A seven-part introduction to vericoding — what it is, and how it is done —
+A six-part introduction to vericoding — what it is, and how it is done —
 authored as code and rendered with Remotion. Every visual is a React
 component driven by the storyboard's cues; every narration clip is generated
 once, aligned to its own audio, and committed, so a render is deterministic
@@ -14,14 +14,15 @@ and needs no network.
 | 04 `two-ways-to-specify` | 2:05 | Intrinsic or extrinsic, deep or shallow? |
 | 05 `from-proof-to-binary` | 1:35 | What survives compilation, and what is the staircase? |
 | 06 `building-the-world` | 2:05 | Effects, libraries, theories, and the trusted base |
-| 07 `curry-howard` | 2:52 | Why are types propositions and programs proofs? |
 
-Total: 13 minutes 10 seconds at 1920x1080, 30 fps, with an H.264 MP4 and an
+Total: 10 minutes 6 seconds at 1920x1080, 30 fps, with an H.264 MP4 and an
 SRT caption track per episode.
 
-Episode 7, **Types are propositions**, is the Curry–Howard episode: functions,
-pairs, tagged unions and the product/sum counting intuition in Python and
-Lean, then the proposition/type table and why Lean's check is a proof check.
+There is also a standalone companion film, **Types are propositions**
+(2:52), on Curry–Howard for working programmers: functions, pairs, tagged
+unions and the product/sum counting intuition in Python and Lean, then the
+proposition/type table and why Lean's check is a proof check. It is not
+numbered as part of the series and renders as `curry-howard.mp4`.
 
 Every film opens on a Scidonia Limited title card and carries the company
 lockup in the frame chrome of every slide. The content follows the

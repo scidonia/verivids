@@ -228,6 +228,8 @@ export interface EpisodeSpec {
    * voice run until its narration is recorded.
    */
   draft?: boolean;
+  /** A film outside the numbered series. */
+  standalone?: boolean;
 }
 
 export interface Storyboard {
@@ -256,6 +258,8 @@ export interface EpisodeTiming {
   scenes: SceneTiming[];
   /** A script with no narration: timings are synthetic, for review only. */
   draft?: boolean;
+  /** A film outside the numbered series. */
+  standalone?: boolean;
 }
 
 export interface Timing {

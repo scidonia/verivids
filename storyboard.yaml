@@ -971,13 +971,10 @@ episodes:
           next: "github.com/scidonia/vericoding-tutorial"
           cue: check
 
-  # ---------------------------------------------------------------------
-  # Draft. `draft: true` keeps this episode out of timing and the default
-  # voice run until the narration is recorded. Edit the `narration` text
-  # here, then: npm run voice -- --episode 07-curry-howard
-  # ---------------------------------------------------------------------
-  - id: 07-curry-howard
+  # A standalone companion film, outside the numbered series.
+  - id: curry-howard
     title: "Types are propositions"
+    standalone: true
     scenes:
       - id: title
         narration: >-
@@ -989,7 +986,7 @@ episodes:
           same: "the same as the rules for building programs"
         visual:
           kind: title
-          kicker: "An introduction · Episode 7"
+          kicker: "A companion film"
           title: "Types are propositions"
           subtitle: "Curry–Howard for working programmers"
           subtitleCue: same

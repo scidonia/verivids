@@ -7539,9 +7539,9 @@
       ],
       "transcript": "Some of these theories exist, and many do not. Leanin is one example, a concurrency runtime whose scheduling model is proved and whose runtime is checked against that model. JSON already has a complete implementation in Lean. A theory of databases would let contracts speak about transactions and isolation. Files, text, and time still have to be made precise in the same way. Vericoding is only in its infancy and many important parts are still to be written."
     },
-    "07-curry-howard/title": {
+    "curry-howard/title": {
       "hash": "864a87bdac353151",
-      "file": "audio/07-curry-howard/title.mp3",
+      "file": "audio/curry-howard/title.mp3",
       "bytes": 178511,
       "durationSeconds": 11.128163,
       "words": [
@@ -7693,9 +7693,9 @@
       ],
       "transcript": "Currie and Howard, notice that the rules for building proofs are the same as the rules for building programs. This episode shows the correspondence using code you already write."
     },
-    "07-curry-howard/functions": {
+    "curry-howard/functions": {
       "hash": "bdd73b32176e0f74",
-      "file": "audio/07-curry-howard/functions.mp3",
+      "file": "audio/curry-howard/functions.mp3",
       "bytes": 371190,
       "durationSeconds": 23.170612,
       "words": [
@@ -7987,9 +7987,9 @@
       ],
       "transcript": "Start with a function. The Python version takes an integer and returns one. The Lean version takes a natural number and returns one. Look at the shape, an input type and an output type. In logic, that shape is implication. A proof that A implies B is a function from proofs of A to proofs of B."
     },
-    "07-curry-howard/pairs": {
+    "curry-howard/pairs": {
       "hash": "620b02a332f5d96f",
-      "file": "audio/07-curry-howard/pairs.mp3",
+      "file": "audio/curry-howard/pairs.mp3",
       "bytes": 311840,
       "durationSeconds": 19.461224,
       "words": [
@@ -8241,9 +8241,9 @@
       ],
       "transcript": "A pair holds two values. Python has a record with two fields. Lean has a product type written A times B. In logic, the same shape is conjunction A and B. A proof of A and B is a pair. A proof of A and a proof of B."
     },
-    "07-curry-howard/unions": {
+    "curry-howard/unions": {
       "hash": "fe4655c6f363ba09",
-      "file": "audio/07-curry-howard/unions.mp3",
+      "file": "audio/curry-howard/unions.mp3",
       "bytes": 334828,
       "durationSeconds": 20.897959,
       "words": [
@@ -8490,9 +8490,9 @@
       ],
       "transcript": "A tagged union holds one of several values. Python has unions and enums. Lean has a sum type written A plus B. In logic, that is disjunction A or B. A proof of A or B is a value carrying a tag that says which side you proved."
     },
-    "07-curry-howard/counting": {
+    "curry-howard/counting": {
       "hash": "8f64bc6b40d9676e",
-      "file": "audio/07-curry-howard/counting.mp3",
+      "file": "audio/curry-howard/counting.mp3",
       "bytes": 321453,
       "durationSeconds": 20.062041,
       "words": [
@@ -8724,9 +8724,9 @@
       ],
       "transcript": "Here is the intuition. A product multiplies. Two choices for the first field and three for the second give six possible pairs. A sum adds. Two cases on the left and three on the right give five possible values. And is multiplication or is addition?"
     },
-    "07-curry-howard/correspondence": {
+    "curry-howard/correspondence": {
       "hash": "eb0be3e5acf7a30b",
-      "file": "audio/07-curry-howard/correspondence.mp3",
+      "file": "audio/curry-howard/correspondence.mp3",
       "bytes": 323543,
       "durationSeconds": 20.192653,
       "words": [
@@ -9023,9 +9023,9 @@
       ],
       "transcript": "Put the two columns side-by-side. Propositions on the left, types on the right. A proof of A and B is a pair. A proof of A or B is a tagged value. A proof of A implies B is a function. True is the unit type with one value. False is the empty type with none."
     },
-    "07-curry-howard/proofs": {
+    "curry-howard/proofs": {
       "hash": "9727c128c45d3486",
-      "file": "audio/07-curry-howard/proofs.mp3",
+      "file": "audio/curry-howard/proofs.mp3",
       "bytes": 324379,
       "durationSeconds": 20.244898,
       "words": [
@@ -9282,9 +9282,9 @@
       ],
       "transcript": "So, the programs you would write anyway are the proofs. The identity function proves that A implies A. Taking the first component proves that A and B implies A. Tagging a value on the left proves that A implies A or B. Nothing new is needed. The terms already exist."
     },
-    "07-curry-howard/difference": {
+    "curry-howard/difference": {
       "hash": "73a9e1542e2ed2b0",
-      "file": "audio/07-curry-howard/difference.mp3",
+      "file": "audio/curry-howard/difference.mp3",
       "bytes": 306407,
       "durationSeconds": 19.121633,
       "words": [
@@ -9531,9 +9531,9 @@
       ],
       "transcript": "The difference is what the machine does with them. Python annotations are documentation. Nothing checks the call before it runs. Lean checks the term against the type and rejects it. When the type is a proposition, that check is a proof check. The compiler becomes the proof checker."
     },
-    "07-curry-howard/closing": {
+    "curry-howard/closing": {
       "hash": "900a925725dd6a39",
-      "file": "audio/07-curry-howard/closing.mp3",
+      "file": "audio/curry-howard/closing.mp3",
       "bytes": 121251,
       "durationSeconds": 7.549388,
       "words": [

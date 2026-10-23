@@ -128,7 +128,34 @@ if (!preview) {
       }
     })();
 
-  writeJson(join(paths.final, "manifest.json"), {
+  // A partial render (`--episode`) replaces its own entries and keeps the
+  // rest, so rendering one film again does not erase the provenance of the
+  // others. Each entry records the revision that produced it.
+  const manifestPath = join(paths.final, "manifest.json");
+  let previous: { episodes?: { id: string }[] } = {};
+  try {
+    previous = JSON.parse(readFileSync(manifestPath, "utf8")) as {
+      episodes?: { id: string }[];
+    };
+  } catch {
+    previous = {};
+  }
+  const entries = new Map<string, unknown>();
+  for (const entry of previous.episodes ?? []) entries.set(entry.id, entry);
+  for (const entry of rendered) {
+    entries.set(entry.episode.id, {
+      id: entry.episode.id,
+      title: entry.episode.title,
+      file: `${entry.episode.id}.mp4`,
+      captions: `${entry.episode.id}.srt`,
+      frames: entry.episode.durationInFrames,
+      seconds: Number(entry.seconds.toFixed(3)),
+      revision,
+      audio: entry.audio,
+    });
+  }
+
+  writeJson(manifestPath, {
     series: timing.series,
     fps: timing.fps,
     width: 1920,
@@ -138,15 +165,9 @@ if (!preview) {
     timing: "generated/timing.json",
     revision,
     generatedAt: new Date(epoch * 1000).toISOString(),
-    episodes: rendered.map((entry) => ({
-      id: entry.episode.id,
-      title: entry.episode.title,
-      file: `${entry.episode.id}.mp4`,
-      captions: `${entry.episode.id}.srt`,
-      frames: entry.episode.durationInFrames,
-      seconds: Number(entry.seconds.toFixed(3)),
-      audio: entry.audio,
-    })),
+    episodes: [...entries.values()].sort((a, b) =>
+      (a as { id: string }).id.localeCompare((b as { id: string }).id),
+    ),
   });
 }
 

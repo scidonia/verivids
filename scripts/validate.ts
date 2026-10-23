@@ -284,7 +284,7 @@ if (voice.provider === "elevenlabs" && !voice.voice) {
 const episodeIds = new Set<string>();
 for (const episode of storyboard.episodes) {
   const where = episode.id;
-  checkKeys(episode, ["id", "title", "scenes", "draft"], where);
+  checkKeys(episode, ["id", "title", "scenes", "draft", "standalone"], where);
   if (episodeIds.has(episode.id)) fail(where, "duplicate episode id");
   episodeIds.add(episode.id);
   if (!/^[a-z0-9][a-z0-9-]*$/.test(episode.id)) {

@@ -238,6 +238,7 @@ for (const episode of storyboard.episodes) {
     durationInFrames: cursor,
     scenes,
     ...(episode.draft ? { draft: true } : {}),
+    ...(episode.standalone ? { standalone: true } : {}),
   });
   captionsByEpisode.set(episode.id, captions);
 }

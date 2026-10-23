@@ -70,7 +70,7 @@ function SceneView({
 export const Scene: React.FC<{
   series: string;
   episodeTitle: string;
-  episodeNumber: number;
+  episodeLabel: string;
   index: number;
   count: number;
   visual: Visual;
@@ -80,7 +80,7 @@ export const Scene: React.FC<{
 }> = ({
   series,
   episodeTitle,
-  episodeNumber,
+  episodeLabel,
   index,
   count,
   visual,
@@ -135,7 +135,7 @@ export const Scene: React.FC<{
             color: theme.color.muted,
           }}
         >
-          <span>Episode {episodeNumber}</span>
+          <span>{episodeLabel}</span>
           <span>
             {String(index + 1).padStart(2, "0")} /{" "}
             {String(count).padStart(2, "0")}
