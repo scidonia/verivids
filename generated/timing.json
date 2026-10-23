@@ -1272,15 +1272,15 @@
     {
       "id": "07-curry-howard",
       "title": "Types are propositions",
-      "durationInFrames": 1911,
+      "durationInFrames": 5149,
       "scenes": [
         {
           "id": "title",
           "from": 0,
-          "durationInFrames": 207,
-          "audio": null,
+          "durationInFrames": 361,
+          "audio": "audio/07-curry-howard/title.mp3",
           "cues": {
-            "same": 65
+            "same": 106
           },
           "visual": {
             "kind": "title",
@@ -1293,13 +1293,13 @@
         },
         {
           "id": "functions",
-          "from": 207,
-          "durationInFrames": 210,
-          "audio": null,
+          "from": 361,
+          "durationInFrames": 726,
+          "audio": "audio/07-curry-howard/functions.mp3",
           "cues": {
-            "python": 14,
-            "lean": 46,
-            "implication": 120
+            "python": 52,
+            "lean": 157,
+            "implication": 432
           },
           "visual": {
             "kind": "compare",
@@ -1327,13 +1327,13 @@
         },
         {
           "id": "pairs",
-          "from": 417,
-          "durationInFrames": 210,
-          "audio": null,
+          "from": 1087,
+          "durationInFrames": 614,
+          "audio": "audio/07-curry-howard/pairs.mp3",
           "cues": {
-            "pair": 9,
-            "product": 51,
-            "conjunction": 96
+            "pair": 0,
+            "product": 167,
+            "conjunction": 314
           },
           "visual": {
             "kind": "compare",
@@ -1361,13 +1361,13 @@
         },
         {
           "id": "unions",
-          "from": 627,
-          "durationInFrames": 210,
-          "audio": null,
+          "from": 1701,
+          "durationInFrames": 657,
+          "audio": "audio/07-curry-howard/unions.mp3",
           "cues": {
-            "union": 9,
-            "sum": 58,
-            "disjunction": 97
+            "union": 0,
+            "sum": 219,
+            "disjunction": 346
           },
           "visual": {
             "kind": "compare",
@@ -1395,13 +1395,13 @@
         },
         {
           "id": "counting",
-          "from": 837,
-          "durationInFrames": 210,
-          "audio": null,
+          "from": 2358,
+          "durationInFrames": 632,
+          "audio": "audio/07-curry-howard/counting.mp3",
           "cues": {
-            "product": 16,
-            "sum": 92,
-            "punch": 153
+            "product": 50,
+            "sum": 280,
+            "punch": 487
           },
           "visual": {
             "kind": "shapes",
@@ -1425,15 +1425,15 @@
         },
         {
           "id": "correspondence",
-          "from": 1047,
-          "durationInFrames": 216,
-          "audio": null,
+          "from": 2990,
+          "durationInFrames": 642,
+          "audio": "audio/07-curry-howard/correspondence.mp3",
           "cues": {
-            "conj": 56,
-            "disj": 76,
-            "impl": 102,
-            "unit": 129,
-            "empty": 156
+            "conj": 166,
+            "disj": 248,
+            "impl": 341,
+            "unit": 448,
+            "empty": 535
           },
           "visual": {
             "kind": "table",
@@ -1474,14 +1474,14 @@
         },
         {
           "id": "proofs",
-          "from": 1263,
-          "durationInFrames": 216,
-          "audio": null,
+          "from": 3632,
+          "durationInFrames": 644,
+          "audio": "audio/07-curry-howard/proofs.mp3",
           "cues": {
-            "identity": 37,
-            "first": 69,
-            "tag": 109,
-            "terms": 164
+            "identity": 119,
+            "first": 235,
+            "tag": 364,
+            "terms": 533
           },
           "visual": {
             "kind": "code",
@@ -1520,13 +1520,13 @@
         },
         {
           "id": "difference",
-          "from": 1479,
-          "durationInFrames": 216,
-          "audio": null,
+          "from": 4276,
+          "durationInFrames": 610,
+          "audio": "audio/07-curry-howard/difference.mp3",
           "cues": {
-            "python": 32,
-            "lean": 82,
-            "punch": 155
+            "python": 91,
+            "lean": 269,
+            "punch": 493
           },
           "visual": {
             "kind": "compare",
@@ -1556,11 +1556,11 @@
         },
         {
           "id": "closing",
-          "from": 1695,
-          "durationInFrames": 216,
-          "audio": null,
+          "from": 4886,
+          "durationInFrames": 263,
+          "audio": "audio/07-curry-howard/closing.mp3",
           "cues": {
-            "trick": 109
+            "trick": 145
           },
           "visual": {
             "kind": "closing",
@@ -1570,8 +1570,7 @@
           },
           "narration": "Same shapes, different guarantees. That is the whole trick: you have been writing proofs all along."
         }
-      ],
-      "draft": true
+      ]
     }
   ]
 }

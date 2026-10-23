@@ -978,7 +978,6 @@ episodes:
   # ---------------------------------------------------------------------
   - id: 07-curry-howard
     title: "Types are propositions"
-    draft: true
     scenes:
       - id: title
         narration: >-
