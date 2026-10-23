@@ -131,6 +131,11 @@ Narration synthesis is the only network step. The render is offline.
   derivation runs `autoPatchelf` over `@remotion/compositor-linux-x64-gnu`
   before rendering, because the loader those binaries name does not exist
   inside the sandbox.
+- Chromium draws text through fontconfig, and a sandbox has no system fonts.
+  The derivation sets `FONTCONFIG_FILE` to a generated config containing
+  DejaVu and Liberation; without it every string renders blank while shapes
+  and the wordmark still appear. `nix build .#checks.stills-smoke` renders an
+  episode of stills through the same path so the text can be inspected.
 - `packages.videos` builds with `buildNpmPackage` and runs `npm run render`
   against the committed audio and timing. `npmDepsHash` is pinned; refresh it
   with `nix run nixpkgs#prefetch-npm-deps -- package-lock.json` after changing
