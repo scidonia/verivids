@@ -132,16 +132,21 @@ if (!preview) {
   // rest, so rendering one film again does not erase the provenance of the
   // others. Each entry records the revision that produced it.
   const manifestPath = join(paths.final, "manifest.json");
-  let previous: { episodes?: { id: string }[] } = {};
+  let previous: { revision?: string; episodes?: { id: string; revision?: string }[] } = {};
   try {
     previous = JSON.parse(readFileSync(manifestPath, "utf8")) as {
-      episodes?: { id: string }[];
+      revision?: string;
+      episodes?: { id: string; revision?: string }[];
     };
   } catch {
     previous = {};
   }
   const entries = new Map<string, unknown>();
-  for (const entry of previous.episodes ?? []) entries.set(entry.id, entry);
+  for (const entry of previous.episodes ?? []) {
+    // Entries written before per-film revisions were recorded inherit the
+    // manifest revision they were produced under.
+    entries.set(entry.id, { ...entry, revision: entry.revision ?? previous.revision ?? "unknown" });
+  }
   for (const entry of rendered) {
     entries.set(entry.episode.id, {
       id: entry.episode.id,
