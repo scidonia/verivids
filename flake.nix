@@ -37,6 +37,16 @@
           # remotion.config.ts and by every script in `scripts/`.
           inherit (pkgs) chromium;
 
+          # Chromium draws text through fontconfig. The sandbox has no system
+          # fonts, so without this every string renders as nothing; bundled
+          # webfonts are not a fallback when they fail to load.
+          fontsConf = pkgs.makeFontsConf {
+            fontDirectories = [
+              pkgs.dejavu_fonts
+              pkgs.liberation_ttf
+            ];
+          };
+
           # Narration is recorded against the real service and the resulting
           # clips are committed. The render then reads them from `public/`, so
           # this derivation needs no network and no credential.
@@ -66,6 +76,8 @@
                 pkgs.xz
                 pkgs.zlib
                 pkgs.stdenv.cc.cc.lib
+                pkgs.dejavu_fonts
+                pkgs.liberation_ttf
               ];
 
               # Remotion's bundler and Chromium both want somewhere to write.
@@ -74,6 +86,7 @@
                 REMOTION_BROWSER_EXECUTABLE = "${chromium}/bin/chromium";
                 REMOTION_CONCURRENCY = "4";
                 HOME = "/tmp";
+                FONTCONFIG_FILE = "${fontsConf}";
                 VERIVIDS_REVISION = self.rev or self.dirtyRev or "uncommitted";
               };
 
@@ -175,11 +188,16 @@
               version = "0.1.0";
               src = ./.;
 
-              nativeBuildInputs = [ pkgs.chromium ];
+              nativeBuildInputs = [
+                pkgs.chromium
+                pkgs.dejavu_fonts
+                pkgs.liberation_ttf
+              ];
 
               env = {
                 REMOTION_BROWSER_EXECUTABLE = "${chromium}/bin/chromium";
                 HOME = "/tmp";
+                FONTCONFIG_FILE = "${fontsConf}";
               };
 
               doCheck = false;
@@ -193,7 +211,7 @@
               installPhase = ''
                 runHook preInstall
                 mkdir -p "$out"
-                touch "$out/rendered"
+                cp -r out/review/03-first-contract "$out/stills"
                 runHook postInstall
               '';
             }
