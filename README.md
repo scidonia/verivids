@@ -81,8 +81,11 @@ storyboard.yaml ──► voice.ts ──► public/audio/<episode>/<scene>.mp3
 - **Scene duration comes from the audio**, plus `tailHold` seconds of
   stillness. Nothing is padded to a target length.
 - **A script can be edited before it is recorded.** An episode marked
-  `draft: true` is still validated — its Lean and Python compile, its cues are
-  checked — but `timing` leaves it out and a default `voice` run skips it.
+  `draft: true` is validated — its Lean and Python compile, its cues are
+  checked — and timed as a silent storyboard: six seconds per scene, each cue
+  placed where its phrase falls in the narration. That makes its slides
+  renderable for review before any audio exists. A default `voice` run skips
+  it, and `render` excludes it unless `--include-drafts` is passed.
   `npm run voice -- --episode <id>` records it; remove the flag to bring it
   into the series.
 - **A visual names cues; the point is the one place a cue is declared.**

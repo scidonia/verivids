@@ -47,13 +47,16 @@ function resolveScene(
   episodeId: string,
   scene: SceneSpec,
   startFrame: number,
+  draft: boolean,
 ): ResolvedScene | null {
   const where = `${episodeId}/${scene.id}`;
+  const silent = scene.silent === true || draft;
   let audioSeconds: number;
   let clip: VoiceClip | undefined;
 
-  if (scene.silent) {
-    audioSeconds = scene.seconds ?? 0;
+  if (silent) {
+    // A draft has no audio; give each scene a readable beat of six seconds.
+    audioSeconds = scene.seconds ?? (draft ? 6 : 0);
     if (audioSeconds <= 0) {
       errors.push(`${where}: a silent scene needs a positive seconds:`);
       return null;
@@ -91,6 +94,19 @@ function resolveScene(
     }
     if (!phrase) {
       errors.push(`${where}.${name}: needs a phrase or an at: override`);
+      continue;
+    }
+    if (silent) {
+      // No audio to align against: place the cue where the phrase would be
+      // spoken, by its position in the narration. Review only.
+      const index = scene.narration.toLowerCase().indexOf(phrase.toLowerCase());
+      const fraction =
+        index <= 0 ? 0.05 : index / Math.max(1, scene.narration.length);
+      cueSeconds[name] = Math.max(
+        0.2,
+        Math.min(audioSeconds - 0.5, fraction * audioSeconds),
+      );
+      resolution.push(`${where}.${name}: synthetic`);
       continue;
     }
     if (!clip || !clip.words || clip.words.length === 0) {
@@ -132,7 +148,7 @@ function resolveScene(
     }
   }
 
-  const sceneSentences = scene.silent ? [] : sentences(scene.narration);
+  const sceneSentences = silent ? [] : sentences(scene.narration);
   const characters = sceneSentences.reduce((n, line) => n + line.length, 0);
   let elapsed = 0;
   const captions = sceneSentences.map((text) => {
@@ -196,16 +212,17 @@ const timing: Timing = {
 const captionsByEpisode = new Map<string, Caption[]>();
 
 for (const episode of storyboard.episodes) {
-  if (episode.draft) {
-    console.log(`skipping draft episode ${episode.id}`);
-    continue;
-  }
   let cursor = 0;
   const scenes: SceneTiming[] = [];
   const captions: Caption[] = [];
 
   for (const scene of episode.scenes) {
-    const resolved = resolveScene(episode.id, scene, cursor);
+    const resolved = resolveScene(
+      episode.id,
+      scene,
+      cursor,
+      episode.draft === true,
+    );
     if (!resolved) {
       cursor += Math.ceil(((scene.seconds ?? 3) + (scene.tailHold ?? 1)) * fps);
       continue;
@@ -220,6 +237,7 @@ for (const episode of storyboard.episodes) {
     title: episode.title,
     durationInFrames: cursor,
     scenes,
+    ...(episode.draft ? { draft: true } : {}),
   });
   captionsByEpisode.set(episode.id, captions);
 }

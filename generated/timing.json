@@ -294,10 +294,7 @@
           "visual": {
             "kind": "table",
             "heading": "Propositions are types",
-            "columns": [
-              "Logic",
-              "Programming"
-            ],
+            "columns": ["Logic", "Programming"],
             "rows": [
               {
                 "left": "A proposition",
@@ -356,24 +353,15 @@
             "reveal": [
               {
                 "cue": "vector",
-                "lines": [
-                  1,
-                  1
-                ]
+                "lines": [1, 1]
               },
               {
                 "cue": "length",
-                "lines": [
-                  2,
-                  3
-                ]
+                "lines": [2, 3]
               },
               {
                 "cue": "head",
-                "lines": [
-                  5,
-                  8
-                ]
+                "lines": [5, 8]
               }
             ],
             "caption": {
@@ -473,10 +461,7 @@
             "reveal": [
               {
                 "cue": "function",
-                "lines": [
-                  1,
-                  2
-                ]
+                "lines": [1, 2]
               }
             ],
             "caption": {
@@ -503,10 +488,7 @@
             "reveal": [
               {
                 "cue": "same",
-                "lines": [
-                  4,
-                  5
-                ]
+                "lines": [4, 5]
               }
             ],
             "caption": {
@@ -535,24 +517,15 @@
             "reveal": [
               {
                 "cue": "unfold",
-                "lines": [
-                  4,
-                  5
-                ]
+                "lines": [4, 5]
               },
               {
                 "cue": "split",
-                "lines": [
-                  6,
-                  7
-                ]
+                "lines": [6, 7]
               },
               {
                 "cue": "arithmetic",
-                "lines": [
-                  8,
-                  9
-                ]
+                "lines": [8, 9]
               }
             ],
             "goals": [
@@ -666,17 +639,11 @@
             "reveal": [
               {
                 "cue": "type",
-                "lines": [
-                  1,
-                  1
-                ]
+                "lines": [1, 1]
               },
               {
                 "cue": "evidence",
-                "lines": [
-                  2,
-                  4
-                ]
+                "lines": [2, 4]
               }
             ],
             "caption": {
@@ -704,17 +671,11 @@
             "reveal": [
               {
                 "cue": "plain",
-                "lines": [
-                  1,
-                  1
-                ]
+                "lines": [1, 1]
               },
               {
                 "cue": "theorem",
-                "lines": [
-                  3,
-                  4
-                ]
+                "lines": [3, 4]
               }
             ],
             "caption": {
@@ -1101,17 +1062,11 @@
             "reveal": [
               {
                 "cue": "io",
-                "lines": [
-                  1,
-                  2
-                ]
+                "lines": [1, 2]
               },
               {
                 "cue": "array",
-                "lines": [
-                  4,
-                  7
-                ]
+                "lines": [4, 7]
               }
             ],
             "caption": {
@@ -1268,6 +1223,298 @@
           "narration": "Vericoding moves the work to the surface where a machine can check it: what the program must mean. Write the specification. Let the proof be checked."
         }
       ]
+    },
+    {
+      "id": "07-curry-howard",
+      "title": "Types are propositions",
+      "durationInFrames": 1911,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 207,
+          "audio": "audio/07-curry-howard/title.mp3",
+          "cues": {
+            "same": 65
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 7",
+            "title": "Types are propositions",
+            "subtitle": "Curry–Howard for working programmers",
+            "subtitleCue": "same"
+          },
+          "narration": "Curry and Howard noticed that the rules for building proofs are the same as the rules for building programs. This episode shows that correspondence using code you already write."
+        },
+        {
+          "id": "functions",
+          "from": 207,
+          "durationInFrames": 210,
+          "audio": "audio/07-curry-howard/functions.mp3",
+          "cues": {
+            "python": 14,
+            "lean": 46,
+            "implication": 120
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "A function is an implication",
+            "left": {
+              "title": "Python",
+              "code": {
+                "language": "python",
+                "code": "def add_one(x: int) -> int:\n    return x + 1\n"
+              }
+            },
+            "right": {
+              "title": "Lean",
+              "code": {
+                "language": "lean",
+                "code": "def addOne (n : Nat) : Nat :=\n  n + 1\n"
+              }
+            },
+            "leftCue": "python",
+            "rightCue": "lean",
+            "note": "A function from A to B is a proof that A implies B.",
+            "noteCue": "implication"
+          },
+          "narration": "Start with a function. The Python version takes an integer and returns one. The Lean version takes a natural number and returns one. Look at the shape: an input type, and an output type. In logic, that shape is implication. A proof that A implies B is a function from proofs of A to proofs of B."
+        },
+        {
+          "id": "pairs",
+          "from": 417,
+          "durationInFrames": 210,
+          "audio": "audio/07-curry-howard/pairs.mp3",
+          "cues": {
+            "pair": 9,
+            "product": 51,
+            "conjunction": 96
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "A pair is a conjunction",
+            "left": {
+              "title": "Python",
+              "code": {
+                "language": "python",
+                "code": "@dataclass\nclass Point:\n    x: int\n    y: int\n"
+              }
+            },
+            "right": {
+              "title": "Lean",
+              "code": {
+                "language": "lean",
+                "code": "structure Point where\n  x : Nat\n  y : Nat\n\ndef origin : Point := ⟨0, 0⟩\n"
+              }
+            },
+            "leftCue": "pair",
+            "rightCue": "product",
+            "note": "A product type is a conjunction: a proof of A ∧ B is a pair.",
+            "noteCue": "conjunction"
+          },
+          "narration": "A pair holds two values. Python has a record with two fields. Lean has a product type, written A times B. In logic, the same shape is conjunction: A and B. A proof of A and B is a pair: a proof of A, and a proof of B."
+        },
+        {
+          "id": "unions",
+          "from": 627,
+          "durationInFrames": 210,
+          "audio": "audio/07-curry-howard/unions.mp3",
+          "cues": {
+            "union": 9,
+            "sum": 58,
+            "disjunction": 97
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "A tagged value is a disjunction",
+            "left": {
+              "title": "Python",
+              "code": {
+                "language": "python",
+                "code": "@dataclass\nclass Hit:\n    points: int\n\n@dataclass\nclass Miss:\n    pass\n\nShot = Hit | Miss\n"
+              }
+            },
+            "right": {
+              "title": "Lean",
+              "code": {
+                "language": "lean",
+                "code": "inductive Shot where\n  | hit (points : Nat)\n  | miss\n"
+              }
+            },
+            "leftCue": "union",
+            "rightCue": "sum",
+            "note": "A sum type is a disjunction: a proof of A ∨ B carries a tag.",
+            "noteCue": "disjunction"
+          },
+          "narration": "A tagged union holds one of several values. Python has unions and enums. Lean has a sum type, written A plus B. In logic, that is disjunction: A or B. A proof of A or B is a value carrying a tag that says which side you proved."
+        },
+        {
+          "id": "counting",
+          "from": 837,
+          "durationInFrames": 210,
+          "audio": "audio/07-curry-howard/counting.mp3",
+          "cues": {
+            "product": 16,
+            "sum": 92,
+            "punch": 153
+          },
+          "visual": {
+            "kind": "shapes",
+            "heading": "And multiplies. Or adds.",
+            "left": {
+              "label": "Product · a pair",
+              "rows": 2,
+              "cols": 3,
+              "cue": "product"
+            },
+            "right": {
+              "label": "Sum · one of",
+              "left": 2,
+              "right": 3,
+              "cue": "sum"
+            },
+            "note": "And is multiplication. Or is addition.",
+            "noteCue": "punch"
+          },
+          "narration": "Here is the intuition. A product multiplies: two choices for the first field, and three for the second, give six possible pairs. A sum adds: two cases on the left, and three on the right, give five possible values. And is multiplication. Or is addition."
+        },
+        {
+          "id": "correspondence",
+          "from": 1047,
+          "durationInFrames": 216,
+          "audio": "audio/07-curry-howard/correspondence.mp3",
+          "cues": {
+            "conj": 56,
+            "disj": 76,
+            "impl": 102,
+            "unit": 129,
+            "empty": 156
+          },
+          "visual": {
+            "kind": "table",
+            "heading": "Propositions are types",
+            "columns": ["Logic", "Programming"],
+            "rows": [
+              {
+                "left": "A ∧ B",
+                "right": "A × B · a pair",
+                "cue": "conj"
+              },
+              {
+                "left": "A ∨ B",
+                "right": "A ⊕ B · a tagged value",
+                "cue": "disj"
+              },
+              {
+                "left": "A → B",
+                "right": "a function",
+                "cue": "impl"
+              },
+              {
+                "left": "True",
+                "right": "Unit · one value",
+                "cue": "unit"
+              },
+              {
+                "left": "False",
+                "right": "Empty · no values",
+                "cue": "empty"
+              }
+            ]
+          },
+          "narration": "Put the two columns side by side. Propositions on the left, types on the right. A proof of A and B is a pair. A proof of A or B is a tagged value. A proof of A implies B is a function. True is the unit type, with one value. False is the empty type, with none."
+        },
+        {
+          "id": "proofs",
+          "from": 1263,
+          "durationInFrames": 216,
+          "audio": "audio/07-curry-howard/proofs.mp3",
+          "cues": {
+            "identity": 37,
+            "first": 69,
+            "tag": 109,
+            "terms": 164
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "The proof is a term you could have written",
+            "language": "lean",
+            "code": "theorem identity (A : Prop) : A → A :=\n  fun a => a\n\ntheorem first (A B : Prop) : A ∧ B → A :=\n  fun p => p.left\n\ntheorem tagLeft (A B : Prop) : A → A ∨ B :=\n  fun a => Or.inl a\n",
+            "reveal": [
+              {
+                "cue": "identity",
+                "lines": [1, 2]
+              },
+              {
+                "cue": "first",
+                "lines": [4, 5]
+              },
+              {
+                "cue": "tag",
+                "lines": [7, 8]
+              }
+            ],
+            "caption": {
+              "text": "These are ordinary functions; the types read as propositions.",
+              "cue": "terms"
+            }
+          },
+          "narration": "So the programs you would write anyway are the proofs. The identity function proves that A implies A. Taking the first component proves that A and B implies A. Tagging a value on the left proves that A implies A or B. Nothing new is needed: the terms already exist."
+        },
+        {
+          "id": "difference",
+          "from": 1479,
+          "durationInFrames": 216,
+          "audio": "audio/07-curry-howard/difference.mp3",
+          "cues": {
+            "python": 32,
+            "lean": 82,
+            "punch": 155
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "Same shapes, different guarantees",
+            "left": {
+              "title": "Python",
+              "lines": [
+                "annotations are not enforced",
+                "a mismatch is a runtime error, if it is an error at all",
+                "the check happens, if ever, while the program runs"
+              ]
+            },
+            "right": {
+              "title": "Lean",
+              "lines": [
+                "the term is checked against the type",
+                "a mismatch is rejected before the program runs",
+                "the check happens once, at compile time"
+              ]
+            },
+            "leftCue": "python",
+            "rightCue": "lean",
+            "note": "When the type is a proposition, the check is a proof check.",
+            "noteCue": "punch"
+          },
+          "narration": "The difference is what the machine does with them. Python annotations are documentation: nothing checks the call before it runs. Lean checks the term against the type, and rejects it. When the type is a proposition, that check is a proof check. The compiler becomes the proof checker."
+        },
+        {
+          "id": "closing",
+          "from": 1695,
+          "durationInFrames": 216,
+          "audio": "audio/07-curry-howard/closing.mp3",
+          "cues": {
+            "trick": 109
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "You have been writing proofs all along.",
+            "next": "github.com/scidonia/vericoding-tutorial",
+            "cue": "trick"
+          },
+          "narration": "Same shapes, different guarantees. That is the whole trick: you have been writing proofs all along."
+        }
+      ],
+      "draft": true
     }
   ]
 }

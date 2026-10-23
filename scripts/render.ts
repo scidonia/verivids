@@ -14,6 +14,7 @@ const option = (name: string): string | undefined => {
   return index === -1 ? undefined : args[index + 1];
 };
 const onlyEpisode = option("--episode");
+const includeDrafts = args.includes("--include-drafts");
 
 if (!preview && !args.includes("--final")) {
   console.error("choose --preview or --final");
@@ -22,10 +23,14 @@ if (!preview && !args.includes("--final")) {
 
 const timing = readJson<Timing>(paths.timing);
 const episodes = timing.episodes.filter(
-  (episode) => !onlyEpisode || episode.id === onlyEpisode,
+  (episode) =>
+    (!onlyEpisode || episode.id === onlyEpisode) &&
+    (includeDrafts || !episode.draft),
 );
 if (episodes.length === 0) {
-  console.error(`no episode matched ${JSON.stringify(onlyEpisode)}`);
+  console.error(
+    `no episode matched ${JSON.stringify(onlyEpisode)} (drafts are excluded unless --include-drafts)`,
+  );
   process.exit(1);
 }
 

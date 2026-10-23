@@ -254,6 +254,8 @@ export interface EpisodeTiming {
   title: string;
   durationInFrames: number;
   scenes: SceneTiming[];
+  /** A script with no narration: timings are synthetic, for review only. */
+  draft?: boolean;
 }
 
 export interface Timing {
