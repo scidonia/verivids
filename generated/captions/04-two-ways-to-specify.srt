@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:06,148
+There are two ways to attach a claim to
+code, and two ways to embed a language in
+a prover.
+
+2
+00:00:06,148 --> 00:00:07,837
+Both distinctions matter.
+
+3
+00:00:08,667 --> 00:00:12,076
+Intrinsic specification puts the claim in
+the type.
+
+4
+00:00:12,076 --> 00:00:18,494
+Here the caller supplies evidence that the
+list is not empty, so the function has no
+empty case.
+
+5
+00:00:18,494 --> 00:00:24,109
+Illegal states become unrepresentable, and
+every caller gets the guarantee for free.
+
+6
+00:00:24,109 --> 00:00:29,591
+The cost is that types get heavier, and
+evidence gets threaded through signatures.
+
+7
+00:00:30,800 --> 00:00:43,522
+Extrinsic specification writes the plain
+program, then states a separate theorem
+about it. double is just addition, and the
+theorem says it equals two times its
+argument.
+
+8
+00:00:43,522 --> 00:00:48,985
+The program stays idiomatic, and the
+specification can grow by accretion.
+
+9
+00:00:48,985 --> 00:00:52,952
+The cost is that you have to find the
+right theorems.
+
+10
+00:00:54,167 --> 00:00:55,413
+A rule of thumb.
+
+11
+00:00:55,413 --> 00:01:02,737
+Use intrinsic specification for shape:
+lengths, non-emptiness, invariants of a
+data structure.
+
+12
+00:01:02,737 --> 00:01:12,087
+Use extrinsic specification for behaviour:
+what a sort returns, what a file contains
+after a write, what a protocol did.
+
+13
+00:01:13,200 --> 00:01:14,813
+There is a second axis.
+
+14
+00:01:14,813 --> 00:01:23,370
+A deep embedding makes the language under
+study into data inside the prover, with a
+semantics and a theory built about it.
+
+15
+00:01:23,370 --> 00:01:29,472
+Iris does this for concurrent and unsafe
+programs; interaction trees do it for
+effects.
+
+16
+00:01:29,472 --> 00:01:36,136
+It buys reusable reasoning about hard
+semantics, and it costs you the embedding
+and its theory.
+
+17
+00:01:37,367 --> 00:01:41,762
+A shallow embedding does not model the
+language; it uses it.
+
+18
+00:01:41,762 --> 00:01:44,619
+The prover is the programming language.
+
+19
+00:01:44,619 --> 00:01:51,506
+Terms are programs, types are
+specifications, and proofs are terms
+checked by the same kernel.
+
+20
+00:01:51,506 --> 00:01:56,854
+There is no gap between the code you
+reason about and the code that runs.
+
+21
+00:01:57,967 --> 00:02:00,534
+This tutorial takes the shallow path.
+
+22
+00:02:00,534 --> 00:02:04,419
+Next, what happens to the proofs when the
+code compiles.
+

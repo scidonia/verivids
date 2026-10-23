@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:02,671
+A contract is a theorem about a
+definition.
+
+2
+00:00:02,671 --> 00:00:05,094
+Here is the smallest one worth writing.
+
+3
+00:00:05,900 --> 00:00:11,562
+Here is a very small program. maxOf
+returns the larger of two natural numbers.
+
+4
+00:00:11,562 --> 00:00:14,756
+It is correct, but nothing about it says
+so.
+
+5
+00:00:15,667 --> 00:00:19,583
+The specification is another term in the
+same language.
+
+6
+00:00:19,583 --> 00:00:22,432
+For all a and b, a is at most maxOf a b.
+
+7
+00:00:22,432 --> 00:00:26,847
+That is a statement about every pair of
+numbers, not a sample.
+
+8
+00:00:27,867 --> 00:00:31,373
+The proof is a program of that statement's
+type.
+
+9
+00:00:31,373 --> 00:00:38,751
+We unfold the definition, split on the
+comparison, and in each branch the
+arithmetic closes the goal.
+
+10
+00:00:38,751 --> 00:00:47,589
+Lean prints the goal state after every
+step, so the proof is not a story about
+the code; it is the machine's own working.
+
+11
+00:00:48,900 --> 00:00:51,781
+Two kinds of error now become visible.
+
+12
+00:00:51,781 --> 00:00:59,287
+An error of reasoning, connecting things
+wrongly, is rejected: the kernel will not
+accept the step.
+
+13
+00:00:59,287 --> 00:01:05,732
+An error of interpretation,
+misunderstanding what the code means,
+leaves an artefact.
+
+14
+00:01:05,732 --> 00:01:10,660
+The specification you wrote is there to be
+read, and iterated on.
+
+15
+00:01:11,767 --> 00:01:14,405
+The proof is checked, not reviewed.
+
+16
+00:01:14,405 --> 00:01:16,364
+Next, two ways to specify.
+

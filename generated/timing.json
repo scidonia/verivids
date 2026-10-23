@@ -1,0 +1,1209 @@
+{
+  "fps": 30,
+  "series": "Vericoding",
+  "subtitle": "What it is, and how to do it",
+  "generatedFrom": {
+    "storyboard": "storyboard.yaml",
+    "voice": "generated/voice.json"
+  },
+  "episodes": [
+    {
+      "id": "01-what-is-vericoding",
+      "title": "What is vericoding?",
+      "durationInFrames": 2883,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 302,
+          "audio": "audio/01-what-is-vericoding/title.mp3",
+          "cues": {
+            "series": 92
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 1",
+            "title": "Vericoding",
+            "subtitle": "Programs, specifications and proofs, in one language",
+            "subtitleCue": "series"
+          },
+          "narration": "Vericoding is a way of writing software where the specification, the proof, and the program are all one artefact, checked by a machine."
+        },
+        {
+          "id": "sampling",
+          "from": 302,
+          "durationInFrames": 617,
+          "audio": "audio/01-what-is-vericoding/sampling.mp3",
+          "cues": {
+            "tests": 49,
+            "quantify": 287,
+            "conclusion": 478
+          },
+          "visual": {
+            "kind": "quantify",
+            "heading": "Tests sample. Proofs quantify.",
+            "left": {
+              "title": "A test suite",
+              "caption": "a handful of inputs, observed once",
+              "dots": 7,
+              "cue": "tests"
+            },
+            "right": {
+              "title": "A specification",
+              "caption": "a claim about every input, proved",
+              "cue": "quantify"
+            },
+            "conclusion": {
+              "text": "The proof is the certificate for the whole region.",
+              "cue": "conclusion"
+            }
+          },
+          "narration": "Normally we test. A test runs the program on a handful of inputs, and we hope the rest behave. A specification is different. It says something about every possible input, and a proof is a certificate that the code meets it. Tests sample. Proofs quantify."
+        },
+        {
+          "id": "three-things",
+          "from": 919,
+          "durationInFrames": 613,
+          "audio": "audio/01-what-is-vericoding/three-things.mp3",
+          "cues": {
+            "code": 0,
+            "spec": 142,
+            "proof": 229,
+            "one": 391
+          },
+          "visual": {
+            "kind": "converge",
+            "heading": "One artefact, three obligations",
+            "items": [
+              {
+                "label": "Program",
+                "detail": "the computation",
+                "cue": "code"
+              },
+              {
+                "label": "Specification",
+                "detail": "what it must mean",
+                "cue": "spec"
+              },
+              {
+                "label": "Proof",
+                "detail": "checked by the kernel",
+                "cue": "proof"
+              }
+            ],
+            "result": {
+              "label": "One language",
+              "detail": "the specification cannot drift away from the implementation",
+              "cue": "one"
+            }
+          },
+          "narration": "So a vericoded program is three things at once. The code. A statement of what that code must mean. And a proof, checked by the kernel, that the code meets the statement. One language for all three, so the specification cannot drift away from the implementation."
+        },
+        {
+          "id": "why-now",
+          "from": 1532,
+          "durationInFrames": 668,
+          "audio": "audio/01-what-is-vericoding/why-now.mp3",
+          "cues": {
+            "bottleneck": 37,
+            "cost": 211,
+            "llm": 292,
+            "routine": 386,
+            "cheap": 549
+          },
+          "visual": {
+            "kind": "claim",
+            "eyebrow": "Why now?",
+            "heading": "Proof engineering was the bottleneck",
+            "points": [
+              {
+                "text": "A prover could check everything",
+                "cue": "bottleneck"
+              },
+              {
+                "text": "Writing the proofs took specialists, for far longer than writing the code",
+                "cue": "cost",
+                "accent": "rust"
+              },
+              {
+                "text": "Large language models changed the economics",
+                "cue": "llm"
+              },
+              {
+                "text": "Routine goals discharged · lemmas suggested · broken proofs repaired",
+                "cue": "routine"
+              }
+            ],
+            "emphasis": {
+              "text": "The proof is no longer the expensive part.",
+              "cue": "cheap"
+            }
+          },
+          "narration": "Why now? Proving used to be the bottleneck. A theorem prover could check everything, but writing the proofs took specialists far longer than writing the code. Large language models changed the economics. Routine obligations get discharged, lemmas get suggested, broken proofs get repaired. The proof is no longer the expensive part."
+        },
+        {
+          "id": "intent",
+          "from": 2200,
+          "durationInFrames": 564,
+          "audio": "audio/01-what-is-vericoding/intent.mp3",
+          "cues": {
+            "scarce": 84,
+            "iterate": 187,
+            "dialectic": 413
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "Iterate on intent, not operation",
+            "left": {
+              "title": "Without vericoding",
+              "lines": [
+                "change the code, hope the meaning survived",
+                "each feature widens the surface you cannot check",
+                "correctness is a review opinion"
+              ]
+            },
+            "right": {
+              "title": "With vericoding",
+              "lines": [
+                "change the specification, see what breaks",
+                "the implementation is replaceable",
+                "correctness is a checked artefact"
+              ]
+            },
+            "leftCue": "scarce",
+            "rightCue": "iterate",
+            "noteCue": "dialectic",
+            "note": "The conversation moves to what the program must mean."
+          },
+          "narration": "That moves the scarce resource. The machine cannot invent what your program must mean. You iterate at the specification surface, in conversation, and the implementation becomes something you can replace later. The dialectic is about intent, not operation."
+        },
+        {
+          "id": "closing",
+          "from": 2764,
+          "durationInFrames": 119,
+          "audio": "audio/01-what-is-vericoding/closing.mp3",
+          "cues": {
+            "next": 20
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "A proof is a program.",
+            "next": "Episode 2 · Proofs are programs",
+            "cue": "next"
+          },
+          "narration": "Next, why a proof is, literally, a program."
+        }
+      ]
+    },
+    {
+      "id": "02-proofs-are-programs",
+      "title": "Proofs are programs",
+      "durationInFrames": 2617,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 245,
+          "audio": "audio/02-proofs-are-programs/title.mp3",
+          "cues": {
+            "follow": 106
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 2",
+            "title": "Proofs are programs",
+            "subtitle": "Why a proof assistant and a compiler are the same machine",
+            "subtitleCue": "follow"
+          },
+          "narration": "A theorem prover is a program that checks proofs. Everything else follows from how seriously it takes that job."
+        },
+        {
+          "id": "kernel",
+          "from": 245,
+          "durationInFrames": 583,
+          "audio": "audio/02-proofs-are-programs/kernel.mp3",
+          "cues": {
+            "claim": 0,
+            "proof": 43,
+            "kernel": 130,
+            "authority": 220,
+            "small": 491
+          },
+          "visual": {
+            "kind": "pipeline",
+            "heading": "A claim, a proof, and a checker that cannot be argued with",
+            "stages": [
+              {
+                "label": "Claim",
+                "detail": "a proposition",
+                "cue": "claim"
+              },
+              {
+                "label": "Proof",
+                "detail": "a term that should inhabit it",
+                "cue": "proof"
+              },
+              {
+                "label": "Kernel",
+                "detail": "checks every step",
+                "cue": "kernel"
+              }
+            ],
+            "verdict": {
+              "accept": "accept",
+              "reject": "reject",
+              "cue": "authority"
+            },
+            "note": "Keeping the kernel small is what makes it worth trusting.",
+            "noteCue": "small"
+          },
+          "narration": "You state a claim, you give a proof, and a small trusted kernel verifies every step. Nothing is taken on authority. A proof is a certificate: the checker accepts it, or it does not. Keeping the kernel small is what makes it worth trusting."
+        },
+        {
+          "id": "curry-howard",
+          "from": 828,
+          "durationInFrames": 707,
+          "audio": "audio/02-proofs-are-programs/curry-howard.mp3",
+          "cues": {
+            "prop": 128,
+            "proof": 187,
+            "implication": 283,
+            "conjunction": 349,
+            "disjunction": 408,
+            "quantifiers": 487
+          },
+          "visual": {
+            "kind": "table",
+            "heading": "Propositions are types",
+            "columns": ["Logic", "Programming"],
+            "rows": [
+              {
+                "left": "A proposition",
+                "right": "a type",
+                "cue": "prop"
+              },
+              {
+                "left": "A proof",
+                "right": "a program of that type",
+                "cue": "proof"
+              },
+              {
+                "left": "A → B",
+                "right": "a function",
+                "cue": "implication"
+              },
+              {
+                "left": "A ∧ B",
+                "right": "a pair",
+                "cue": "conjunction"
+              },
+              {
+                "left": "A ∨ B",
+                "right": "a tagged union",
+                "cue": "disjunction"
+              },
+              {
+                "left": "∀ x, P x",
+                "right": "a dependent function",
+                "cue": "quantifiers"
+              },
+              {
+                "left": "∃ x, P x",
+                "right": "a witness and a proof about it"
+              }
+            ]
+          },
+          "narration": "The reason this can be a programming language is a correspondence. A proposition is a type, and a proof is a program of that type. Implication is a function. Conjunction is a pair. Disjunction is a tagged union. For all is a dependent function, and there exists is a witness paired with a proof about it."
+        },
+        {
+          "id": "dependent",
+          "from": 1535,
+          "durationInFrames": 578,
+          "audio": "audio/02-proofs-are-programs/dependent.mp3",
+          "cues": {
+            "vector": 88,
+            "length": 116,
+            "head": 205,
+            "typeerror": 417
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "A type that talks about a value",
+            "language": "lean",
+            "code": "inductive Vec (α : Type) : Nat → Type where\n  | nil : Vec α 0\n  | cons (x : α) {n : Nat} : Vec α n → Vec α (n + 1)\n\n-- There is no case for the empty vector:\n-- it cannot have this type.\ndef head {α : Type} {n : Nat} (v : Vec α (n + 1)) : α :=\n  match v with\n  | .cons x _ => x\n",
+            "reveal": [
+              {
+                "cue": "vector",
+                "lines": [1, 1]
+              },
+              {
+                "cue": "length",
+                "lines": [2, 3]
+              },
+              {
+                "cue": "head",
+                "lines": [5, 8]
+              }
+            ],
+            "caption": {
+              "text": "An empty vector cannot be passed here. That is a type error, not an exception.",
+              "cue": "typeerror"
+            }
+          },
+          "narration": "That gives types which talk about values. Here is a vector: a list whose type records its length. The head of a non-empty vector has no empty case to handle, because an empty vector cannot have that type. Calling it on nothing is a type error, not an exception."
+        },
+        {
+          "id": "same-machine",
+          "from": 2113,
+          "durationInFrames": 423,
+          "audio": "audio/02-proofs-are-programs/same-machine.mp3",
+          "cues": {
+            "typecheck": 7,
+            "same": 172,
+            "carry": 273
+          },
+          "visual": {
+            "kind": "converge",
+            "heading": "Checking a proof is type-checking a program",
+            "items": [
+              {
+                "label": "Proof assistant",
+                "detail": "checks terms",
+                "cue": "typecheck"
+              },
+              {
+                "label": "Compiler",
+                "detail": "checks types",
+                "cue": "same"
+              }
+            ],
+            "result": {
+              "label": "One machine",
+              "detail": "one language carries the program, its specification, and its proof",
+              "cue": "carry"
+            }
+          },
+          "narration": "So checking a proof is type-checking a program. The proof assistant and the compiler are the same machine. That is what lets one language carry the program, the specification, and the proof."
+        },
+        {
+          "id": "closing",
+          "from": 2536,
+          "durationInFrames": 81,
+          "audio": "audio/02-proofs-are-programs/closing.mp3",
+          "cues": {
+            "next": 9
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "Your first contract.",
+            "next": "Episode 3 · Your first contract",
+            "cue": "next"
+          },
+          "narration": "Now, a first contract."
+        }
+      ]
+    },
+    {
+      "id": "03-first-contract",
+      "title": "Your first contract",
+      "durationInFrames": 2321,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 177,
+          "audio": "audio/03-first-contract/title.mp3",
+          "cues": {
+            "smallest": 90
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 3",
+            "title": "Your first contract",
+            "subtitle": "A program, a statement about it, and a checked proof",
+            "subtitleCue": "smallest"
+          },
+          "narration": "A contract is a theorem about a definition. Here is the smallest one worth writing."
+        },
+        {
+          "id": "program",
+          "from": 177,
+          "durationInFrames": 293,
+          "audio": "audio/03-first-contract/program.mp3",
+          "cues": {
+            "function": 71,
+            "says": 209
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "The program",
+            "language": "lean",
+            "code": "def maxOf (a b : Nat) : Nat :=\n  if a ≤ b then b else a\n",
+            "reveal": [
+              {
+                "cue": "function",
+                "lines": [1, 2]
+              }
+            ],
+            "caption": {
+              "text": "Correct, but nothing in this definition says what it means.",
+              "cue": "says"
+            }
+          },
+          "narration": "Here is a very small program. maxOf returns the larger of two natural numbers. It is correct, but nothing about it says so."
+        },
+        {
+          "id": "statement",
+          "from": 470,
+          "durationInFrames": 366,
+          "audio": "audio/03-first-contract/statement.mp3",
+          "cues": {
+            "same": 34,
+            "every": 302
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "The specification",
+            "language": "lean",
+            "code": "def maxOf (a b : Nat) : Nat :=\n  if a ≤ b then b else a\n\ntheorem le_maxOf_left (a b : Nat) : a ≤ maxOf a b := by\n  sorry\n",
+            "reveal": [
+              {
+                "cue": "same",
+                "lines": [4, 5]
+              }
+            ],
+            "caption": {
+              "text": "A statement about every pair of numbers, not a sample. The proof replaces sorry.",
+              "cue": "every"
+            }
+          },
+          "narration": "The specification is another term in the same language. For all a and b, a is at most maxOf a b. That is a statement about every pair of numbers, not a sample."
+        },
+        {
+          "id": "proof",
+          "from": 836,
+          "durationInFrames": 631,
+          "audio": "audio/03-first-contract/proof.mp3",
+          "cues": {
+            "unfold": 107,
+            "split": 169,
+            "arithmetic": 256,
+            "machine": 511
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "The proof, and the goal state Lean prints",
+            "language": "lean",
+            "code": "def maxOf (a b : Nat) : Nat :=\n  if a ≤ b then b else a\n\ntheorem le_maxOf_left (a b : Nat) : a ≤ maxOf a b := by\n  unfold maxOf\n  split\n  · rename_i h\n    omega\n  · omega\n",
+            "reveal": [
+              {
+                "cue": "unfold",
+                "lines": [4, 5]
+              },
+              {
+                "cue": "split",
+                "lines": [6, 7]
+              },
+              {
+                "cue": "arithmetic",
+                "lines": [8, 9]
+              }
+            ],
+            "goals": [
+              {
+                "cue": "split",
+                "label": "after split",
+                "text": "case isTrue\na b : Nat\nh : a ≤ b\n⊢ a ≤ b\n"
+              },
+              {
+                "cue": "arithmetic",
+                "label": "after omega",
+                "text": "no goals\n"
+              }
+            ],
+            "caption": {
+              "text": "Every step is checked by the kernel. The goal text above is Lean's, not ours.",
+              "cue": "machine"
+            }
+          },
+          "narration": "The proof is a program of that statement's type. We unfold the definition, split on the comparison, and in each branch the arithmetic closes the goal. Lean prints the goal state after every step, so the proof is not a story about the code; it is the machine's own working."
+        },
+        {
+          "id": "errors",
+          "from": 1467,
+          "durationInFrames": 686,
+          "audio": "audio/03-first-contract/errors.mp3",
+          "cues": {
+            "reasoning": 91,
+            "interpretation": 309,
+            "artefact": 466
+          },
+          "visual": {
+            "kind": "cards",
+            "heading": "Two kinds of error",
+            "cards": [
+              {
+                "title": "Error of reasoning",
+                "body": "The steps do not follow. The kernel rejects them, and there is nothing to argue with.",
+                "verdict": "impossible",
+                "accent": "rust",
+                "cue": "reasoning"
+              },
+              {
+                "title": "Error of interpretation",
+                "body": "The specification says the wrong thing. It is written down, in the same language, so it can be read and revised.",
+                "verdict": "visible, and iterable",
+                "accent": "purple",
+                "cue": "interpretation"
+              }
+            ],
+            "note": "Without a specification, both errors are silent.",
+            "noteCue": "artefact"
+          },
+          "narration": "Two kinds of error now become visible. An error of reasoning, connecting things wrongly, is rejected: the kernel will not accept the step. An error of interpretation, misunderstanding what the code means, leaves an artefact. The specification you wrote is there to be read, and iterated on."
+        },
+        {
+          "id": "closing",
+          "from": 2153,
+          "durationInFrames": 168,
+          "audio": "audio/03-first-contract/closing.mp3",
+          "cues": {
+            "checked": 0
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "Checked, not reviewed.",
+            "next": "Episode 4 · Two ways to specify",
+            "cue": "checked"
+          },
+          "narration": "The proof is checked, not reviewed. Next, two ways to specify."
+        }
+      ]
+    },
+    {
+      "id": "04-two-ways-to-specify",
+      "title": "Two ways to specify",
+      "durationInFrames": 3763,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 260,
+          "audio": "audio/04-two-ways-to-specify/title.mp3",
+          "cues": {
+            "distinctions": 185
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 4",
+            "title": "Two ways to specify",
+            "subtitle": "Intrinsic or extrinsic, deep or shallow",
+            "subtitleCue": "distinctions"
+          },
+          "narration": "There are two ways to attach a claim to code, and two ways to embed a language in a prover. Both distinctions matter."
+        },
+        {
+          "id": "intrinsic",
+          "from": 260,
+          "durationInFrames": 664,
+          "audio": "audio/04-two-ways-to-specify/intrinsic.mp3",
+          "cues": {
+            "type": 43,
+            "evidence": 104,
+            "cost": 493
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "Intrinsic: the claim is in the type",
+            "language": "lean",
+            "code": "def headOf (xs : List Nat) (h : xs ≠ []) : Nat :=\n  match xs with\n  | [] => absurd rfl h\n  | x :: _ => x\n",
+            "reveal": [
+              {
+                "cue": "type",
+                "lines": [1, 1]
+              },
+              {
+                "cue": "evidence",
+                "lines": [2, 4]
+              }
+            ],
+            "caption": {
+              "text": "The empty case is present only to discharge the impossible hypothesis.",
+              "cue": "cost"
+            }
+          },
+          "narration": "Intrinsic specification puts the claim in the type. Here the caller supplies evidence that the list is not empty, so the function has no empty case. Illegal states become unrepresentable, and every caller gets the guarantee for free. The cost is that types get heavier, and evidence gets threaded through signatures."
+        },
+        {
+          "id": "extrinsic",
+          "from": 924,
+          "durationInFrames": 701,
+          "audio": "audio/04-two-ways-to-specify/extrinsic.mp3",
+          "cues": {
+            "plain": 38,
+            "theorem": 118,
+            "grow": 475
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "Extrinsic: the claim is a theorem about it",
+            "language": "lean",
+            "code": "def double (n : Nat) : Nat := n + n\n\ntheorem double_eq (n : Nat) : double n = 2 * n := by\n  simp [double, Nat.two_mul]\n",
+            "reveal": [
+              {
+                "cue": "plain",
+                "lines": [1, 1]
+              },
+              {
+                "cue": "theorem",
+                "lines": [3, 4]
+              }
+            ],
+            "caption": {
+              "text": "The program stays idiomatic; the specification grows by accretion.",
+              "cue": "grow"
+            }
+          },
+          "narration": "Extrinsic specification writes the plain program, then states a separate theorem about it. double is just addition, and the theorem says it equals two times its argument. The program stays idiomatic, and the specification can grow by accretion. The cost is that you have to find the right theorems."
+        },
+        {
+          "id": "rule",
+          "from": 1625,
+          "durationInFrames": 571,
+          "audio": "audio/04-two-ways-to-specify/rule.mp3",
+          "cues": {
+            "shape": 50,
+            "behaviour": 274
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "A rule of thumb",
+            "left": {
+              "title": "Intrinsic · shape",
+              "lines": [
+                "lengths, bounds, non-emptiness",
+                "invariants of a data structure",
+                "illegal states become unrepresentable"
+              ]
+            },
+            "right": {
+              "title": "Extrinsic · behaviour",
+              "lines": [
+                "what a sort returns",
+                "what a file contains after a write",
+                "what a protocol did"
+              ]
+            },
+            "leftCue": "shape",
+            "rightCue": "behaviour"
+          },
+          "narration": "A rule of thumb. Use intrinsic specification for shape: lengths, non-emptiness, invariants of a data structure. Use extrinsic specification for behaviour: what a sort returns, what a file contains after a write, what a protocol did."
+        },
+        {
+          "id": "deep",
+          "from": 2196,
+          "durationInFrames": 725,
+          "audio": "audio/04-two-ways-to-specify/deep.mp3",
+          "cues": {
+            "deep": 61,
+            "iris": 305,
+            "pay": 601
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "The second axis: what is inside the prover?",
+            "left": {
+              "title": "Deep embedding",
+              "lines": [
+                "the object language is data",
+                "a semantics, then a theory about it",
+                "Iris for concurrency and unsafe code",
+                "interaction trees for effects"
+              ]
+            },
+            "right": {
+              "title": "What it buys, and costs",
+              "lines": [
+                "reusable reasoning for hard semantics",
+                "the embedding and its theory are yours to trust",
+                "getting back to running code is a separate step"
+              ]
+            },
+            "leftCue": "deep",
+            "rightCue": "pay",
+            "note": "Power is bought with a trusted model.",
+            "noteCue": "iris"
+          },
+          "narration": "There is a second axis. A deep embedding makes the language under study into data inside the prover, with a semantics and a theory built about it. Iris does this for concurrent and unsafe programs; interaction trees do it for effects. It buys reusable reasoning about hard semantics, and it costs you the embedding and its theory."
+        },
+        {
+          "id": "shallow",
+          "from": 2921,
+          "durationInFrames": 618,
+          "audio": "audio/04-two-ways-to-specify/shallow.mp3",
+          "cues": {
+            "model": 31,
+            "prover": 137,
+            "gap": 449
+          },
+          "visual": {
+            "kind": "converge",
+            "heading": "Shallow: the prover is the programming language",
+            "items": [
+              {
+                "label": "Term",
+                "detail": "the program",
+                "cue": "model"
+              },
+              {
+                "label": "Type",
+                "detail": "the specification",
+                "cue": "prover"
+              },
+              {
+                "label": "Proof",
+                "detail": "a term checked by the same kernel",
+                "cue": "gap"
+              }
+            ],
+            "result": {
+              "label": "No gap",
+              "detail": "the code you reason about is the code that runs",
+              "cue": "gap"
+            }
+          },
+          "narration": "A shallow embedding does not model the language; it uses it. The prover is the programming language. Terms are programs, types are specifications, and proofs are terms checked by the same kernel. There is no gap between the code you reason about and the code that runs."
+        },
+        {
+          "id": "closing",
+          "from": 3539,
+          "durationInFrames": 224,
+          "audio": "audio/04-two-ways-to-specify/closing.mp3",
+          "cues": {
+            "next": 101
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "From proof to binary.",
+            "next": "Episode 5 · From proof to binary",
+            "cue": "next"
+          },
+          "narration": "This tutorial takes the shallow path. Next, what happens to the proofs when the code compiles."
+        }
+      ]
+    },
+    {
+      "id": "05-from-proof-to-binary",
+      "title": "From proof to binary",
+      "durationInFrames": 2859,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 222,
+          "audio": "audio/05-from-proof-to-binary/title.mp3",
+          "cues": {
+            "static": 0
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 5",
+            "title": "From proof to binary",
+            "subtitle": "Erasure, compilation, and the staircase of levels",
+            "subtitleCue": "static"
+          },
+          "narration": "A proof is a static claim. What comes out of the compiler is a program with no prover in it."
+        },
+        {
+          "id": "erasure",
+          "from": 222,
+          "durationInFrames": 646,
+          "audio": "audio/05-from-proof-to-binary/erasure.mp3",
+          "cues": {
+            "erases": 0,
+            "left": 287,
+            "static": 399,
+            "zero": 540
+          },
+          "visual": {
+            "kind": "pipeline",
+            "heading": "What survives compilation",
+            "stages": [
+              {
+                "label": "Program",
+                "detail": "the computation",
+                "cue": "erases"
+              },
+              {
+                "label": "Specification",
+                "detail": "a proposition · erased",
+                "cue": "left"
+              },
+              {
+                "label": "Proof",
+                "detail": "a term · erased",
+                "cue": "static"
+              },
+              {
+                "label": "Binary",
+                "detail": "the algorithm and its data",
+                "cue": "zero"
+              }
+            ],
+            "note": "Nothing is re-checked at runtime.",
+            "noteCue": "zero"
+          },
+          "narration": "Compilation erases whatever exists only for the proof. Proofs are propositions, and propositions carry no runtime data. What is left is the algorithm and its data. The guarantees are static, so nothing is re-checked at runtime, and the cost of having them is zero."
+        },
+        {
+          "id": "compiler",
+          "from": 868,
+          "durationInFrames": 627,
+          "audio": "audio/05-from-proof-to-binary/compiler.mp3",
+          "cues": {
+            "ir": 0,
+            "c": 133,
+            "rc": 285,
+            "inplace": 486
+          },
+          "visual": {
+            "kind": "pipeline",
+            "heading": "Lean compiles like a systems language",
+            "stages": [
+              {
+                "label": "Lean",
+                "detail": "elaborated terms",
+                "cue": "ir"
+              },
+              {
+                "label": "IR",
+                "detail": "Lean's own",
+                "cue": "ir"
+              },
+              {
+                "label": "C",
+                "detail": "emitted",
+                "cue": "c"
+              },
+              {
+                "label": "Binary",
+                "detail": "native, small runtime",
+                "cue": "c"
+              }
+            ],
+            "note": "Reference counting: deterministic destruction, no stop-the-world pause, in-place update when uniquely owned.",
+            "noteCue": "rc",
+            "afterword": "Uniquely owned values are updated in place.",
+            "afterwordCue": "inplace"
+          },
+          "narration": "Lean elaborates to its own intermediate representation, emits C, and links a small runtime into a native binary. Memory is managed by reference counting rather than a tracing collector, so destruction is deterministic, and a uniquely owned value can be updated in place."
+        },
+        {
+          "id": "measurement",
+          "from": 1495,
+          "durationInFrames": 443,
+          "audio": "audio/05-from-proof-to-binary/measurement.mp3",
+          "cues": {
+            "binary": 107,
+            "identical": 165,
+            "faster": 281
+          },
+          "visual": {
+            "kind": "claim",
+            "eyebrow": "Measured in the tutorial",
+            "heading": "Verification does not pay at runtime",
+            "points": [
+              {
+                "text": "The extracted sort compiled to a 3.4 MB binary",
+                "cue": "binary"
+              },
+              {
+                "text": "Byte-identical output to the interpreted run",
+                "cue": "identical"
+              },
+              {
+                "text": "0.025 s, against 0.69 s interpreted",
+                "cue": "faster"
+              }
+            ],
+            "emphasis": {
+              "text": "A measurement of this program, not a claim that verification makes code faster.",
+              "cue": "faster"
+            }
+          },
+          "narration": "In this tutorial's own measurement, the extracted sort compiled to a small binary, produced byte-identical output, and ran about twenty-seven times faster than interpreting the same file."
+        },
+        {
+          "id": "staircase",
+          "from": 1938,
+          "durationInFrames": 758,
+          "audio": "audio/05-from-proof-to-binary/staircase.mp3",
+          "cues": {
+            "levels": 38,
+            "optimise": 112,
+            "lower": 269,
+            "refine": 483,
+            "proposed": 603
+          },
+          "visual": {
+            "kind": "staircase",
+            "heading": "One program, many representations",
+            "levels": [
+              {
+                "name": "Lean",
+                "detail": "program and specification"
+              },
+              {
+                "name": "LambdaPure",
+                "detail": "pure, total core"
+              },
+              {
+                "name": "LambdaRC",
+                "detail": "ownership and reference counting"
+              },
+              {
+                "name": "C",
+                "detail": "the whole machine"
+              },
+              {
+                "name": "ISA",
+                "detail": "architectural state"
+              },
+              {
+                "name": "Hardware",
+                "detail": "pipeline state"
+              }
+            ],
+            "levelsCue": "levels",
+            "optimiseCue": "optimise",
+            "lowerCue": "lower",
+            "refineCue": "refine",
+            "proposed": {
+              "text": "Proposed architecture · not a settled result",
+              "cue": "proposed"
+            }
+          },
+          "narration": "Zoom out, and the whole design is a staircase. Within a level you optimise: rewrite the program, keep its behaviour. Between levels you lower: a source language becomes a simpler one, and eventually machine code. Every vertical edge carries a refinement proof. This stack is a proposed architecture, not a settled result."
+        },
+        {
+          "id": "closing",
+          "from": 2696,
+          "durationInFrames": 163,
+          "audio": "audio/05-from-proof-to-binary/closing.mp3",
+          "cues": {
+            "next": 16
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "Building the world.",
+            "next": "Episode 6 · Building the world",
+            "cue": "next"
+          },
+          "narration": "Next, what a verified program still has to assume about the world."
+        }
+      ]
+    },
+    {
+      "id": "06-building-the-world",
+      "title": "Building the world",
+      "durationInFrames": 3549,
+      "scenes": [
+        {
+          "id": "title",
+          "from": 0,
+          "durationInFrames": 266,
+          "audio": "audio/06-building-the-world/title.mp3",
+          "cues": {
+            "allowed": 178
+          },
+          "visual": {
+            "kind": "title",
+            "kicker": "An introduction · Episode 6",
+            "title": "Building the world",
+            "subtitle": "Effects, libraries, theories, and the bottom of the stack",
+            "subtitleCue": "allowed"
+          },
+          "narration": "A verified program still has to talk to a world nobody verified. The question is what it is allowed to assume."
+        },
+        {
+          "id": "effects",
+          "from": 266,
+          "durationInFrames": 705,
+          "audio": "audio/06-building-the-world/effects.mp3",
+          "cues": {
+            "explicit": 70,
+            "io": 139,
+            "array": 380
+          },
+          "visual": {
+            "kind": "code",
+            "heading": "Effects are in the type",
+            "language": "lean",
+            "code": "def greet (name : String) : IO Unit :=\n  IO.println s!\"hello {name}\"\n\n-- Pure in the type, mutation underneath:\n-- a uniquely owned array is updated in place.\ndef doubled (xs : Array Nat) : Array Nat :=\n  xs.map (· * 2)\n",
+            "reveal": [
+              {
+                "cue": "io",
+                "lines": [1, 2]
+              },
+              {
+                "cue": "array",
+                "lines": [4, 7]
+              }
+            ],
+            "caption": {
+              "text": "The signature says the function can print. Nothing is hidden.",
+              "cue": "explicit"
+            }
+          },
+          "narration": "Effects do not disappear. They become explicit. IO is a type, and a function that prints says so in its signature. Pure-looking code can still run at imperative speed: an array is a value in the type system and a mutable buffer in the implementation, updated in place when it is uniquely owned."
+        },
+        {
+          "id": "binding",
+          "from": 971,
+          "durationInFrames": 737,
+          "audio": "audio/06-building-the-world/binding.mp3",
+          "cues": {
+            "binding": 279,
+            "not": 346,
+            "theory": 532
+          },
+          "visual": {
+            "kind": "compare",
+            "heading": "A binding is not a theory",
+            "left": {
+              "title": "A binding",
+              "lines": [
+                "how to call the operating system",
+                "a few lines, and it compiles",
+                "nothing yet says what it means"
+              ]
+            },
+            "right": {
+              "title": "A theory",
+              "lines": [
+                "what the call promises",
+                "which paths, which modes",
+                "what a read returns, what a write leaves behind"
+              ]
+            },
+            "leftCue": "binding",
+            "rightCue": "theory",
+            "note": "Contracts are written against the meaning.",
+            "noteCue": "not"
+          },
+          "narration": "Real programs need the world: files, sockets, databases, time. Lean can call almost anything, so a binding is a few lines. But a binding is not a library you can verify against. A binding says how to call. A theory says what the call means, and contracts are written against the meaning."
+        },
+        {
+          "id": "axioms",
+          "from": 1708,
+          "durationInFrames": 669,
+          "audio": "audio/06-building-the-world/axioms.mp3",
+          "cues": {
+            "assertion": 0,
+            "assumed": 173,
+            "bottom": 236,
+            "discipline": 338
+          },
+          "visual": {
+            "kind": "stack",
+            "heading": "Every theory ends in an assertion",
+            "layers": [
+              {
+                "label": "Your contracts",
+                "detail": "proved",
+                "cue": "assertion"
+              },
+              {
+                "label": "Your program",
+                "detail": "proved",
+                "cue": "assertion"
+              },
+              {
+                "label": "File, socket, database",
+                "detail": "a theory, mostly proved"
+              },
+              {
+                "label": "The operating system",
+                "detail": "assumed",
+                "accent": "rust",
+                "cue": "assumed"
+              },
+              {
+                "label": "The network card",
+                "detail": "assumed",
+                "accent": "rust",
+                "cue": "assumed"
+              }
+            ],
+            "bottom": {
+              "label": "Assertions",
+              "detail": "small, explicit, testable",
+              "cue": "discipline"
+            },
+            "note": "The bottom is exactly what you assume.",
+            "noteCue": "bottom"
+          },
+          "narration": "Every theory ends in an assertion. The operating system, the network card, the database, are not vericoded. So the bottom of the stack is exactly what you assume. Keep the assumption small, explicit, and testable: differential testing against the real system, property-based checks, fuzzing at the boundary."
+        },
+        {
+          "id": "order",
+          "from": 2377,
+          "durationInFrames": 808,
+          "audio": "audio/06-building-the-world/order.mp3",
+          "cues": {
+            "files": 158,
+            "text": 348,
+            "time": 550,
+            "json": 682
+          },
+          "visual": {
+            "kind": "cards",
+            "heading": "What to build first",
+            "cards": [
+              {
+                "title": "Files",
+                "body": "Everything sits on them. Specify the failures, not only the successes: permissions, partial writes, rename atomicity.",
+                "verdict": "POSIX",
+                "accent": "teal",
+                "cue": "files"
+              },
+              {
+                "title": "Text",
+                "body": "Unicode and regular expressions are pure, so they can be proved end to end.",
+                "verdict": "provable",
+                "accent": "teal",
+                "cue": "text"
+              },
+              {
+                "title": "Time",
+                "body": "Model monotonic and wall clocks separately. The wall clock may jump: state it as an axiom.",
+                "verdict": "assert the jump",
+                "accent": "purple",
+                "cue": "time"
+              }
+            ],
+            "note": "Then JSON, CBOR or Protobuf: round-trip laws, nothing lost.",
+            "noteCue": "json"
+          },
+          "narration": "What to build first? Rank by dependents, then by purity. Files first, because everything sits on them, and specify the failures, not only the successes. Then text: Unicode and regular expressions are pure, so they can be proved end to end. Then time, with the wall clock may jump as an explicit axiom. Then JSON and the wire formats."
+        },
+        {
+          "id": "closing",
+          "from": 3185,
+          "durationInFrames": 364,
+          "audio": "audio/06-building-the-world/closing.mp3",
+          "cues": {
+            "check": 261
+          },
+          "visual": {
+            "kind": "closing",
+            "text": "Write the specification. Let the proof be checked.",
+            "next": "github.com/scidonia/vericoding-tutorial",
+            "cue": "check"
+          },
+          "narration": "Vericoding moves the work to the surface where a machine can check it: what the program must mean. Write the specification. Let the proof be checked."
+        }
+      ]
+    }
+  ]
+}

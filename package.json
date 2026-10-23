@@ -1,0 +1,33 @@
+{
+  "name": "verivids",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Introductory vericoding films, authored as code and rendered with Remotion",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "voice": "tsx scripts/voice.ts",
+    "timing": "tsx scripts/timing.ts",
+    "stills": "tsx scripts/stills.ts",
+    "preview": "tsx scripts/render.ts --preview",
+    "render": "tsx scripts/render.ts --final",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/jetbrains-mono": "5.2.8",
+    "@remotion/bundler": "^4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/renderer": "^4.0.538",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.538",
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3"
+  }
+}

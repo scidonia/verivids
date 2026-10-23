@@ -1,0 +1,7015 @@
+{
+  "provider": "elevenlabs",
+  "model": "eleven_multilingual_v2",
+  "voice": "UwtFVYnvYG6hxAbc4I6T",
+  "clips": {
+    "01-what-is-vericoding/title": {
+      "hash": "de62eccad40e91ba",
+      "file": "audio/01-what-is-vericoding/title.mp3",
+      "bytes": 146746,
+      "durationSeconds": 9.142857,
+      "words": [
+        {
+          "word": "Ferry",
+          "start": 0,
+          "end": 0.41999998688697815
+        },
+        {
+          "word": "coding",
+          "start": 0.41999998688697815,
+          "end": 0.6600000262260437
+        },
+        {
+          "word": "is",
+          "start": 0.6600000262260437,
+          "end": 1.0199999809265137
+        },
+        {
+          "word": "a",
+          "start": 1.0199999809265137,
+          "end": 1.2000000476837158
+        },
+        {
+          "word": "way",
+          "start": 1.2000000476837158,
+          "end": 1.3799999952316284
+        },
+        {
+          "word": "of",
+          "start": 1.3799999952316284,
+          "end": 1.6200000047683716
+        },
+        {
+          "word": "writing",
+          "start": 1.6200000047683716,
+          "end": 1.899999976158142
+        },
+        {
+          "word": "software",
+          "start": 1.899999976158142,
+          "end": 2.4800000190734863
+        },
+        {
+          "word": "where",
+          "start": 2.4800000190734863,
+          "end": 2.859999895095825
+        },
+        {
+          "word": "the",
+          "start": 2.859999895095825,
+          "end": 3.180000066757202
+        },
+        {
+          "word": "specification",
+          "start": 3.180000066757202,
+          "end": 3.7799999713897705
+        },
+        {
+          "word": "the",
+          "start": 4.360000133514404,
+          "end": 4.440000057220459
+        },
+        {
+          "word": "proof",
+          "start": 4.440000057220459,
+          "end": 4.480000019073486
+        },
+        {
+          "word": "and",
+          "start": 4.480000019073486,
+          "end": 4.71999979019165
+        },
+        {
+          "word": "the",
+          "start": 4.71999979019165,
+          "end": 5.019999980926514
+        },
+        {
+          "word": "program",
+          "start": 5.019999980926514,
+          "end": 5.300000190734863
+        },
+        {
+          "word": "are",
+          "start": 5.300000190734863,
+          "end": 5.940000057220459
+        },
+        {
+          "word": "all",
+          "start": 5.940000057220459,
+          "end": 6.420000076293945
+        },
+        {
+          "word": "one",
+          "start": 6.420000076293945,
+          "end": 6.599999904632568
+        },
+        {
+          "word": "artifact",
+          "start": 6.599999904632568,
+          "end": 7.28000020980835
+        },
+        {
+          "word": "checked",
+          "start": 7.860000133514404,
+          "end": 7.900000095367432
+        },
+        {
+          "word": "by",
+          "start": 7.900000095367432,
+          "end": 8.140000343322754
+        },
+        {
+          "word": "a",
+          "start": 8.140000343322754,
+          "end": 8.619999885559082
+        },
+        {
+          "word": "machine",
+          "start": 8.619999885559082,
+          "end": 8.619999885559082
+        }
+      ],
+      "transcript": "Ferry coding is a way of writing software where the specification, the proof and the program are all one artifact, checked by a machine."
+    },
+    "01-what-is-vericoding/sampling": {
+      "hash": "c77e610394247a92",
+      "file": "audio/01-what-is-vericoding/sampling.mp3",
+      "bytes": 311840,
+      "durationSeconds": 19.461224,
+      "words": [
+        {
+          "word": "Normally",
+          "start": 0,
+          "end": 0.46000000834465027
+        },
+        {
+          "word": "we",
+          "start": 0.6200000047683716,
+          "end": 0.8399999737739563
+        },
+        {
+          "word": "test",
+          "start": 0.8399999737739563,
+          "end": 1.2599999904632568
+        },
+        {
+          "word": "A",
+          "start": 1.7599999904632568,
+          "end": 1.9800000190734863
+        },
+        {
+          "word": "test",
+          "start": 1.9800000190734863,
+          "end": 2.259999990463257
+        },
+        {
+          "word": "runs",
+          "start": 2.259999990463257,
+          "end": 2.5999999046325684
+        },
+        {
+          "word": "the",
+          "start": 2.5999999046325684,
+          "end": 2.859999895095825
+        },
+        {
+          "word": "program",
+          "start": 2.859999895095825,
+          "end": 3.259999990463257
+        },
+        {
+          "word": "on",
+          "start": 3.259999990463257,
+          "end": 3.5799999237060547
+        },
+        {
+          "word": "a",
+          "start": 3.5799999237060547,
+          "end": 3.9800000190734863
+        },
+        {
+          "word": "handful",
+          "start": 3.9800000190734863,
+          "end": 3.9800000190734863
+        },
+        {
+          "word": "of",
+          "start": 3.9800000190734863,
+          "end": 4.699999809265137
+        },
+        {
+          "word": "inputs",
+          "start": 4.699999809265137,
+          "end": 4.699999809265137
+        },
+        {
+          "word": "and",
+          "start": 5.139999866485596,
+          "end": 5.260000228881836
+        },
+        {
+          "word": "we",
+          "start": 5.260000228881836,
+          "end": 5.599999904632568
+        },
+        {
+          "word": "hope",
+          "start": 5.599999904632568,
+          "end": 5.659999847412109
+        },
+        {
+          "word": "the",
+          "start": 5.659999847412109,
+          "end": 6.059999942779541
+        },
+        {
+          "word": "rest",
+          "start": 6.059999942779541,
+          "end": 6.119999885559082
+        },
+        {
+          "word": "behave",
+          "start": 6.119999885559082,
+          "end": 6.619999885559082
+        },
+        {
+          "word": "A",
+          "start": 7.260000228881836,
+          "end": 7.539999961853027
+        },
+        {
+          "word": "specification",
+          "start": 7.539999961853027,
+          "end": 8.140000343322754
+        },
+        {
+          "word": "is",
+          "start": 8.140000343322754,
+          "end": 8.699999809265137
+        },
+        {
+          "word": "different",
+          "start": 8.699999809265137,
+          "end": 9.140000343322754
+        },
+        {
+          "word": "It",
+          "start": 9.680000305175781,
+          "end": 9.84000015258789
+        },
+        {
+          "word": "says",
+          "start": 9.84000015258789,
+          "end": 10.0600004196167
+        },
+        {
+          "word": "something",
+          "start": 10.0600004196167,
+          "end": 10.359999656677246
+        },
+        {
+          "word": "about",
+          "start": 10.359999656677246,
+          "end": 10.699999809265137
+        },
+        {
+          "word": "every",
+          "start": 10.699999809265137,
+          "end": 11.079999923706055
+        },
+        {
+          "word": "possible",
+          "start": 11.079999923706055,
+          "end": 11.520000457763672
+        },
+        {
+          "word": "input",
+          "start": 11.520000457763672,
+          "end": 11.960000038146973
+        },
+        {
+          "word": "and",
+          "start": 12.220000267028809,
+          "end": 12.520000457763672
+        },
+        {
+          "word": "a",
+          "start": 12.520000457763672,
+          "end": 12.920000076293945
+        },
+        {
+          "word": "proof",
+          "start": 12.920000076293945,
+          "end": 12.920000076293945
+        },
+        {
+          "word": "is",
+          "start": 12.920000076293945,
+          "end": 13.119999885559082
+        },
+        {
+          "word": "a",
+          "start": 13.119999885559082,
+          "end": 13.479999542236328
+        },
+        {
+          "word": "certificate",
+          "start": 13.479999542236328,
+          "end": 13.619999885559082
+        },
+        {
+          "word": "that",
+          "start": 13.619999885559082,
+          "end": 14.300000190734863
+        },
+        {
+          "word": "the",
+          "start": 14.300000190734863,
+          "end": 14.65999984741211
+        },
+        {
+          "word": "code",
+          "start": 14.65999984741211,
+          "end": 14.699999809265137
+        },
+        {
+          "word": "meets",
+          "start": 14.699999809265137,
+          "end": 15.039999961853027
+        },
+        {
+          "word": "it",
+          "start": 15.039999961853027,
+          "end": 15.460000038146973
+        },
+        {
+          "word": "Tests",
+          "start": 16.040000915527344,
+          "end": 16.31999969482422
+        },
+        {
+          "word": "sample",
+          "start": 16.31999969482422,
+          "end": 16.8799991607666
+        },
+        {
+          "word": "Proofs",
+          "start": 17.920000076293945,
+          "end": 18.3799991607666
+        },
+        {
+          "word": "quantify",
+          "start": 18.3799991607666,
+          "end": 18.760000228881836
+        }
+      ],
+      "transcript": "Normally, we test. A test runs the program on a handful of inputs, and we hope the rest behave. A specification is different. It says something about every possible input, and a proof is a certificate that the code meets it. Tests sample. Proofs quantify."
+    },
+    "01-what-is-vericoding/three-things": {
+      "hash": "d4d87697118e340e",
+      "file": "audio/01-what-is-vericoding/three-things.mp3",
+      "bytes": 311004,
+      "durationSeconds": 19.40898,
+      "words": [
+        {
+          "word": "So",
+          "start": 0,
+          "end": 0.25999999046325684
+        },
+        {
+          "word": "a",
+          "start": 0.25999999046325684,
+          "end": 0.5
+        },
+        {
+          "word": "vericoded",
+          "start": 0.5,
+          "end": 0.8799999952316284
+        },
+        {
+          "word": "program",
+          "start": 0.8799999952316284,
+          "end": 1.3799999952316284
+        },
+        {
+          "word": "is",
+          "start": 1.3799999952316284,
+          "end": 1.8600000143051147
+        },
+        {
+          "word": "three",
+          "start": 1.8600000143051147,
+          "end": 2.180000066757202
+        },
+        {
+          "word": "things",
+          "start": 2.180000066757202,
+          "end": 2.4200000762939453
+        },
+        {
+          "word": "at",
+          "start": 2.4200000762939453,
+          "end": 2.819999933242798
+        },
+        {
+          "word": "once",
+          "start": 2.819999933242798,
+          "end": 3.0199999809265137
+        },
+        {
+          "word": "The",
+          "start": 3.4200000762939453,
+          "end": 3.619999885559082
+        },
+        {
+          "word": "code",
+          "start": 3.619999885559082,
+          "end": 3.940000057220459
+        },
+        {
+          "word": "a",
+          "start": 4.860000133514404,
+          "end": 5.400000095367432
+        },
+        {
+          "word": "statement",
+          "start": 5.400000095367432,
+          "end": 5.400000095367432
+        },
+        {
+          "word": "of",
+          "start": 5.400000095367432,
+          "end": 5.71999979019165
+        },
+        {
+          "word": "what",
+          "start": 5.71999979019165,
+          "end": 5.880000114440918
+        },
+        {
+          "word": "that",
+          "start": 5.880000114440918,
+          "end": 6.380000114440918
+        },
+        {
+          "word": "code",
+          "start": 6.380000114440918,
+          "end": 6.400000095367432
+        },
+        {
+          "word": "must",
+          "start": 6.400000095367432,
+          "end": 6.71999979019165
+        },
+        {
+          "word": "mean",
+          "start": 6.71999979019165,
+          "end": 7.079999923706055
+        },
+        {
+          "word": "and",
+          "start": 7.739999771118164,
+          "end": 7.820000171661377
+        },
+        {
+          "word": "a",
+          "start": 7.820000171661377,
+          "end": 8.460000038146973
+        },
+        {
+          "word": "proof",
+          "start": 8.460000038146973,
+          "end": 8.460000038146973
+        },
+        {
+          "word": "checked",
+          "start": 9.239999771118164,
+          "end": 9.239999771118164
+        },
+        {
+          "word": "by",
+          "start": 9.239999771118164,
+          "end": 9.479999542236328
+        },
+        {
+          "word": "the",
+          "start": 9.479999542236328,
+          "end": 9.979999542236328
+        },
+        {
+          "word": "kernel",
+          "start": 9.979999542236328,
+          "end": 9.979999542236328
+        },
+        {
+          "word": "that",
+          "start": 10.520000457763672,
+          "end": 10.579999923706055
+        },
+        {
+          "word": "the",
+          "start": 10.579999923706055,
+          "end": 11.039999961853027
+        },
+        {
+          "word": "code",
+          "start": 11.039999961853027,
+          "end": 11.0600004196167
+        },
+        {
+          "word": "meets",
+          "start": 11.0600004196167,
+          "end": 11.420000076293945
+        },
+        {
+          "word": "the",
+          "start": 11.420000076293945,
+          "end": 11.880000114440918
+        },
+        {
+          "word": "statement",
+          "start": 11.880000114440918,
+          "end": 12.100000381469727
+        },
+        {
+          "word": "One",
+          "start": 13.15999984741211,
+          "end": 13.380000114440918
+        },
+        {
+          "word": "language",
+          "start": 13.380000114440918,
+          "end": 13.680000305175781
+        },
+        {
+          "word": "for",
+          "start": 13.680000305175781,
+          "end": 14.140000343322754
+        },
+        {
+          "word": "all",
+          "start": 14.140000343322754,
+          "end": 14.460000038146973
+        },
+        {
+          "word": "three",
+          "start": 14.460000038146973,
+          "end": 14.84000015258789
+        },
+        {
+          "word": "so",
+          "start": 15.279999732971191,
+          "end": 15.399999618530273
+        },
+        {
+          "word": "the",
+          "start": 15.399999618530273,
+          "end": 15.779999732971191
+        },
+        {
+          "word": "specification",
+          "start": 15.779999732971191,
+          "end": 16.3799991607666
+        },
+        {
+          "word": "cannot",
+          "start": 16.3799991607666,
+          "end": 17.020000457763672
+        },
+        {
+          "word": "drift",
+          "start": 17.020000457763672,
+          "end": 17.360000610351562
+        },
+        {
+          "word": "away",
+          "start": 17.360000610351562,
+          "end": 17.719999313354492
+        },
+        {
+          "word": "from",
+          "start": 17.719999313354492,
+          "end": 17.920000076293945
+        },
+        {
+          "word": "the",
+          "start": 17.920000076293945,
+          "end": 18.299999237060547
+        },
+        {
+          "word": "implementation",
+          "start": 18.299999237060547,
+          "end": 18.600000381469727
+        }
+      ],
+      "transcript": "So a vericoded program is three things at once. The code, a statement of what that code must mean, and a proof, checked by the kernel, that the code meets the statement. One language for all three, so the specification cannot drift away from the implementation."
+    },
+    "01-what-is-vericoding/why-now": {
+      "hash": "e41b414ef57e0bc2",
+      "file": "audio/01-what-is-vericoding/why-now.mp3",
+      "bytes": 340679,
+      "durationSeconds": 21.263673,
+      "words": [
+        {
+          "word": "Why",
+          "start": 0,
+          "end": 0.3400000035762787
+        },
+        {
+          "word": "now",
+          "start": 0.3400000035762787,
+          "end": 0.800000011920929
+        },
+        {
+          "word": "Proving",
+          "start": 1.3600000143051147,
+          "end": 1.3600000143051147
+        },
+        {
+          "word": "used",
+          "start": 1.3600000143051147,
+          "end": 1.7200000286102295
+        },
+        {
+          "word": "to",
+          "start": 1.7200000286102295,
+          "end": 1.899999976158142
+        },
+        {
+          "word": "be",
+          "start": 1.899999976158142,
+          "end": 1.9600000381469727
+        },
+        {
+          "word": "the",
+          "start": 1.9600000381469727,
+          "end": 2.119999885559082
+        },
+        {
+          "word": "bottleneck",
+          "start": 2.119999885559082,
+          "end": 2.7200000286102295
+        },
+        {
+          "word": "A",
+          "start": 3.140000104904175,
+          "end": 3.2200000286102295
+        },
+        {
+          "word": "theorem",
+          "start": 3.2200000286102295,
+          "end": 3.5199999809265137
+        },
+        {
+          "word": "prover",
+          "start": 3.5199999809265137,
+          "end": 3.9200000762939453
+        },
+        {
+          "word": "could",
+          "start": 3.9200000762939453,
+          "end": 4.239999771118164
+        },
+        {
+          "word": "check",
+          "start": 4.239999771118164,
+          "end": 4.5
+        },
+        {
+          "word": "everything",
+          "start": 4.5,
+          "end": 5.019999980926514
+        },
+        {
+          "word": "but",
+          "start": 5.28000020980835,
+          "end": 5.380000114440918
+        },
+        {
+          "word": "writing",
+          "start": 5.380000114440918,
+          "end": 5.659999847412109
+        },
+        {
+          "word": "the",
+          "start": 5.659999847412109,
+          "end": 6.159999847412109
+        },
+        {
+          "word": "proofs",
+          "start": 6.159999847412109,
+          "end": 6.420000076293945
+        },
+        {
+          "word": "took",
+          "start": 6.420000076293945,
+          "end": 6.559999942779541
+        },
+        {
+          "word": "specialists",
+          "start": 6.559999942779541,
+          "end": 7.139999866485596
+        },
+        {
+          "word": "far",
+          "start": 7.139999866485596,
+          "end": 7.639999866485596
+        },
+        {
+          "word": "longer",
+          "start": 7.639999866485596,
+          "end": 7.860000133514404
+        },
+        {
+          "word": "than",
+          "start": 7.860000133514404,
+          "end": 8.15999984741211
+        },
+        {
+          "word": "writing",
+          "start": 8.15999984741211,
+          "end": 8.420000076293945
+        },
+        {
+          "word": "the",
+          "start": 8.420000076293945,
+          "end": 8.9399995803833
+        },
+        {
+          "word": "code",
+          "start": 8.9399995803833,
+          "end": 8.9399995803833
+        },
+        {
+          "word": "Large",
+          "start": 9.859999656677246,
+          "end": 9.880000114440918
+        },
+        {
+          "word": "language",
+          "start": 9.880000114440918,
+          "end": 10.319999694824219
+        },
+        {
+          "word": "models",
+          "start": 10.319999694824219,
+          "end": 10.699999809265137
+        },
+        {
+          "word": "change",
+          "start": 10.699999809265137,
+          "end": 11.199999809265137
+        },
+        {
+          "word": "the",
+          "start": 11.199999809265137,
+          "end": 12.020000457763672
+        },
+        {
+          "word": "economics",
+          "start": 12.020000457763672,
+          "end": 12.020000457763672
+        },
+        {
+          "word": "Routine",
+          "start": 12.979999542236328,
+          "end": 12.979999542236328
+        },
+        {
+          "word": "obligations",
+          "start": 12.979999542236328,
+          "end": 13.5
+        },
+        {
+          "word": "get",
+          "start": 13.5,
+          "end": 14.020000457763672
+        },
+        {
+          "word": "discharged",
+          "start": 14.020000457763672,
+          "end": 14.619999885559082
+        },
+        {
+          "word": "Lemmas",
+          "start": 15.220000267028809,
+          "end": 15.220000267028809
+        },
+        {
+          "word": "get",
+          "start": 15.220000267028809,
+          "end": 15.5600004196167
+        },
+        {
+          "word": "suggested",
+          "start": 15.5600004196167,
+          "end": 16.100000381469727
+        },
+        {
+          "word": "Broken",
+          "start": 16.860000610351562,
+          "end": 16.860000610351562
+        },
+        {
+          "word": "proofs",
+          "start": 16.860000610351562,
+          "end": 17.31999969482422
+        },
+        {
+          "word": "get",
+          "start": 17.31999969482422,
+          "end": 17.479999542236328
+        },
+        {
+          "word": "repaired",
+          "start": 17.479999542236328,
+          "end": 17.84000015258789
+        },
+        {
+          "word": "The",
+          "start": 18.420000076293945,
+          "end": 18.68000030517578
+        },
+        {
+          "word": "proof",
+          "start": 18.68000030517578,
+          "end": 18.860000610351562
+        },
+        {
+          "word": "is",
+          "start": 18.860000610351562,
+          "end": 19.079999923706055
+        },
+        {
+          "word": "no",
+          "start": 19.079999923706055,
+          "end": 19.280000686645508
+        },
+        {
+          "word": "longer",
+          "start": 19.280000686645508,
+          "end": 19.479999542236328
+        },
+        {
+          "word": "the",
+          "start": 19.479999542236328,
+          "end": 19.899999618530273
+        },
+        {
+          "word": "expensive",
+          "start": 19.899999618530273,
+          "end": 20.34000015258789
+        },
+        {
+          "word": "part",
+          "start": 20.34000015258789,
+          "end": 20.799999237060547
+        }
+      ],
+      "transcript": "Why now? Proving used to be the bottleneck. A theorem prover could check everything, but writing the proofs took specialists far longer than writing the code. Large language models change the economics. Routine obligations get discharged. Lemmas get suggested. Broken proofs get repaired. The proof is no longer the expensive part."
+    },
+    "01-what-is-vericoding/intent": {
+      "hash": "2e6c8fc6e4cda606",
+      "file": "audio/01-what-is-vericoding/intent.mp3",
+      "bytes": 285091,
+      "durationSeconds": 17.789388,
+      "words": [
+        {
+          "word": "That",
+          "start": 0,
+          "end": 0.41999998688697815
+        },
+        {
+          "word": "moves",
+          "start": 0.41999998688697815,
+          "end": 0.800000011920929
+        },
+        {
+          "word": "the",
+          "start": 0.800000011920929,
+          "end": 1.2200000286102295
+        },
+        {
+          "word": "scarce",
+          "start": 1.2200000286102295,
+          "end": 1.559999942779541
+        },
+        {
+          "word": "resource",
+          "start": 1.559999942779541,
+          "end": 2.200000047683716
+        },
+        {
+          "word": "The",
+          "start": 2.9200000762939453,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "machine",
+          "start": 2.9200000762939453,
+          "end": 3.259999990463257
+        },
+        {
+          "word": "cannot",
+          "start": 3.259999990463257,
+          "end": 3.640000104904175
+        },
+        {
+          "word": "invent",
+          "start": 3.640000104904175,
+          "end": 4.139999866485596
+        },
+        {
+          "word": "what",
+          "start": 4.139999866485596,
+          "end": 4.380000114440918
+        },
+        {
+          "word": "your",
+          "start": 4.380000114440918,
+          "end": 4.579999923706055
+        },
+        {
+          "word": "programme",
+          "start": 4.579999923706055,
+          "end": 5
+        },
+        {
+          "word": "must",
+          "start": 5,
+          "end": 5.320000171661377
+        },
+        {
+          "word": "mean",
+          "start": 5.320000171661377,
+          "end": 5.639999866485596
+        },
+        {
+          "word": "You",
+          "start": 6.340000152587891,
+          "end": 6.539999961853027
+        },
+        {
+          "word": "iterate",
+          "start": 6.539999961853027,
+          "end": 6.920000076293945
+        },
+        {
+          "word": "at",
+          "start": 6.920000076293945,
+          "end": 7.28000020980835
+        },
+        {
+          "word": "the",
+          "start": 7.28000020980835,
+          "end": 7.559999942779541
+        },
+        {
+          "word": "specification",
+          "start": 7.559999942779541,
+          "end": 8.100000381469727
+        },
+        {
+          "word": "surface",
+          "start": 8.100000381469727,
+          "end": 8.800000190734863
+        },
+        {
+          "word": "in",
+          "start": 9.100000381469727,
+          "end": 9.220000267028809
+        },
+        {
+          "word": "conversation",
+          "start": 9.220000267028809,
+          "end": 9.800000190734863
+        },
+        {
+          "word": "and",
+          "start": 10.380000114440918,
+          "end": 10.619999885559082
+        },
+        {
+          "word": "the",
+          "start": 10.619999885559082,
+          "end": 10.859999656677246
+        },
+        {
+          "word": "implementation",
+          "start": 10.859999656677246,
+          "end": 11.4399995803833
+        },
+        {
+          "word": "becomes",
+          "start": 11.4399995803833,
+          "end": 11.899999618530273
+        },
+        {
+          "word": "something",
+          "start": 11.899999618530273,
+          "end": 12.260000228881836
+        },
+        {
+          "word": "you",
+          "start": 12.260000228881836,
+          "end": 12.479999542236328
+        },
+        {
+          "word": "can",
+          "start": 12.479999542236328,
+          "end": 12.699999809265137
+        },
+        {
+          "word": "replace",
+          "start": 12.699999809265137,
+          "end": 13.039999961853027
+        },
+        {
+          "word": "later",
+          "start": 13.039999961853027,
+          "end": 13.5600004196167
+        },
+        {
+          "word": "The",
+          "start": 13.899999618530273,
+          "end": 14.039999961853027
+        },
+        {
+          "word": "dialectic",
+          "start": 14.039999961853027,
+          "end": 14.699999809265137
+        },
+        {
+          "word": "is",
+          "start": 14.699999809265137,
+          "end": 14.920000076293945
+        },
+        {
+          "word": "about",
+          "start": 14.920000076293945,
+          "end": 15.260000228881836
+        },
+        {
+          "word": "intent",
+          "start": 15.260000228881836,
+          "end": 15.859999656677246
+        },
+        {
+          "word": "not",
+          "start": 16.399999618530273,
+          "end": 16.68000030517578
+        },
+        {
+          "word": "operation",
+          "start": 16.68000030517578,
+          "end": 17.31999969482422
+        }
+      ],
+      "transcript": "That moves the scarce resource. The machine cannot invent what your programme must mean. You iterate at the specification surface, in conversation, and the implementation becomes something you can replace later. The dialectic is about intent, not operation."
+    },
+    "01-what-is-vericoding/closing": {
+      "hash": "4dd407c2a55a7960",
+      "file": "audio/01-what-is-vericoding/closing.mp3",
+      "bytes": 47690,
+      "durationSeconds": 2.951837,
+      "words": [
+        {
+          "word": "Next",
+          "start": 0,
+          "end": 0.5400000214576721
+        },
+        {
+          "word": "why",
+          "start": 0.7799999713897705,
+          "end": 0.8799999952316284
+        },
+        {
+          "word": "a",
+          "start": 0.8799999952316284,
+          "end": 1.059999942779541
+        },
+        {
+          "word": "proof",
+          "start": 1.059999942779541,
+          "end": 1.3200000524520874
+        },
+        {
+          "word": "is",
+          "start": 1.3200000524520874,
+          "end": 1.600000023841858
+        },
+        {
+          "word": "literally",
+          "start": 1.600000023841858,
+          "end": 1.9199999570846558
+        },
+        {
+          "word": "a",
+          "start": 1.9199999570846558,
+          "end": 2.2200000286102295
+        },
+        {
+          "word": "program",
+          "start": 2.2200000286102295,
+          "end": 2.4600000381469727
+        }
+      ],
+      "transcript": "Next, why a proof is literally a program."
+    },
+    "02-proofs-are-programs/title": {
+      "hash": "326c008dd4831cb0",
+      "file": "audio/02-proofs-are-programs/title.mp3",
+      "bytes": 117907,
+      "durationSeconds": 7.340408,
+      "words": [
+        {
+          "word": "A",
+          "start": 0,
+          "end": 0.3199999928474426
+        },
+        {
+          "word": "theorem",
+          "start": 0.3199999928474426,
+          "end": 0.6600000262260437
+        },
+        {
+          "word": "prover",
+          "start": 0.6600000262260437,
+          "end": 1.1399999856948853
+        },
+        {
+          "word": "is",
+          "start": 1.1399999856948853,
+          "end": 1.5399999618530273
+        },
+        {
+          "word": "a",
+          "start": 1.5399999618530273,
+          "end": 1.7599999904632568
+        },
+        {
+          "word": "programme",
+          "start": 1.7599999904632568,
+          "end": 2.119999885559082
+        },
+        {
+          "word": "that",
+          "start": 2.119999885559082,
+          "end": 2.380000114440918
+        },
+        {
+          "word": "checks",
+          "start": 2.380000114440918,
+          "end": 2.6600000858306885
+        },
+        {
+          "word": "proofs",
+          "start": 2.6600000858306885,
+          "end": 3.4200000762939453
+        },
+        {
+          "word": "Everything",
+          "start": 3.6600000858306885,
+          "end": 3.940000057220459
+        },
+        {
+          "word": "else",
+          "start": 3.940000057220459,
+          "end": 4.380000114440918
+        },
+        {
+          "word": "follows",
+          "start": 4.380000114440918,
+          "end": 4.639999866485596
+        },
+        {
+          "word": "from",
+          "start": 4.639999866485596,
+          "end": 4.940000057220459
+        },
+        {
+          "word": "how",
+          "start": 4.940000057220459,
+          "end": 5.199999809265137
+        },
+        {
+          "word": "seriously",
+          "start": 5.199999809265137,
+          "end": 5.739999771118164
+        },
+        {
+          "word": "it",
+          "start": 5.739999771118164,
+          "end": 6.019999980926514
+        },
+        {
+          "word": "takes",
+          "start": 6.019999980926514,
+          "end": 6.28000020980835
+        },
+        {
+          "word": "that",
+          "start": 6.28000020980835,
+          "end": 6.599999904632568
+        },
+        {
+          "word": "job",
+          "start": 6.599999904632568,
+          "end": 6.900000095367432
+        }
+      ],
+      "transcript": "A theorem prover is a programme that checks proofs. Everything else follows from how seriously it takes that job."
+    },
+    "02-proofs-are-programs/kernel": {
+      "hash": "821bd9ec39f38075",
+      "file": "audio/02-proofs-are-programs/kernel.mp3",
+      "bytes": 295122,
+      "durationSeconds": 18.416327,
+      "words": [
+        {
+          "word": "You",
+          "start": 0,
+          "end": 0.30000001192092896
+        },
+        {
+          "word": "state",
+          "start": 0.30000001192092896,
+          "end": 0.6200000047683716
+        },
+        {
+          "word": "a",
+          "start": 0.6200000047683716,
+          "end": 1.1200000047683716
+        },
+        {
+          "word": "claim",
+          "start": 1.1200000047683716,
+          "end": 1.1200000047683716
+        },
+        {
+          "word": "you",
+          "start": 1.5399999618530273,
+          "end": 1.7200000286102295
+        },
+        {
+          "word": "give",
+          "start": 1.7200000286102295,
+          "end": 1.7999999523162842
+        },
+        {
+          "word": "a",
+          "start": 1.7999999523162842,
+          "end": 2.259999990463257
+        },
+        {
+          "word": "proof",
+          "start": 2.259999990463257,
+          "end": 2.359999895095825
+        },
+        {
+          "word": "and",
+          "start": 2.359999895095825,
+          "end": 2.740000009536743
+        },
+        {
+          "word": "a",
+          "start": 2.740000009536743,
+          "end": 3
+        },
+        {
+          "word": "small",
+          "start": 3,
+          "end": 3.4800000190734863
+        },
+        {
+          "word": "trusted",
+          "start": 3.9600000381469727,
+          "end": 3.9600000381469727
+        },
+        {
+          "word": "colonel",
+          "start": 3.9600000381469727,
+          "end": 4.460000038146973
+        },
+        {
+          "word": "verifies",
+          "start": 4.460000038146973,
+          "end": 5.239999771118164
+        },
+        {
+          "word": "every",
+          "start": 5.239999771118164,
+          "end": 5.980000019073486
+        },
+        {
+          "word": "step",
+          "start": 5.980000019073486,
+          "end": 6.320000171661377
+        },
+        {
+          "word": "Nothing",
+          "start": 7.460000038146973,
+          "end": 7.460000038146973
+        },
+        {
+          "word": "is",
+          "start": 7.460000038146973,
+          "end": 7.880000114440918
+        },
+        {
+          "word": "taken",
+          "start": 7.880000114440918,
+          "end": 8.079999923706055
+        },
+        {
+          "word": "on",
+          "start": 8.079999923706055,
+          "end": 8.5
+        },
+        {
+          "word": "authority",
+          "start": 8.5,
+          "end": 9.020000457763672
+        },
+        {
+          "word": "A",
+          "start": 9.640000343322754,
+          "end": 10.119999885559082
+        },
+        {
+          "word": "proof",
+          "start": 10.119999885559082,
+          "end": 10.180000305175781
+        },
+        {
+          "word": "is",
+          "start": 10.180000305175781,
+          "end": 10.399999618530273
+        },
+        {
+          "word": "a",
+          "start": 10.399999618530273,
+          "end": 11.180000305175781
+        },
+        {
+          "word": "certificate",
+          "start": 11.180000305175781,
+          "end": 11.180000305175781
+        },
+        {
+          "word": "The",
+          "start": 11.859999656677246,
+          "end": 11.979999542236328
+        },
+        {
+          "word": "checker",
+          "start": 11.979999542236328,
+          "end": 12.359999656677246
+        },
+        {
+          "word": "accepts",
+          "start": 12.359999656677246,
+          "end": 12.760000228881836
+        },
+        {
+          "word": "it",
+          "start": 12.760000228881836,
+          "end": 13.119999885559082
+        },
+        {
+          "word": "or",
+          "start": 13.119999885559082,
+          "end": 13.380000114440918
+        },
+        {
+          "word": "it",
+          "start": 13.380000114440918,
+          "end": 13.600000381469727
+        },
+        {
+          "word": "does",
+          "start": 13.600000381469727,
+          "end": 13.779999732971191
+        },
+        {
+          "word": "not",
+          "start": 13.779999732971191,
+          "end": 14.119999885559082
+        },
+        {
+          "word": "Keeping",
+          "start": 15.0600004196167,
+          "end": 15.119999885559082
+        },
+        {
+          "word": "the",
+          "start": 15.119999885559082,
+          "end": 15.579999923706055
+        },
+        {
+          "word": "colonel",
+          "start": 15.579999923706055,
+          "end": 15.720000267028809
+        },
+        {
+          "word": "small",
+          "start": 15.720000267028809,
+          "end": 16.15999984741211
+        },
+        {
+          "word": "is",
+          "start": 16.15999984741211,
+          "end": 16.5
+        },
+        {
+          "word": "what",
+          "start": 16.5,
+          "end": 16.700000762939453
+        },
+        {
+          "word": "makes",
+          "start": 16.700000762939453,
+          "end": 16.940000534057617
+        },
+        {
+          "word": "it",
+          "start": 16.940000534057617,
+          "end": 17.139999389648438
+        },
+        {
+          "word": "worth",
+          "start": 17.139999389648438,
+          "end": 17.420000076293945
+        },
+        {
+          "word": "trusting",
+          "start": 17.420000076293945,
+          "end": 17.899999618530273
+        }
+      ],
+      "transcript": "You state a claim, you give a proof and a small, trusted colonel verifies every step. Nothing is taken on authority. A proof is a certificate. The checker accepts it or it does not. Keeping the colonel small is what makes it worth trusting."
+    },
+    "02-proofs-are-programs/curry-howard": {
+      "hash": "598600cafe2f3b69",
+      "file": "audio/02-proofs-are-programs/curry-howard.mp3",
+      "bytes": 357816,
+      "durationSeconds": 22.334694,
+      "words": [
+        {
+          "word": "The",
+          "start": 0,
+          "end": 0.2199999988079071
+        },
+        {
+          "word": "reason",
+          "start": 0.2199999988079071,
+          "end": 0.6000000238418579
+        },
+        {
+          "word": "this",
+          "start": 0.6000000238418579,
+          "end": 0.8399999737739563
+        },
+        {
+          "word": "can",
+          "start": 0.8399999737739563,
+          "end": 0.9599999785423279
+        },
+        {
+          "word": "be",
+          "start": 0.9599999785423279,
+          "end": 1.1399999856948853
+        },
+        {
+          "word": "a",
+          "start": 1.1399999856948853,
+          "end": 1.4199999570846558
+        },
+        {
+          "word": "programming",
+          "start": 1.4199999570846558,
+          "end": 1.7200000286102295
+        },
+        {
+          "word": "language",
+          "start": 1.7200000286102295,
+          "end": 2.299999952316284
+        },
+        {
+          "word": "is",
+          "start": 2.299999952316284,
+          "end": 2.5199999809265137
+        },
+        {
+          "word": "a",
+          "start": 2.5199999809265137,
+          "end": 3.6600000858306885
+        },
+        {
+          "word": "correspondence",
+          "start": 3.6600000858306885,
+          "end": 3.6600000858306885
+        },
+        {
+          "word": "A",
+          "start": 4.400000095367432,
+          "end": 4.400000095367432
+        },
+        {
+          "word": "proposition",
+          "start": 4.400000095367432,
+          "end": 4.78000020980835
+        },
+        {
+          "word": "is",
+          "start": 4.78000020980835,
+          "end": 5.239999771118164
+        },
+        {
+          "word": "a",
+          "start": 5.239999771118164,
+          "end": 5.739999771118164
+        },
+        {
+          "word": "type",
+          "start": 5.739999771118164,
+          "end": 5.739999771118164
+        },
+        {
+          "word": "and",
+          "start": 5.739999771118164,
+          "end": 6.360000133514404
+        },
+        {
+          "word": "a",
+          "start": 6.360000133514404,
+          "end": 6.900000095367432
+        },
+        {
+          "word": "proof",
+          "start": 6.900000095367432,
+          "end": 6.900000095367432
+        },
+        {
+          "word": "is",
+          "start": 6.900000095367432,
+          "end": 7.159999847412109
+        },
+        {
+          "word": "a",
+          "start": 7.159999847412109,
+          "end": 7.460000038146973
+        },
+        {
+          "word": "program",
+          "start": 7.460000038146973,
+          "end": 7.639999866485596
+        },
+        {
+          "word": "of",
+          "start": 7.639999866485596,
+          "end": 7.980000019073486
+        },
+        {
+          "word": "that",
+          "start": 7.980000019073486,
+          "end": 8.260000228881836
+        },
+        {
+          "word": "type",
+          "start": 8.260000228881836,
+          "end": 8.619999885559082
+        },
+        {
+          "word": "Implication",
+          "start": 9.5600004196167,
+          "end": 9.979999542236328
+        },
+        {
+          "word": "is",
+          "start": 9.979999542236328,
+          "end": 10.260000228881836
+        },
+        {
+          "word": "a",
+          "start": 10.260000228881836,
+          "end": 10.9399995803833
+        },
+        {
+          "word": "function",
+          "start": 10.9399995803833,
+          "end": 10.9399995803833
+        },
+        {
+          "word": "Conjunction",
+          "start": 11.760000228881836,
+          "end": 12.079999923706055
+        },
+        {
+          "word": "is",
+          "start": 12.079999923706055,
+          "end": 12.300000190734863
+        },
+        {
+          "word": "a",
+          "start": 12.300000190734863,
+          "end": 12.819999694824219
+        },
+        {
+          "word": "pair",
+          "start": 12.819999694824219,
+          "end": 12.819999694824219
+        },
+        {
+          "word": "Disjunction",
+          "start": 13.720000267028809,
+          "end": 14.15999984741211
+        },
+        {
+          "word": "is",
+          "start": 14.15999984741211,
+          "end": 14.520000457763672
+        },
+        {
+          "word": "a",
+          "start": 14.520000457763672,
+          "end": 15
+        },
+        {
+          "word": "tagged",
+          "start": 15,
+          "end": 15
+        },
+        {
+          "word": "union",
+          "start": 15,
+          "end": 15.520000457763672
+        },
+        {
+          "word": "For",
+          "start": 16.34000015258789,
+          "end": 16.559999465942383
+        },
+        {
+          "word": "all",
+          "start": 16.559999465942383,
+          "end": 16.81999969482422
+        },
+        {
+          "word": "is",
+          "start": 16.81999969482422,
+          "end": 17.1200008392334
+        },
+        {
+          "word": "a",
+          "start": 17.1200008392334,
+          "end": 17.34000015258789
+        },
+        {
+          "word": "dependent",
+          "start": 17.34000015258789,
+          "end": 17.760000228881836
+        },
+        {
+          "word": "function",
+          "start": 17.760000228881836,
+          "end": 18.280000686645508
+        },
+        {
+          "word": "and",
+          "start": 18.280000686645508,
+          "end": 18.959999084472656
+        },
+        {
+          "word": "there",
+          "start": 18.959999084472656,
+          "end": 19.260000228881836
+        },
+        {
+          "word": "exists",
+          "start": 19.260000228881836,
+          "end": 19.700000762939453
+        },
+        {
+          "word": "is",
+          "start": 19.700000762939453,
+          "end": 20.020000457763672
+        },
+        {
+          "word": "a",
+          "start": 20.020000457763672,
+          "end": 20.219999313354492
+        },
+        {
+          "word": "witness",
+          "start": 20.219999313354492,
+          "end": 20.479999542236328
+        },
+        {
+          "word": "paired",
+          "start": 20.479999542236328,
+          "end": 20.780000686645508
+        },
+        {
+          "word": "with",
+          "start": 20.780000686645508,
+          "end": 20.959999084472656
+        },
+        {
+          "word": "a",
+          "start": 20.959999084472656,
+          "end": 21.34000015258789
+        },
+        {
+          "word": "proof",
+          "start": 21.34000015258789,
+          "end": 21.34000015258789
+        },
+        {
+          "word": "about",
+          "start": 21.34000015258789,
+          "end": 21.700000762939453
+        },
+        {
+          "word": "it",
+          "start": 21.700000762939453,
+          "end": 21.959999084472656
+        }
+      ],
+      "transcript": "The reason this can be a programming language is a correspondence. A proposition is a type and a proof is a program of that type. Implication is a function. Conjunction is a pair. Disjunction is a tagged union. For all is a dependent function and there exists is a witness paired with a proof about it."
+    },
+    "02-proofs-are-programs/dependent": {
+      "hash": "1cba7b8864b53cb2",
+      "file": "audio/02-proofs-are-programs/dependent.mp3",
+      "bytes": 292196,
+      "durationSeconds": 18.233469,
+      "words": [
+        {
+          "word": "that",
+          "start": 0,
+          "end": 0.2800000011920929
+        },
+        {
+          "word": "gives",
+          "start": 0.2800000011920929,
+          "end": 0.5199999809265137
+        },
+        {
+          "word": "types",
+          "start": 0.5199999809265137,
+          "end": 0.8999999761581421
+        },
+        {
+          "word": "which",
+          "start": 0.8999999761581421,
+          "end": 1.2200000286102295
+        },
+        {
+          "word": "talk",
+          "start": 1.2200000286102295,
+          "end": 1.4600000381469727
+        },
+        {
+          "word": "about",
+          "start": 1.4600000381469727,
+          "end": 1.7400000095367432
+        },
+        {
+          "word": "values",
+          "start": 1.7400000095367432,
+          "end": 2.240000009536743
+        },
+        {
+          "word": "Here",
+          "start": 3.0399999618530273,
+          "end": 3.0399999618530273
+        },
+        {
+          "word": "is",
+          "start": 3.0399999618530273,
+          "end": 3.2200000286102295
+        },
+        {
+          "word": "a",
+          "start": 3.2200000286102295,
+          "end": 3.680000066757202
+        },
+        {
+          "word": "vector",
+          "start": 3.680000066757202,
+          "end": 3.680000066757202
+        },
+        {
+          "word": "a",
+          "start": 4,
+          "end": 4.139999866485596
+        },
+        {
+          "word": "list",
+          "start": 4.139999866485596,
+          "end": 4.340000152587891
+        },
+        {
+          "word": "whose",
+          "start": 4.340000152587891,
+          "end": 4.679999828338623
+        },
+        {
+          "word": "type",
+          "start": 4.679999828338623,
+          "end": 5
+        },
+        {
+          "word": "records",
+          "start": 5,
+          "end": 5.480000019073486
+        },
+        {
+          "word": "its",
+          "start": 5.480000019073486,
+          "end": 5.840000152587891
+        },
+        {
+          "word": "length",
+          "start": 5.840000152587891,
+          "end": 6.159999847412109
+        },
+        {
+          "word": "The",
+          "start": 6.960000038146973,
+          "end": 7.239999771118164
+        },
+        {
+          "word": "head",
+          "start": 7.239999771118164,
+          "end": 7.440000057220459
+        },
+        {
+          "word": "of",
+          "start": 7.440000057220459,
+          "end": 7.659999847412109
+        },
+        {
+          "word": "a",
+          "start": 7.659999847412109,
+          "end": 7.739999771118164
+        },
+        {
+          "word": "non",
+          "start": 7.739999771118164,
+          "end": 8.079999923706055
+        },
+        {
+          "word": "empty",
+          "start": 8.079999923706055,
+          "end": 8.380000114440918
+        },
+        {
+          "word": "vector",
+          "start": 8.380000114440918,
+          "end": 8.619999885559082
+        },
+        {
+          "word": "has",
+          "start": 8.619999885559082,
+          "end": 8.920000076293945
+        },
+        {
+          "word": "no",
+          "start": 8.920000076293945,
+          "end": 9.319999694824219
+        },
+        {
+          "word": "empty",
+          "start": 9.319999694824219,
+          "end": 9.539999961853027
+        },
+        {
+          "word": "case",
+          "start": 9.539999961853027,
+          "end": 9.859999656677246
+        },
+        {
+          "word": "to",
+          "start": 9.859999656677246,
+          "end": 10.460000038146973
+        },
+        {
+          "word": "handle",
+          "start": 10.460000038146973,
+          "end": 10.460000038146973
+        },
+        {
+          "word": "because",
+          "start": 11,
+          "end": 11.079999923706055
+        },
+        {
+          "word": "an",
+          "start": 11.079999923706055,
+          "end": 11.539999961853027
+        },
+        {
+          "word": "empty",
+          "start": 11.539999961853027,
+          "end": 11.539999961853027
+        },
+        {
+          "word": "vector",
+          "start": 11.539999961853027,
+          "end": 11.9399995803833
+        },
+        {
+          "word": "cannot",
+          "start": 11.9399995803833,
+          "end": 12.399999618530273
+        },
+        {
+          "word": "have",
+          "start": 12.399999618530273,
+          "end": 12.720000267028809
+        },
+        {
+          "word": "that",
+          "start": 12.720000267028809,
+          "end": 13.039999961853027
+        },
+        {
+          "word": "type",
+          "start": 13.039999961853027,
+          "end": 13.359999656677246
+        },
+        {
+          "word": "Calling",
+          "start": 14.020000457763672,
+          "end": 14.020000457763672
+        },
+        {
+          "word": "it",
+          "start": 14.020000457763672,
+          "end": 14.220000267028809
+        },
+        {
+          "word": "on",
+          "start": 14.220000267028809,
+          "end": 14.579999923706055
+        },
+        {
+          "word": "nothing",
+          "start": 14.579999923706055,
+          "end": 14.720000267028809
+        },
+        {
+          "word": "is",
+          "start": 14.720000267028809,
+          "end": 15.140000343322754
+        },
+        {
+          "word": "a",
+          "start": 15.140000343322754,
+          "end": 15.34000015258789
+        },
+        {
+          "word": "type",
+          "start": 15.34000015258789,
+          "end": 15.600000381469727
+        },
+        {
+          "word": "error",
+          "start": 15.600000381469727,
+          "end": 15.920000076293945
+        },
+        {
+          "word": "not",
+          "start": 16.559999465942383,
+          "end": 16.84000015258789
+        },
+        {
+          "word": "an",
+          "start": 16.84000015258789,
+          "end": 17.360000610351562
+        },
+        {
+          "word": "exception",
+          "start": 17.360000610351562,
+          "end": 17.700000762939453
+        }
+      ],
+      "transcript": "that gives types which talk about values. Here is a vector, a list whose type records its length. The head of a non-empty vector has no empty case to handle, because an empty vector cannot have that type. Calling it on nothing is a type error, not an exception."
+    },
+    "02-proofs-are-programs/same-machine": {
+      "hash": "19a14a5899a2aef3",
+      "file": "audio/02-proofs-are-programs/same-machine.mp3",
+      "bytes": 209858,
+      "durationSeconds": 13.087347,
+      "words": [
+        {
+          "word": "So",
+          "start": 0,
+          "end": 0.3400000035762787
+        },
+        {
+          "word": "checking",
+          "start": 0.3400000035762787,
+          "end": 0.6200000047683716
+        },
+        {
+          "word": "a",
+          "start": 0.6200000047683716,
+          "end": 1.1399999856948853
+        },
+        {
+          "word": "proof",
+          "start": 1.1399999856948853,
+          "end": 1.1399999856948853
+        },
+        {
+          "word": "is",
+          "start": 1.1399999856948853,
+          "end": 1.5399999618530273
+        },
+        {
+          "word": "type",
+          "start": 1.5399999618530273,
+          "end": 1.8799999952316284
+        },
+        {
+          "word": "checking",
+          "start": 1.8799999952316284,
+          "end": 2.140000104904175
+        },
+        {
+          "word": "a",
+          "start": 2.140000104904175,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "program",
+          "start": 2.9200000762939453,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "The",
+          "start": 3.619999885559082,
+          "end": 3.7799999713897705
+        },
+        {
+          "word": "proof",
+          "start": 3.7799999713897705,
+          "end": 4
+        },
+        {
+          "word": "assistant",
+          "start": 4,
+          "end": 4.519999980926514
+        },
+        {
+          "word": "and",
+          "start": 4.519999980926514,
+          "end": 4.920000076293945
+        },
+        {
+          "word": "the",
+          "start": 4.920000076293945,
+          "end": 5.519999980926514
+        },
+        {
+          "word": "compiler",
+          "start": 5.519999980926514,
+          "end": 5.519999980926514
+        },
+        {
+          "word": "are",
+          "start": 5.519999980926514,
+          "end": 5.840000152587891
+        },
+        {
+          "word": "the",
+          "start": 5.840000152587891,
+          "end": 6.019999980926514
+        },
+        {
+          "word": "same",
+          "start": 6.019999980926514,
+          "end": 6.260000228881836
+        },
+        {
+          "word": "machine",
+          "start": 6.260000228881836,
+          "end": 6.71999979019165
+        },
+        {
+          "word": "That",
+          "start": 7.21999979019165,
+          "end": 7.800000190734863
+        },
+        {
+          "word": "is",
+          "start": 7.800000190734863,
+          "end": 8
+        },
+        {
+          "word": "what",
+          "start": 8,
+          "end": 8.180000305175781
+        },
+        {
+          "word": "lets",
+          "start": 8.180000305175781,
+          "end": 8.460000038146973
+        },
+        {
+          "word": "one",
+          "start": 8.460000038146973,
+          "end": 8.880000114440918
+        },
+        {
+          "word": "language",
+          "start": 8.880000114440918,
+          "end": 9.220000267028809
+        },
+        {
+          "word": "carry",
+          "start": 9.220000267028809,
+          "end": 9.579999923706055
+        },
+        {
+          "word": "the",
+          "start": 9.579999923706055,
+          "end": 9.9399995803833
+        },
+        {
+          "word": "program",
+          "start": 9.9399995803833,
+          "end": 10.279999732971191
+        },
+        {
+          "word": "the",
+          "start": 10.720000267028809,
+          "end": 10.9399995803833
+        },
+        {
+          "word": "specification",
+          "start": 10.9399995803833,
+          "end": 11.479999542236328
+        },
+        {
+          "word": "and",
+          "start": 11.880000114440918,
+          "end": 12.140000343322754
+        },
+        {
+          "word": "the",
+          "start": 12.140000343322754,
+          "end": 12.619999885559082
+        },
+        {
+          "word": "proof",
+          "start": 12.619999885559082,
+          "end": 12.640000343322754
+        }
+      ],
+      "transcript": "So checking a proof is type checking a program. The proof assistant and the compiler are the same machine. That is what lets one language carry the program, the specification, and the proof."
+    },
+    "02-proofs-are-programs/closing": {
+      "hash": "ce503d2e4afd907b",
+      "file": "audio/02-proofs-are-programs/closing.mp3",
+      "bytes": 27628,
+      "durationSeconds": 1.697959,
+      "words": [
+        {
+          "word": "Now",
+          "start": 0,
+          "end": 0.36000001430511475
+        },
+        {
+          "word": "a",
+          "start": 0.41999998688697815,
+          "end": 0.6000000238418579
+        },
+        {
+          "word": "first",
+          "start": 0.6000000238418579,
+          "end": 0.8799999952316284
+        },
+        {
+          "word": "contract",
+          "start": 0.8799999952316284,
+          "end": 1.3799999952316284
+        }
+      ],
+      "transcript": "Now, a first contract."
+    },
+    "03-first-contract/title": {
+      "hash": "643241c52cb80e3f",
+      "file": "audio/03-first-contract/title.mp3",
+      "bytes": 81963,
+      "durationSeconds": 5.093878,
+      "words": [
+        {
+          "word": "A",
+          "start": 0,
+          "end": 0.23999999463558197
+        },
+        {
+          "word": "contract",
+          "start": 0.23999999463558197,
+          "end": 0.6600000262260437
+        },
+        {
+          "word": "is",
+          "start": 0.6600000262260437,
+          "end": 0.8600000143051147
+        },
+        {
+          "word": "a",
+          "start": 0.8600000143051147,
+          "end": 1.3799999952316284
+        },
+        {
+          "word": "theorem",
+          "start": 1.3799999952316284,
+          "end": 1.3799999952316284
+        },
+        {
+          "word": "about",
+          "start": 1.3799999952316284,
+          "end": 1.7599999904632568
+        },
+        {
+          "word": "a",
+          "start": 1.7599999904632568,
+          "end": 2
+        },
+        {
+          "word": "definition",
+          "start": 2,
+          "end": 2.380000114440918
+        },
+        {
+          "word": "Here",
+          "start": 2.9000000953674316,
+          "end": 2.940000057220459
+        },
+        {
+          "word": "is",
+          "start": 2.940000057220459,
+          "end": 3.119999885559082
+        },
+        {
+          "word": "the",
+          "start": 3.119999885559082,
+          "end": 3.299999952316284
+        },
+        {
+          "word": "smallest",
+          "start": 3.299999952316284,
+          "end": 3.700000047683716
+        },
+        {
+          "word": "one",
+          "start": 3.700000047683716,
+          "end": 3.9600000381469727
+        },
+        {
+          "word": "worth",
+          "start": 3.9600000381469727,
+          "end": 4.21999979019165
+        },
+        {
+          "word": "writing",
+          "start": 4.21999979019165,
+          "end": 4.619999885559082
+        }
+      ],
+      "transcript": "A contract is a theorem about a definition. Here is the smallest one worth writing."
+    },
+    "03-first-contract/program": {
+      "hash": "b90fb787f6439152",
+      "file": "audio/03-first-contract/program.mp3",
+      "bytes": 142149,
+      "durationSeconds": 8.85551,
+      "words": [
+        {
+          "word": "Here",
+          "start": 0,
+          "end": 0.23999999463558197
+        },
+        {
+          "word": "is",
+          "start": 0.23999999463558197,
+          "end": 0.41999998688697815
+        },
+        {
+          "word": "a",
+          "start": 0.41999998688697815,
+          "end": 0.47999998927116394
+        },
+        {
+          "word": "very",
+          "start": 0.47999998927116394,
+          "end": 0.8999999761581421
+        },
+        {
+          "word": "small",
+          "start": 0.8999999761581421,
+          "end": 1.1399999856948853
+        },
+        {
+          "word": "program",
+          "start": 1.1399999856948853,
+          "end": 2.0399999618530273
+        },
+        {
+          "word": "Maxoff",
+          "start": 2.5,
+          "end": 2.880000114440918
+        },
+        {
+          "word": "returns",
+          "start": 2.880000114440918,
+          "end": 3.2200000286102295
+        },
+        {
+          "word": "the",
+          "start": 3.2200000286102295,
+          "end": 3.4600000381469727
+        },
+        {
+          "word": "larger",
+          "start": 3.4600000381469727,
+          "end": 3.940000057220459
+        },
+        {
+          "word": "of",
+          "start": 3.940000057220459,
+          "end": 4.239999771118164
+        },
+        {
+          "word": "two",
+          "start": 4.239999771118164,
+          "end": 4.559999942779541
+        },
+        {
+          "word": "natural",
+          "start": 4.559999942779541,
+          "end": 5
+        },
+        {
+          "word": "numbers",
+          "start": 5,
+          "end": 5.420000076293945
+        },
+        {
+          "word": "It",
+          "start": 5.78000020980835,
+          "end": 5.800000190734863
+        },
+        {
+          "word": "is",
+          "start": 5.800000190734863,
+          "end": 6.119999885559082
+        },
+        {
+          "word": "correct",
+          "start": 6.119999885559082,
+          "end": 6.480000019073486
+        },
+        {
+          "word": "but",
+          "start": 6.659999847412109,
+          "end": 7.079999923706055
+        },
+        {
+          "word": "nothing",
+          "start": 7.079999923706055,
+          "end": 7.320000171661377
+        },
+        {
+          "word": "about",
+          "start": 7.320000171661377,
+          "end": 7.699999809265137
+        },
+        {
+          "word": "it",
+          "start": 7.699999809265137,
+          "end": 7.920000076293945
+        },
+        {
+          "word": "says",
+          "start": 7.920000076293945,
+          "end": 8.180000305175781
+        },
+        {
+          "word": "so",
+          "start": 8.180000305175781,
+          "end": 8.5
+        }
+      ],
+      "transcript": "Here is a very small program. Maxoff returns the larger of two natural numbers. It is correct, but nothing about it says so."
+    },
+    "03-first-contract/statement": {
+      "hash": "3b4d25e3176f41db",
+      "file": "audio/03-first-contract/statement.mp3",
+      "bytes": 179347,
+      "durationSeconds": 11.180408,
+      "words": [
+        {
+          "word": "The",
+          "start": 0,
+          "end": 0.25999999046325684
+        },
+        {
+          "word": "specification",
+          "start": 0.25999999046325684,
+          "end": 0.7599999904632568
+        },
+        {
+          "word": "is",
+          "start": 0.7599999904632568,
+          "end": 1.2599999904632568
+        },
+        {
+          "word": "another",
+          "start": 1.2599999904632568,
+          "end": 1.6200000047683716
+        },
+        {
+          "word": "term",
+          "start": 1.6200000047683716,
+          "end": 1.9199999570846558
+        },
+        {
+          "word": "in",
+          "start": 1.9199999570846558,
+          "end": 2.0799999237060547
+        },
+        {
+          "word": "the",
+          "start": 2.0799999237060547,
+          "end": 2.2200000286102295
+        },
+        {
+          "word": "same",
+          "start": 2.2200000286102295,
+          "end": 2.5
+        },
+        {
+          "word": "language",
+          "start": 2.5,
+          "end": 3.0399999618530273
+        },
+        {
+          "word": "For",
+          "start": 3.700000047683716,
+          "end": 3.700000047683716
+        },
+        {
+          "word": "all",
+          "start": 3.700000047683716,
+          "end": 4.059999942779541
+        },
+        {
+          "word": "a",
+          "start": 4.059999942779541,
+          "end": 4.119999885559082
+        },
+        {
+          "word": "and",
+          "start": 4.119999885559082,
+          "end": 4.340000152587891
+        },
+        {
+          "word": "b",
+          "start": 4.340000152587891,
+          "end": 4.619999885559082
+        },
+        {
+          "word": "a",
+          "start": 4.920000076293945,
+          "end": 4.920000076293945
+        },
+        {
+          "word": "is",
+          "start": 4.920000076293945,
+          "end": 5.099999904632568
+        },
+        {
+          "word": "at",
+          "start": 5.099999904632568,
+          "end": 5.239999771118164
+        },
+        {
+          "word": "most",
+          "start": 5.239999771118164,
+          "end": 5.639999866485596
+        },
+        {
+          "word": "max",
+          "start": 5.639999866485596,
+          "end": 6.039999961853027
+        },
+        {
+          "word": "of",
+          "start": 6.039999961853027,
+          "end": 6.400000095367432
+        },
+        {
+          "word": "ab",
+          "start": 6.400000095367432,
+          "end": 6.820000171661377
+        },
+        {
+          "word": "That",
+          "start": 7.519999980926514,
+          "end": 7.599999904632568
+        },
+        {
+          "word": "is",
+          "start": 7.599999904632568,
+          "end": 7.71999979019165
+        },
+        {
+          "word": "a",
+          "start": 7.71999979019165,
+          "end": 8.199999809265137
+        },
+        {
+          "word": "statement",
+          "start": 8.199999809265137,
+          "end": 8.199999809265137
+        },
+        {
+          "word": "about",
+          "start": 8.199999809265137,
+          "end": 8.539999961853027
+        },
+        {
+          "word": "every",
+          "start": 8.539999961853027,
+          "end": 8.920000076293945
+        },
+        {
+          "word": "pair",
+          "start": 8.920000076293945,
+          "end": 9.15999984741211
+        },
+        {
+          "word": "of",
+          "start": 9.15999984741211,
+          "end": 9.819999694824219
+        },
+        {
+          "word": "numbers",
+          "start": 9.819999694824219,
+          "end": 9.819999694824219
+        },
+        {
+          "word": "not",
+          "start": 10.180000305175781,
+          "end": 10.199999809265137
+        },
+        {
+          "word": "a",
+          "start": 10.199999809265137,
+          "end": 10.720000267028809
+        },
+        {
+          "word": "sample",
+          "start": 10.720000267028809,
+          "end": 10.720000267028809
+        }
+      ],
+      "transcript": "The specification is another term in the same language. For all a and b, a is at most max of ab. That is a statement about every pair of numbers, not a sample."
+    },
+    "03-first-contract/proof": {
+      "hash": "5176e6c6d87c628e",
+      "file": "audio/03-first-contract/proof.mp3",
+      "bytes": 316020,
+      "durationSeconds": 19.722449,
+      "words": [
+        {
+          "word": "The",
+          "start": 0,
+          "end": 0.30000001192092896
+        },
+        {
+          "word": "proof",
+          "start": 0.30000001192092896,
+          "end": 0.699999988079071
+        },
+        {
+          "word": "is",
+          "start": 0.699999988079071,
+          "end": 1.100000023841858
+        },
+        {
+          "word": "a",
+          "start": 1.100000023841858,
+          "end": 1.2999999523162842
+        },
+        {
+          "word": "program",
+          "start": 1.2999999523162842,
+          "end": 1.6200000047683716
+        },
+        {
+          "word": "of",
+          "start": 1.6200000047683716,
+          "end": 1.9600000381469727
+        },
+        {
+          "word": "that",
+          "start": 1.9600000381469727,
+          "end": 2.259999990463257
+        },
+        {
+          "word": "statement's",
+          "start": 2.259999990463257,
+          "end": 3.0799999237060547
+        },
+        {
+          "word": "type",
+          "start": 3.0799999237060547,
+          "end": 3.119999885559082
+        },
+        {
+          "word": "We",
+          "start": 3.680000066757202,
+          "end": 3.740000009536743
+        },
+        {
+          "word": "unfold",
+          "start": 3.740000009536743,
+          "end": 4.159999847412109
+        },
+        {
+          "word": "the",
+          "start": 4.159999847412109,
+          "end": 5.079999923706055
+        },
+        {
+          "word": "definition",
+          "start": 5.079999923706055,
+          "end": 5.079999923706055
+        },
+        {
+          "word": "split",
+          "start": 5.760000228881836,
+          "end": 5.760000228881836
+        },
+        {
+          "word": "on",
+          "start": 5.760000228881836,
+          "end": 6
+        },
+        {
+          "word": "the",
+          "start": 6,
+          "end": 6.21999979019165
+        },
+        {
+          "word": "comparison",
+          "start": 6.21999979019165,
+          "end": 6.639999866485596
+        },
+        {
+          "word": "and",
+          "start": 7,
+          "end": 7.340000152587891
+        },
+        {
+          "word": "in",
+          "start": 7.340000152587891,
+          "end": 7.519999980926514
+        },
+        {
+          "word": "each",
+          "start": 7.519999980926514,
+          "end": 7.860000133514404
+        },
+        {
+          "word": "branch",
+          "start": 7.860000133514404,
+          "end": 8.260000228881836
+        },
+        {
+          "word": "the",
+          "start": 8.65999984741211,
+          "end": 8.880000114440918
+        },
+        {
+          "word": "arithmetic",
+          "start": 8.880000114440918,
+          "end": 9.239999771118164
+        },
+        {
+          "word": "closes",
+          "start": 9.239999771118164,
+          "end": 9.760000228881836
+        },
+        {
+          "word": "the",
+          "start": 9.760000228881836,
+          "end": 10.199999809265137
+        },
+        {
+          "word": "goal",
+          "start": 10.199999809265137,
+          "end": 10.279999732971191
+        },
+        {
+          "word": "Lean",
+          "start": 11.520000457763672,
+          "end": 11.539999961853027
+        },
+        {
+          "word": "prints",
+          "start": 11.539999961853027,
+          "end": 12
+        },
+        {
+          "word": "the",
+          "start": 12,
+          "end": 12.260000228881836
+        },
+        {
+          "word": "goal",
+          "start": 12.260000228881836,
+          "end": 12.520000457763672
+        },
+        {
+          "word": "state",
+          "start": 12.520000457763672,
+          "end": 12.920000076293945
+        },
+        {
+          "word": "after",
+          "start": 12.920000076293945,
+          "end": 13.199999809265137
+        },
+        {
+          "word": "every",
+          "start": 13.199999809265137,
+          "end": 13.680000305175781
+        },
+        {
+          "word": "step",
+          "start": 13.680000305175781,
+          "end": 14
+        },
+        {
+          "word": "so",
+          "start": 14.420000076293945,
+          "end": 14.5600004196167
+        },
+        {
+          "word": "the",
+          "start": 14.5600004196167,
+          "end": 14.979999542236328
+        },
+        {
+          "word": "proof",
+          "start": 14.979999542236328,
+          "end": 15
+        },
+        {
+          "word": "is",
+          "start": 15,
+          "end": 15.220000267028809
+        },
+        {
+          "word": "not",
+          "start": 15.220000267028809,
+          "end": 15.399999618530273
+        },
+        {
+          "word": "a",
+          "start": 15.399999618530273,
+          "end": 15.960000038146973
+        },
+        {
+          "word": "story",
+          "start": 15.960000038146973,
+          "end": 15.960000038146973
+        },
+        {
+          "word": "about",
+          "start": 15.960000038146973,
+          "end": 16.260000228881836
+        },
+        {
+          "word": "the",
+          "start": 16.260000228881836,
+          "end": 16.68000030517578
+        },
+        {
+          "word": "code",
+          "start": 16.68000030517578,
+          "end": 16.760000228881836
+        },
+        {
+          "word": "It",
+          "start": 17.15999984741211,
+          "end": 17.459999084472656
+        },
+        {
+          "word": "is",
+          "start": 17.459999084472656,
+          "end": 17.639999389648438
+        },
+        {
+          "word": "the",
+          "start": 17.639999389648438,
+          "end": 17.899999618530273
+        },
+        {
+          "word": "machine's",
+          "start": 17.899999618530273,
+          "end": 18.559999465942383
+        },
+        {
+          "word": "own",
+          "start": 18.559999465942383,
+          "end": 18.780000686645508
+        },
+        {
+          "word": "working",
+          "start": 18.780000686645508,
+          "end": 19.18000030517578
+        }
+      ],
+      "transcript": "The proof is a program of that statement's type. We unfold the definition, split on the comparison, and in each branch, the arithmetic closes the goal. Lean prints the goal state after every step, so the proof is not a story about the code. It is the machine's own working."
+    },
+    "03-first-contract/errors": {
+      "hash": "8662e313eebdbc7e",
+      "file": "audio/03-first-contract/errors.mp3",
+      "bytes": 348621,
+      "durationSeconds": 21.76,
+      "words": [
+        {
+          "word": "Two",
+          "start": 0,
+          "end": 0.30000001192092896
+        },
+        {
+          "word": "kinds",
+          "start": 0.30000001192092896,
+          "end": 0.6399999856948853
+        },
+        {
+          "word": "of",
+          "start": 0.6399999856948853,
+          "end": 0.9200000166893005
+        },
+        {
+          "word": "error",
+          "start": 0.9200000166893005,
+          "end": 1.1200000047683716
+        },
+        {
+          "word": "now",
+          "start": 1.1200000047683716,
+          "end": 1.559999942779541
+        },
+        {
+          "word": "become",
+          "start": 1.559999942779541,
+          "end": 1.8799999952316284
+        },
+        {
+          "word": "visible",
+          "start": 1.8799999952316284,
+          "end": 2.319999933242798
+        },
+        {
+          "word": "An",
+          "start": 3.1600000858306885,
+          "end": 3.180000066757202
+        },
+        {
+          "word": "error",
+          "start": 3.180000066757202,
+          "end": 3.380000114440918
+        },
+        {
+          "word": "of",
+          "start": 3.380000114440918,
+          "end": 3.8399999141693115
+        },
+        {
+          "word": "reasoning",
+          "start": 3.8399999141693115,
+          "end": 4.28000020980835
+        },
+        {
+          "word": "connecting",
+          "start": 4.980000019073486,
+          "end": 4.980000019073486
+        },
+        {
+          "word": "things",
+          "start": 4.980000019073486,
+          "end": 5.400000095367432
+        },
+        {
+          "word": "wrongly",
+          "start": 5.400000095367432,
+          "end": 6
+        },
+        {
+          "word": "is",
+          "start": 6.119999885559082,
+          "end": 6.260000228881836
+        },
+        {
+          "word": "rejected",
+          "start": 6.260000228881836,
+          "end": 6.699999809265137
+        },
+        {
+          "word": "The",
+          "start": 7.460000038146973,
+          "end": 7.639999866485596
+        },
+        {
+          "word": "kernel",
+          "start": 7.639999866485596,
+          "end": 7.980000019073486
+        },
+        {
+          "word": "will",
+          "start": 7.980000019073486,
+          "end": 8.420000076293945
+        },
+        {
+          "word": "not",
+          "start": 8.420000076293945,
+          "end": 8.680000305175781
+        },
+        {
+          "word": "accept",
+          "start": 8.680000305175781,
+          "end": 9.100000381469727
+        },
+        {
+          "word": "the",
+          "start": 9.100000381469727,
+          "end": 9.399999618530273
+        },
+        {
+          "word": "step",
+          "start": 9.399999618530273,
+          "end": 9.739999771118164
+        },
+        {
+          "word": "An",
+          "start": 10.420000076293945,
+          "end": 10.640000343322754
+        },
+        {
+          "word": "error",
+          "start": 10.640000343322754,
+          "end": 10.880000114440918
+        },
+        {
+          "word": "of",
+          "start": 10.880000114440918,
+          "end": 12.199999809265137
+        },
+        {
+          "word": "interpretation",
+          "start": 12.199999809265137,
+          "end": 12.199999809265137
+        },
+        {
+          "word": "misunderstanding",
+          "start": 12.920000076293945,
+          "end": 13.65999984741211
+        },
+        {
+          "word": "what",
+          "start": 13.65999984741211,
+          "end": 14.220000267028809
+        },
+        {
+          "word": "the",
+          "start": 14.220000267028809,
+          "end": 14.5600004196167
+        },
+        {
+          "word": "code",
+          "start": 14.5600004196167,
+          "end": 14.619999885559082
+        },
+        {
+          "word": "means",
+          "start": 14.619999885559082,
+          "end": 15.100000381469727
+        },
+        {
+          "word": "leaves",
+          "start": 15.640000343322754,
+          "end": 15.720000267028809
+        },
+        {
+          "word": "an",
+          "start": 15.720000267028809,
+          "end": 16.040000915527344
+        },
+        {
+          "word": "artifact",
+          "start": 16.040000915527344,
+          "end": 16.5
+        },
+        {
+          "word": "The",
+          "start": 17,
+          "end": 17.239999771118164
+        },
+        {
+          "word": "specification",
+          "start": 17.239999771118164,
+          "end": 17.8799991607666
+        },
+        {
+          "word": "you",
+          "start": 17.8799991607666,
+          "end": 18.31999969482422
+        },
+        {
+          "word": "wrote",
+          "start": 18.31999969482422,
+          "end": 18.600000381469727
+        },
+        {
+          "word": "is",
+          "start": 18.600000381469727,
+          "end": 19
+        },
+        {
+          "word": "there",
+          "start": 19,
+          "end": 19.280000686645508
+        },
+        {
+          "word": "to",
+          "start": 19.280000686645508,
+          "end": 19.459999084472656
+        },
+        {
+          "word": "be",
+          "start": 19.459999084472656,
+          "end": 19.65999984741211
+        },
+        {
+          "word": "read",
+          "start": 19.65999984741211,
+          "end": 19.940000534057617
+        },
+        {
+          "word": "and",
+          "start": 19.940000534057617,
+          "end": 20.5
+        },
+        {
+          "word": "iterated",
+          "start": 20.5,
+          "end": 21.059999465942383
+        },
+        {
+          "word": "on",
+          "start": 21.059999465942383,
+          "end": 21.399999618530273
+        }
+      ],
+      "transcript": "Two kinds of error now become visible. An error of reasoning, connecting things wrongly, is rejected. The kernel will not accept the step. An error of interpretation, misunderstanding what the code means, leaves an artifact. The specification you wrote is there to be read and iterated on."
+    },
+    "03-first-contract/closing": {
+      "hash": "a89c36f958e813aa",
+      "file": "audio/03-first-contract/closing.mp3",
+      "bytes": 74021,
+      "durationSeconds": 4.597551,
+      "words": [
+        {
+          "word": "The",
+          "start": 0,
+          "end": 0.2199999988079071
+        },
+        {
+          "word": "proof",
+          "start": 0.2199999988079071,
+          "end": 0.5199999809265137
+        },
+        {
+          "word": "is",
+          "start": 0.5199999809265137,
+          "end": 0.8199999928474426
+        },
+        {
+          "word": "checked",
+          "start": 0.8199999928474426,
+          "end": 1.2200000286102295
+        },
+        {
+          "word": "not",
+          "start": 1.600000023841858,
+          "end": 1.7799999713897705
+        },
+        {
+          "word": "reviewed",
+          "start": 1.7799999713897705,
+          "end": 2.2200000286102295
+        },
+        {
+          "word": "Next",
+          "start": 2.9000000953674316,
+          "end": 2.9000000953674316
+        },
+        {
+          "word": "two",
+          "start": 2.9000000953674316,
+          "end": 3.119999885559082
+        },
+        {
+          "word": "ways",
+          "start": 3.119999885559082,
+          "end": 3.380000114440918
+        },
+        {
+          "word": "to",
+          "start": 3.380000114440918,
+          "end": 3.680000066757202
+        },
+        {
+          "word": "specify",
+          "start": 3.680000066757202,
+          "end": 4.019999980926514
+        }
+      ],
+      "transcript": "The proof is checked, not reviewed. Next two ways to specify."
+    },
+    "04-two-ways-to-specify/title": {
+      "hash": "136c24139ecce4f7",
+      "file": "audio/04-two-ways-to-specify/title.mp3",
+      "bytes": 125848,
+      "durationSeconds": 7.836735,
+      "words": [
+        {
+          "word": "There",
+          "start": 0,
+          "end": 0.2199999988079071
+        },
+        {
+          "word": "are",
+          "start": 0.2199999988079071,
+          "end": 0.46000000834465027
+        },
+        {
+          "word": "two",
+          "start": 0.46000000834465027,
+          "end": 0.6800000071525574
+        },
+        {
+          "word": "ways",
+          "start": 0.6800000071525574,
+          "end": 1
+        },
+        {
+          "word": "to",
+          "start": 1,
+          "end": 1.600000023841858
+        },
+        {
+          "word": "attach",
+          "start": 1.600000023841858,
+          "end": 1.600000023841858
+        },
+        {
+          "word": "a",
+          "start": 1.600000023841858,
+          "end": 2
+        },
+        {
+          "word": "claim",
+          "start": 2,
+          "end": 2
+        },
+        {
+          "word": "to",
+          "start": 2,
+          "end": 2.319999933242798
+        },
+        {
+          "word": "code",
+          "start": 2.319999933242798,
+          "end": 2.5399999618530273
+        },
+        {
+          "word": "and",
+          "start": 2.5399999618530273,
+          "end": 2.8399999141693115
+        },
+        {
+          "word": "two",
+          "start": 2.8399999141693115,
+          "end": 3.0999999046325684
+        },
+        {
+          "word": "ways",
+          "start": 3.0999999046325684,
+          "end": 3.4000000953674316
+        },
+        {
+          "word": "to",
+          "start": 3.4000000953674316,
+          "end": 4.039999961853027
+        },
+        {
+          "word": "embed",
+          "start": 4.039999961853027,
+          "end": 4.039999961853027
+        },
+        {
+          "word": "a",
+          "start": 4.039999961853027,
+          "end": 4.579999923706055
+        },
+        {
+          "word": "language",
+          "start": 4.579999923706055,
+          "end": 4.579999923706055
+        },
+        {
+          "word": "in",
+          "start": 4.579999923706055,
+          "end": 4.820000171661377
+        },
+        {
+          "word": "a",
+          "start": 4.820000171661377,
+          "end": 5.480000019073486
+        },
+        {
+          "word": "prover",
+          "start": 5.480000019073486,
+          "end": 5.71999979019165
+        },
+        {
+          "word": "Both",
+          "start": 6.28000020980835,
+          "end": 6.420000076293945
+        },
+        {
+          "word": "distinctions",
+          "start": 6.420000076293945,
+          "end": 7.039999961853027
+        },
+        {
+          "word": "matter",
+          "start": 7.039999961853027,
+          "end": 7.5
+        }
+      ],
+      "transcript": "There are two ways to attach a claim to code and two ways to embed a language in a prover. Both distinctions matter."
+    },
+    "04-two-ways-to-specify/intrinsic": {
+      "hash": "0e1b90f72dca5724",
+      "file": "audio/04-two-ways-to-specify/intrinsic.mp3",
+      "bytes": 335246,
+      "durationSeconds": 20.924082,
+      "words": [
+        {
+          "word": "Intrinsic",
+          "start": 0,
+          "end": 0.800000011920929
+        },
+        {
+          "word": "Specification",
+          "start": 0.800000011920929,
+          "end": 1.559999942779541
+        },
+        {
+          "word": "puts",
+          "start": 1.559999942779541,
+          "end": 1.8799999952316284
+        },
+        {
+          "word": "the",
+          "start": 1.8799999952316284,
+          "end": 2.1600000858306885
+        },
+        {
+          "word": "claim",
+          "start": 2.1600000858306885,
+          "end": 2.3399999141693115
+        },
+        {
+          "word": "in",
+          "start": 2.3399999141693115,
+          "end": 2.5399999618530273
+        },
+        {
+          "word": "the",
+          "start": 2.5399999618530273,
+          "end": 2.940000057220459
+        },
+        {
+          "word": "type",
+          "start": 2.940000057220459,
+          "end": 2.9800000190734863
+        },
+        {
+          "word": "Here",
+          "start": 3.559999942779541,
+          "end": 3.5999999046325684
+        },
+        {
+          "word": "the",
+          "start": 3.5999999046325684,
+          "end": 4.099999904632568
+        },
+        {
+          "word": "caller",
+          "start": 4.099999904632568,
+          "end": 4.099999904632568
+        },
+        {
+          "word": "supplies",
+          "start": 4.099999904632568,
+          "end": 4.539999961853027
+        },
+        {
+          "word": "evidence",
+          "start": 4.539999961853027,
+          "end": 5.099999904632568
+        },
+        {
+          "word": "that",
+          "start": 5.099999904632568,
+          "end": 5.400000095367432
+        },
+        {
+          "word": "the",
+          "start": 5.400000095367432,
+          "end": 5.639999866485596
+        },
+        {
+          "word": "list",
+          "start": 5.639999866485596,
+          "end": 5.760000228881836
+        },
+        {
+          "word": "is",
+          "start": 5.760000228881836,
+          "end": 6.019999980926514
+        },
+        {
+          "word": "not",
+          "start": 6.019999980926514,
+          "end": 6.28000020980835
+        },
+        {
+          "word": "empty",
+          "start": 6.28000020980835,
+          "end": 6.539999961853027
+        },
+        {
+          "word": "so",
+          "start": 6.980000019073486,
+          "end": 7.079999923706055
+        },
+        {
+          "word": "the",
+          "start": 7.079999923706055,
+          "end": 7.300000190734863
+        },
+        {
+          "word": "function",
+          "start": 7.300000190734863,
+          "end": 7.559999942779541
+        },
+        {
+          "word": "has",
+          "start": 7.559999942779541,
+          "end": 7.840000152587891
+        },
+        {
+          "word": "no",
+          "start": 7.840000152587891,
+          "end": 8.079999923706055
+        },
+        {
+          "word": "empty",
+          "start": 8.079999923706055,
+          "end": 8.319999694824219
+        },
+        {
+          "word": "case",
+          "start": 8.319999694824219,
+          "end": 8.800000190734863
+        },
+        {
+          "word": "Illegal",
+          "start": 9.5600004196167,
+          "end": 9.899999618530273
+        },
+        {
+          "word": "states",
+          "start": 9.899999618530273,
+          "end": 10.34000015258789
+        },
+        {
+          "word": "become",
+          "start": 10.34000015258789,
+          "end": 10.800000190734863
+        },
+        {
+          "word": "unrepresentable",
+          "start": 10.800000190734863,
+          "end": 11.779999732971191
+        },
+        {
+          "word": "and",
+          "start": 12.220000267028809,
+          "end": 12.399999618530273
+        },
+        {
+          "word": "every",
+          "start": 12.399999618530273,
+          "end": 12.760000228881836
+        },
+        {
+          "word": "caller",
+          "start": 12.760000228881836,
+          "end": 13.0600004196167
+        },
+        {
+          "word": "gets",
+          "start": 13.0600004196167,
+          "end": 13.359999656677246
+        },
+        {
+          "word": "the",
+          "start": 13.359999656677246,
+          "end": 13.640000343322754
+        },
+        {
+          "word": "guarantee",
+          "start": 13.640000343322754,
+          "end": 13.979999542236328
+        },
+        {
+          "word": "for",
+          "start": 13.979999542236328,
+          "end": 14.399999618530273
+        },
+        {
+          "word": "free",
+          "start": 14.399999618530273,
+          "end": 14.65999984741211
+        },
+        {
+          "word": "The",
+          "start": 15.100000381469727,
+          "end": 15.260000228881836
+        },
+        {
+          "word": "cost",
+          "start": 15.260000228881836,
+          "end": 15.600000381469727
+        },
+        {
+          "word": "is",
+          "start": 15.600000381469727,
+          "end": 15.979999542236328
+        },
+        {
+          "word": "that",
+          "start": 15.979999542236328,
+          "end": 16.559999465942383
+        },
+        {
+          "word": "types",
+          "start": 16.559999465942383,
+          "end": 16.84000015258789
+        },
+        {
+          "word": "get",
+          "start": 16.84000015258789,
+          "end": 17.200000762939453
+        },
+        {
+          "word": "heavier",
+          "start": 17.200000762939453,
+          "end": 17.600000381469727
+        },
+        {
+          "word": "and",
+          "start": 17.719999313354492,
+          "end": 18.399999618530273
+        },
+        {
+          "word": "evidence",
+          "start": 18.399999618530273,
+          "end": 18.760000228881836
+        },
+        {
+          "word": "gets",
+          "start": 18.760000228881836,
+          "end": 19.15999984741211
+        },
+        {
+          "word": "threaded",
+          "start": 19.15999984741211,
+          "end": 19.459999084472656
+        },
+        {
+          "word": "through",
+          "start": 19.459999084472656,
+          "end": 19.860000610351562
+        },
+        {
+          "word": "signatures",
+          "start": 19.860000610351562,
+          "end": 20.31999969482422
+        }
+      ],
+      "transcript": "Intrinsic Specification puts the claim in the type. Here the caller supplies evidence that the list is not empty, so the function has no empty case. Illegal states become unrepresentable, and every caller gets the guarantee for free. The cost is that types get heavier and evidence gets threaded through signatures."
+    },
+    "04-two-ways-to-specify/extrinsic": {
+      "hash": "d359f47313106209",
+      "file": "audio/04-two-ways-to-specify/extrinsic.mp3",
+      "bytes": 354890,
+      "durationSeconds": 22.151837,
+      "words": [
+        {
+          "word": "Extrinsic",
+          "start": 0,
+          "end": 0.8999999761581421
+        },
+        {
+          "word": "specification",
+          "start": 0.8999999761581421,
+          "end": 1.399999976158142
+        },
+        {
+          "word": "writes",
+          "start": 1.399999976158142,
+          "end": 2.140000104904175
+        },
+        {
+          "word": "the",
+          "start": 2.140000104904175,
+          "end": 2.380000114440918
+        },
+        {
+          "word": "plain",
+          "start": 2.380000114440918,
+          "end": 2.6600000858306885
+        },
+        {
+          "word": "program",
+          "start": 2.6600000858306885,
+          "end": 3.1600000858306885
+        },
+        {
+          "word": "then",
+          "start": 3.799999952316284,
+          "end": 4.039999961853027
+        },
+        {
+          "word": "states",
+          "start": 4.039999961853027,
+          "end": 4.360000133514404
+        },
+        {
+          "word": "a",
+          "start": 4.360000133514404,
+          "end": 4.639999866485596
+        },
+        {
+          "word": "separate",
+          "start": 4.639999866485596,
+          "end": 5.019999980926514
+        },
+        {
+          "word": "theorem",
+          "start": 5.019999980926514,
+          "end": 5.300000190734863
+        },
+        {
+          "word": "about",
+          "start": 5.300000190734863,
+          "end": 5.860000133514404
+        },
+        {
+          "word": "it",
+          "start": 5.860000133514404,
+          "end": 6.21999979019165
+        },
+        {
+          "word": "Double",
+          "start": 7.179999828338623,
+          "end": 7.320000171661377
+        },
+        {
+          "word": "is",
+          "start": 7.320000171661377,
+          "end": 7.659999847412109
+        },
+        {
+          "word": "just",
+          "start": 7.659999847412109,
+          "end": 8.100000381469727
+        },
+        {
+          "word": "addition",
+          "start": 8.100000381469727,
+          "end": 8.539999961853027
+        },
+        {
+          "word": "and",
+          "start": 9.220000267028809,
+          "end": 9.359999656677246
+        },
+        {
+          "word": "the",
+          "start": 9.359999656677246,
+          "end": 9.84000015258789
+        },
+        {
+          "word": "theorem",
+          "start": 9.84000015258789,
+          "end": 9.84000015258789
+        },
+        {
+          "word": "says",
+          "start": 9.84000015258789,
+          "end": 10.180000305175781
+        },
+        {
+          "word": "it",
+          "start": 10.180000305175781,
+          "end": 10.520000457763672
+        },
+        {
+          "word": "equals",
+          "start": 10.520000457763672,
+          "end": 10.779999732971191
+        },
+        {
+          "word": "two",
+          "start": 10.779999732971191,
+          "end": 11.140000343322754
+        },
+        {
+          "word": "times",
+          "start": 11.140000343322754,
+          "end": 11.520000457763672
+        },
+        {
+          "word": "its",
+          "start": 11.520000457763672,
+          "end": 11.880000114440918
+        },
+        {
+          "word": "argument",
+          "start": 11.880000114440918,
+          "end": 12.239999771118164
+        },
+        {
+          "word": "The",
+          "start": 12.960000038146973,
+          "end": 13.5600004196167
+        },
+        {
+          "word": "program",
+          "start": 13.5600004196167,
+          "end": 14.020000457763672
+        },
+        {
+          "word": "stays",
+          "start": 14.020000457763672,
+          "end": 14.520000457763672
+        },
+        {
+          "word": "idiomatic",
+          "start": 14.520000457763672,
+          "end": 15.15999984741211
+        },
+        {
+          "word": "and",
+          "start": 15.15999984741211,
+          "end": 15.9399995803833
+        },
+        {
+          "word": "the",
+          "start": 15.9399995803833,
+          "end": 16.31999969482422
+        },
+        {
+          "word": "specification",
+          "start": 16.31999969482422,
+          "end": 16.579999923706055
+        },
+        {
+          "word": "can",
+          "start": 16.579999923706055,
+          "end": 17.219999313354492
+        },
+        {
+          "word": "grow",
+          "start": 17.219999313354492,
+          "end": 17.360000610351562
+        },
+        {
+          "word": "by",
+          "start": 17.360000610351562,
+          "end": 17.739999771118164
+        },
+        {
+          "word": "accretion",
+          "start": 17.739999771118164,
+          "end": 18.459999084472656
+        },
+        {
+          "word": "The",
+          "start": 18.639999389648438,
+          "end": 18.780000686645508
+        },
+        {
+          "word": "cost",
+          "start": 18.780000686645508,
+          "end": 19.18000030517578
+        },
+        {
+          "word": "is",
+          "start": 19.18000030517578,
+          "end": 19.600000381469727
+        },
+        {
+          "word": "that",
+          "start": 19.600000381469727,
+          "end": 19.799999237060547
+        },
+        {
+          "word": "you",
+          "start": 19.799999237060547,
+          "end": 19.920000076293945
+        },
+        {
+          "word": "have",
+          "start": 19.920000076293945,
+          "end": 20.079999923706055
+        },
+        {
+          "word": "to",
+          "start": 20.079999923706055,
+          "end": 20.5
+        },
+        {
+          "word": "find",
+          "start": 20.5,
+          "end": 20.5
+        },
+        {
+          "word": "the",
+          "start": 20.5,
+          "end": 20.780000686645508
+        },
+        {
+          "word": "right",
+          "start": 20.780000686645508,
+          "end": 21.18000030517578
+        },
+        {
+          "word": "theorems",
+          "start": 21.18000030517578,
+          "end": 21.65999984741211
+        }
+      ],
+      "transcript": "Extrinsic specification writes the plain program, then states a separate theorem about it. Double is just addition, and the theorem says it equals two times its argument. The program stays idiomatic and the specification can grow by accretion. The cost is that you have to find the right theorems."
+    },
+    "04-two-ways-to-specify/rule": {
+      "hash": "eacfc3933bd8601b",
+      "file": "audio/04-two-ways-to-specify/rule.mp3",
+      "bytes": 287181,
+      "durationSeconds": 17.92,
+      "words": [
+        {
+          "word": "A",
+          "start": 0,
+          "end": 0.30000001192092896
+        },
+        {
+          "word": "rule",
+          "start": 0.30000001192092896,
+          "end": 0.4000000059604645
+        },
+        {
+          "word": "of",
+          "start": 0.4000000059604645,
+          "end": 1.0199999809265137
+        },
+        {
+          "word": "thumb",
+          "start": 1.0199999809265137,
+          "end": 1.1200000047683716
+        },
+        {
+          "word": "Use",
+          "start": 1.7799999713897705,
+          "end": 1.7799999713897705
+        },
+        {
+          "word": "intrinsic",
+          "start": 1.7799999713897705,
+          "end": 2.3399999141693115
+        },
+        {
+          "word": "specification",
+          "start": 2.3399999141693115,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "for",
+          "start": 2.9200000762939453,
+          "end": 3.5799999237060547
+        },
+        {
+          "word": "shape",
+          "start": 3.5799999237060547,
+          "end": 4.019999980926514
+        },
+        {
+          "word": "lengths",
+          "start": 5.019999980926514,
+          "end": 5.019999980926514
+        },
+        {
+          "word": "non",
+          "start": 5.619999885559082,
+          "end": 5.920000076293945
+        },
+        {
+          "word": "emptiness",
+          "start": 5.920000076293945,
+          "end": 6.300000190734863
+        },
+        {
+          "word": "invariance",
+          "start": 6.880000114440918,
+          "end": 7.360000133514404
+        },
+        {
+          "word": "of",
+          "start": 7.360000133514404,
+          "end": 7.519999980926514
+        },
+        {
+          "word": "a",
+          "start": 7.519999980926514,
+          "end": 7.639999866485596
+        },
+        {
+          "word": "data",
+          "start": 7.639999866485596,
+          "end": 7.980000019073486
+        },
+        {
+          "word": "structure",
+          "start": 7.980000019073486,
+          "end": 8.460000038146973
+        },
+        {
+          "word": "Use",
+          "start": 9.239999771118164,
+          "end": 9.300000190734863
+        },
+        {
+          "word": "extrinsic",
+          "start": 9.300000190734863,
+          "end": 10.15999984741211
+        },
+        {
+          "word": "specification",
+          "start": 10.15999984741211,
+          "end": 10.65999984741211
+        },
+        {
+          "word": "for",
+          "start": 10.65999984741211,
+          "end": 11.239999771118164
+        },
+        {
+          "word": "behaviour",
+          "start": 11.239999771118164,
+          "end": 11.720000267028809
+        },
+        {
+          "word": "what",
+          "start": 12.4399995803833,
+          "end": 12.479999542236328
+        },
+        {
+          "word": "a",
+          "start": 12.479999542236328,
+          "end": 12.760000228881836
+        },
+        {
+          "word": "sort",
+          "start": 12.760000228881836,
+          "end": 12.859999656677246
+        },
+        {
+          "word": "returns",
+          "start": 12.859999656677246,
+          "end": 13.420000076293945
+        },
+        {
+          "word": "what",
+          "start": 13.979999542236328,
+          "end": 14.039999961853027
+        },
+        {
+          "word": "a",
+          "start": 14.039999961853027,
+          "end": 14.5
+        },
+        {
+          "word": "file",
+          "start": 14.5,
+          "end": 14.5
+        },
+        {
+          "word": "contains",
+          "start": 14.5,
+          "end": 15.020000457763672
+        },
+        {
+          "word": "after",
+          "start": 15.020000457763672,
+          "end": 15.4399995803833
+        },
+        {
+          "word": "a",
+          "start": 15.4399995803833,
+          "end": 15.920000076293945
+        },
+        {
+          "word": "write",
+          "start": 15.920000076293945,
+          "end": 15.9399995803833
+        },
+        {
+          "word": "what",
+          "start": 16.479999542236328,
+          "end": 16.559999465942383
+        },
+        {
+          "word": "a",
+          "start": 16.559999465942383,
+          "end": 17.15999984741211
+        },
+        {
+          "word": "protocol",
+          "start": 17.15999984741211,
+          "end": 17.15999984741211
+        },
+        {
+          "word": "did",
+          "start": 17.15999984741211,
+          "end": 17.579999923706055
+        }
+      ],
+      "transcript": "A rule of thumb. Use intrinsic specification for shape, lengths, non-emptiness, invariance of a data structure. Use extrinsic specification for behaviour, what a sort returns, what a file contains after a write, what a protocol did."
+    },
+    "04-two-ways-to-specify/deep": {
+      "hash": "045264a61bc85431",
+      "file": "audio/04-two-ways-to-specify/deep.mp3",
+      "bytes": 367429,
+      "durationSeconds": 22.93551,
+      "words": [
+        {
+          "word": "There",
+          "start": 0,
+          "end": 0.25999999046325684
+        },
+        {
+          "word": "is",
+          "start": 0.25999999046325684,
+          "end": 0.41999998688697815
+        },
+        {
+          "word": "a",
+          "start": 0.41999998688697815,
+          "end": 0.7400000095367432
+        },
+        {
+          "word": "second",
+          "start": 0.7400000095367432,
+          "end": 0.8999999761581421
+        },
+        {
+          "word": "axis",
+          "start": 0.8999999761581421,
+          "end": 1.5
+        },
+        {
+          "word": "A",
+          "start": 2.1600000858306885,
+          "end": 2.2200000286102295
+        },
+        {
+          "word": "deep",
+          "start": 2.2200000286102295,
+          "end": 2.5399999618530273
+        },
+        {
+          "word": "embedding",
+          "start": 2.5399999618530273,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "makes",
+          "start": 2.9200000762939453,
+          "end": 3.180000066757202
+        },
+        {
+          "word": "the",
+          "start": 3.180000066757202,
+          "end": 3.5199999809265137
+        },
+        {
+          "word": "language",
+          "start": 3.5199999809265137,
+          "end": 3.7200000286102295
+        },
+        {
+          "word": "understudy",
+          "start": 3.7200000286102295,
+          "end": 4.5
+        },
+        {
+          "word": "into",
+          "start": 4.5,
+          "end": 4.900000095367432
+        },
+        {
+          "word": "data",
+          "start": 4.900000095367432,
+          "end": 5.199999809265137
+        },
+        {
+          "word": "inside",
+          "start": 5.199999809265137,
+          "end": 5.699999809265137
+        },
+        {
+          "word": "the",
+          "start": 5.699999809265137,
+          "end": 5.940000057220459
+        },
+        {
+          "word": "prover",
+          "start": 5.940000057220459,
+          "end": 6.239999771118164
+        },
+        {
+          "word": "with",
+          "start": 6.820000171661377,
+          "end": 6.960000038146973
+        },
+        {
+          "word": "the",
+          "start": 6.960000038146973,
+          "end": 7.71999979019165
+        },
+        {
+          "word": "semantics",
+          "start": 7.71999979019165,
+          "end": 7.71999979019165
+        },
+        {
+          "word": "and",
+          "start": 7.71999979019165,
+          "end": 8.15999984741211
+        },
+        {
+          "word": "a",
+          "start": 8.15999984741211,
+          "end": 8.619999885559082
+        },
+        {
+          "word": "theory",
+          "start": 8.619999885559082,
+          "end": 8.619999885559082
+        },
+        {
+          "word": "built",
+          "start": 8.619999885559082,
+          "end": 8.899999618530273
+        },
+        {
+          "word": "about",
+          "start": 8.899999618530273,
+          "end": 9.220000267028809
+        },
+        {
+          "word": "it",
+          "start": 9.220000267028809,
+          "end": 9.520000457763672
+        },
+        {
+          "word": "Iris",
+          "start": 10.300000190734863,
+          "end": 10.300000190734863
+        },
+        {
+          "word": "does",
+          "start": 10.300000190734863,
+          "end": 10.640000343322754
+        },
+        {
+          "word": "this",
+          "start": 10.640000343322754,
+          "end": 10.9399995803833
+        },
+        {
+          "word": "for",
+          "start": 10.9399995803833,
+          "end": 11.220000267028809
+        },
+        {
+          "word": "concurrent",
+          "start": 11.220000267028809,
+          "end": 11.619999885559082
+        },
+        {
+          "word": "and",
+          "start": 11.619999885559082,
+          "end": 12.119999885559082
+        },
+        {
+          "word": "unsafe",
+          "start": 12.119999885559082,
+          "end": 12.579999923706055
+        },
+        {
+          "word": "programs",
+          "start": 12.579999923706055,
+          "end": 13.220000267028809
+        },
+        {
+          "word": "Interaction",
+          "start": 14.15999984741211,
+          "end": 14.479999542236328
+        },
+        {
+          "word": "trees",
+          "start": 14.479999542236328,
+          "end": 14.920000076293945
+        },
+        {
+          "word": "do",
+          "start": 14.920000076293945,
+          "end": 15.220000267028809
+        },
+        {
+          "word": "it",
+          "start": 15.220000267028809,
+          "end": 15.399999618530273
+        },
+        {
+          "word": "for",
+          "start": 15.399999618530273,
+          "end": 15.680000305175781
+        },
+        {
+          "word": "effects",
+          "start": 15.680000305175781,
+          "end": 16.079999923706055
+        },
+        {
+          "word": "It",
+          "start": 16.799999237060547,
+          "end": 16.940000534057617
+        },
+        {
+          "word": "buys",
+          "start": 16.940000534057617,
+          "end": 17.280000686645508
+        },
+        {
+          "word": "reusable",
+          "start": 17.280000686645508,
+          "end": 17.920000076293945
+        },
+        {
+          "word": "reasoning",
+          "start": 17.920000076293945,
+          "end": 18.360000610351562
+        },
+        {
+          "word": "about",
+          "start": 18.360000610351562,
+          "end": 18.700000762939453
+        },
+        {
+          "word": "hard",
+          "start": 18.700000762939453,
+          "end": 19.020000457763672
+        },
+        {
+          "word": "semantics",
+          "start": 19.020000457763672,
+          "end": 19.479999542236328
+        },
+        {
+          "word": "and",
+          "start": 20.020000457763672,
+          "end": 20.139999389648438
+        },
+        {
+          "word": "it",
+          "start": 20.139999389648438,
+          "end": 20.68000030517578
+        },
+        {
+          "word": "costs",
+          "start": 20.68000030517578,
+          "end": 20.68000030517578
+        },
+        {
+          "word": "you",
+          "start": 20.68000030517578,
+          "end": 20.920000076293945
+        },
+        {
+          "word": "the",
+          "start": 20.920000076293945,
+          "end": 21.3799991607666
+        },
+        {
+          "word": "embedding",
+          "start": 21.3799991607666,
+          "end": 21.5
+        },
+        {
+          "word": "and",
+          "start": 21.5,
+          "end": 21.899999618530273
+        },
+        {
+          "word": "its",
+          "start": 21.899999618530273,
+          "end": 22.219999313354492
+        },
+        {
+          "word": "theory",
+          "start": 22.219999313354492,
+          "end": 22.479999542236328
+        }
+      ],
+      "transcript": "There is a second axis. A deep embedding makes the language understudy into data inside the prover, with the semantics and a theory built about it. Iris does this for concurrent and unsafe programs. Interaction trees do it for effects. It buys reusable reasoning about hard semantics, and it costs you the embedding and its theory."
+    },
+    "04-two-ways-to-specify/shallow": {
+      "hash": "1644bddf8248fe10",
+      "file": "audio/04-two-ways-to-specify/shallow.mp3",
+      "bytes": 312258,
+      "durationSeconds": 19.487347,
+      "words": [
+        {
+          "word": "A",
+          "start": 0,
+          "end": 0.30000001192092896
+        },
+        {
+          "word": "shallow",
+          "start": 0.30000001192092896,
+          "end": 0.6000000238418579
+        },
+        {
+          "word": "embedding",
+          "start": 0.6000000238418579,
+          "end": 1.159999966621399
+        },
+        {
+          "word": "does",
+          "start": 1.159999966621399,
+          "end": 1.4800000190734863
+        },
+        {
+          "word": "not",
+          "start": 1.4800000190734863,
+          "end": 1.7799999713897705
+        },
+        {
+          "word": "model",
+          "start": 1.7799999713897705,
+          "end": 2
+        },
+        {
+          "word": "the",
+          "start": 2,
+          "end": 2.7200000286102295
+        },
+        {
+          "word": "language",
+          "start": 2.7200000286102295,
+          "end": 2.7200000286102295
+        },
+        {
+          "word": "it",
+          "start": 3.200000047683716,
+          "end": 3.4000000953674316
+        },
+        {
+          "word": "uses",
+          "start": 3.4000000953674316,
+          "end": 3.759999990463257
+        },
+        {
+          "word": "it",
+          "start": 3.759999990463257,
+          "end": 4.239999771118164
+        },
+        {
+          "word": "The",
+          "start": 4.699999809265137,
+          "end": 4.880000114440918
+        },
+        {
+          "word": "prover",
+          "start": 4.880000114440918,
+          "end": 5.300000190734863
+        },
+        {
+          "word": "is",
+          "start": 5.300000190734863,
+          "end": 5.699999809265137
+        },
+        {
+          "word": "the",
+          "start": 5.699999809265137,
+          "end": 6.079999923706055
+        },
+        {
+          "word": "programming",
+          "start": 6.079999923706055,
+          "end": 6.420000076293945
+        },
+        {
+          "word": "language",
+          "start": 6.420000076293945,
+          "end": 7.019999980926514
+        },
+        {
+          "word": "Terms",
+          "start": 7.860000133514404,
+          "end": 7.980000019073486
+        },
+        {
+          "word": "are",
+          "start": 7.980000019073486,
+          "end": 8.34000015258789
+        },
+        {
+          "word": "programs",
+          "start": 8.34000015258789,
+          "end": 8.800000190734863
+        },
+        {
+          "word": "types",
+          "start": 9.720000267028809,
+          "end": 9.720000267028809
+        },
+        {
+          "word": "are",
+          "start": 9.720000267028809,
+          "end": 10.140000343322754
+        },
+        {
+          "word": "specifications",
+          "start": 10.140000343322754,
+          "end": 10.720000267028809
+        },
+        {
+          "word": "and",
+          "start": 11.479999542236328,
+          "end": 11.760000228881836
+        },
+        {
+          "word": "proofs",
+          "start": 11.760000228881836,
+          "end": 12.180000305175781
+        },
+        {
+          "word": "are",
+          "start": 12.180000305175781,
+          "end": 12.819999694824219
+        },
+        {
+          "word": "terms",
+          "start": 12.819999694824219,
+          "end": 12.819999694824219
+        },
+        {
+          "word": "checked",
+          "start": 12.819999694824219,
+          "end": 13.119999885559082
+        },
+        {
+          "word": "by",
+          "start": 13.119999885559082,
+          "end": 13.420000076293945
+        },
+        {
+          "word": "the",
+          "start": 13.420000076293945,
+          "end": 13.579999923706055
+        },
+        {
+          "word": "same",
+          "start": 13.579999923706055,
+          "end": 13.960000038146973
+        },
+        {
+          "word": "kernel",
+          "start": 13.960000038146973,
+          "end": 14.260000228881836
+        },
+        {
+          "word": "There",
+          "start": 14.699999809265137,
+          "end": 14.899999618530273
+        },
+        {
+          "word": "is",
+          "start": 14.899999618530273,
+          "end": 15.079999923706055
+        },
+        {
+          "word": "no",
+          "start": 15.079999923706055,
+          "end": 15.34000015258789
+        },
+        {
+          "word": "gap",
+          "start": 15.34000015258789,
+          "end": 15.619999885559082
+        },
+        {
+          "word": "between",
+          "start": 15.619999885559082,
+          "end": 15.9399995803833
+        },
+        {
+          "word": "the",
+          "start": 15.9399995803833,
+          "end": 16.440000534057617
+        },
+        {
+          "word": "code",
+          "start": 16.440000534057617,
+          "end": 16.440000534057617
+        },
+        {
+          "word": "you",
+          "start": 16.440000534057617,
+          "end": 16.719999313354492
+        },
+        {
+          "word": "reason",
+          "start": 16.719999313354492,
+          "end": 16.959999084472656
+        },
+        {
+          "word": "about",
+          "start": 16.959999084472656,
+          "end": 17.360000610351562
+        },
+        {
+          "word": "and",
+          "start": 17.360000610351562,
+          "end": 17.899999618530273
+        },
+        {
+          "word": "the",
+          "start": 17.899999618530273,
+          "end": 18.3799991607666
+        },
+        {
+          "word": "code",
+          "start": 18.3799991607666,
+          "end": 18.3799991607666
+        },
+        {
+          "word": "that",
+          "start": 18.3799991607666,
+          "end": 19.020000457763672
+        },
+        {
+          "word": "runs",
+          "start": 19.020000457763672,
+          "end": 19.020000457763672
+        }
+      ],
+      "transcript": "A shallow embedding does not model the language, it uses it. The prover is the programming language. Terms are programs, types are specifications, and proofs are terms checked by the same kernel. There is no gap between the code you reason about and the code that runs."
+    },
+    "04-two-ways-to-specify/closing": {
+      "hash": "c5d2febaa1daa5fc",
+      "file": "audio/04-two-ways-to-specify/closing.mp3",
+      "bytes": 103696,
+      "durationSeconds": 6.452245,
+      "words": [
+        {
+          "word": "This",
+          "start": 0,
+          "end": 0.3199999928474426
+        },
+        {
+          "word": "tutorial",
+          "start": 0.3199999928474426,
+          "end": 0.8999999761581421
+        },
+        {
+          "word": "takes",
+          "start": 0.8999999761581421,
+          "end": 1.340000033378601
+        },
+        {
+          "word": "the",
+          "start": 1.340000033378601,
+          "end": 1.6200000047683716
+        },
+        {
+          "word": "shallow",
+          "start": 1.6200000047683716,
+          "end": 1.899999976158142
+        },
+        {
+          "word": "path",
+          "start": 1.899999976158142,
+          "end": 2.4200000762939453
+        },
+        {
+          "word": "Next",
+          "start": 3.200000047683716,
+          "end": 3.359999895095825
+        },
+        {
+          "word": "what",
+          "start": 3.4800000190734863,
+          "end": 3.6600000858306885
+        },
+        {
+          "word": "happens",
+          "start": 3.6600000858306885,
+          "end": 3.940000057220459
+        },
+        {
+          "word": "to",
+          "start": 3.940000057220459,
+          "end": 4.139999866485596
+        },
+        {
+          "word": "the",
+          "start": 4.139999866485596,
+          "end": 4.360000133514404
+        },
+        {
+          "word": "proofs",
+          "start": 4.360000133514404,
+          "end": 4.840000152587891
+        },
+        {
+          "word": "when",
+          "start": 4.840000152587891,
+          "end": 4.900000095367432
+        },
+        {
+          "word": "the",
+          "start": 4.900000095367432,
+          "end": 5.099999904632568
+        },
+        {
+          "word": "code",
+          "start": 5.099999904632568,
+          "end": 5.320000171661377
+        },
+        {
+          "word": "compiles",
+          "start": 5.320000171661377,
+          "end": 5.940000057220459
+        }
+      ],
+      "transcript": "This tutorial takes the shallow path. Next, what happens to the proofs when the code compiles?"
+    },
+    "05-from-proof-to-binary/title": {
+      "hash": "d23165751fa910d8",
+      "file": "audio/05-from-proof-to-binary/title.mp3",
+      "bytes": 105786,
+      "durationSeconds": 6.582857,
+      "words": [
+        {
+          "word": "A",
+          "start": 0,
+          "end": 0.2800000011920929
+        },
+        {
+          "word": "proof",
+          "start": 0.2800000011920929,
+          "end": 0.6800000071525574
+        },
+        {
+          "word": "is",
+          "start": 0.6800000071525574,
+          "end": 0.9599999785423279
+        },
+        {
+          "word": "a",
+          "start": 0.9599999785423279,
+          "end": 1.2999999523162842
+        },
+        {
+          "word": "static",
+          "start": 1.2999999523162842,
+          "end": 1.5199999809265137
+        },
+        {
+          "word": "claim",
+          "start": 1.5199999809265137,
+          "end": 1.899999976158142
+        },
+        {
+          "word": "What",
+          "start": 2.5399999618530273,
+          "end": 2.640000104904175
+        },
+        {
+          "word": "comes",
+          "start": 2.640000104904175,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "out",
+          "start": 2.9200000762939453,
+          "end": 3.240000009536743
+        },
+        {
+          "word": "of",
+          "start": 3.240000009536743,
+          "end": 3.4600000381469727
+        },
+        {
+          "word": "the",
+          "start": 3.4600000381469727,
+          "end": 3.5799999237060547
+        },
+        {
+          "word": "compiler",
+          "start": 3.5799999237060547,
+          "end": 3.9600000381469727
+        },
+        {
+          "word": "is",
+          "start": 3.9600000381469727,
+          "end": 4.239999771118164
+        },
+        {
+          "word": "a",
+          "start": 4.239999771118164,
+          "end": 4.440000057220459
+        },
+        {
+          "word": "program",
+          "start": 4.440000057220459,
+          "end": 4.760000228881836
+        },
+        {
+          "word": "with",
+          "start": 4.760000228881836,
+          "end": 5.079999923706055
+        },
+        {
+          "word": "no",
+          "start": 5.079999923706055,
+          "end": 5.340000152587891
+        },
+        {
+          "word": "prover",
+          "start": 5.340000152587891,
+          "end": 5.739999771118164
+        },
+        {
+          "word": "in",
+          "start": 5.739999771118164,
+          "end": 5.960000038146973
+        },
+        {
+          "word": "it",
+          "start": 5.960000038146973,
+          "end": 6.21999979019165
+        }
+      ],
+      "transcript": "A proof is a static claim. What comes out of the compiler is a program with no prover in it."
+    },
+    "05-from-proof-to-binary/erasure": {
+      "hash": "3e15fae392e9ca5d",
+      "file": "audio/05-from-proof-to-binary/erasure.mp3",
+      "bytes": 327305,
+      "durationSeconds": 20.427755,
+      "words": [
+        {
+          "word": "Compilation",
+          "start": 0,
+          "end": 0.800000011920929
+        },
+        {
+          "word": "erases",
+          "start": 0.800000011920929,
+          "end": 1.3600000143051147
+        },
+        {
+          "word": "whatever",
+          "start": 1.3600000143051147,
+          "end": 1.940000057220459
+        },
+        {
+          "word": "exists",
+          "start": 1.940000057220459,
+          "end": 2.4000000953674316
+        },
+        {
+          "word": "only",
+          "start": 2.4000000953674316,
+          "end": 2.819999933242798
+        },
+        {
+          "word": "for",
+          "start": 2.819999933242798,
+          "end": 3.059999942779541
+        },
+        {
+          "word": "the",
+          "start": 3.059999942779541,
+          "end": 3.5799999237060547
+        },
+        {
+          "word": "proof",
+          "start": 3.5799999237060547,
+          "end": 3.5799999237060547
+        },
+        {
+          "word": "Proofs",
+          "start": 4.699999809265137,
+          "end": 4.78000020980835
+        },
+        {
+          "word": "are",
+          "start": 4.78000020980835,
+          "end": 5.059999942779541
+        },
+        {
+          "word": "propositions",
+          "start": 5.059999942779541,
+          "end": 5.619999885559082
+        },
+        {
+          "word": "and",
+          "start": 6.239999771118164,
+          "end": 6.559999942779541
+        },
+        {
+          "word": "propositions",
+          "start": 6.559999942779541,
+          "end": 7.039999961853027
+        },
+        {
+          "word": "carry",
+          "start": 7.039999961853027,
+          "end": 7.420000076293945
+        },
+        {
+          "word": "no",
+          "start": 7.420000076293945,
+          "end": 7.840000152587891
+        },
+        {
+          "word": "runtime",
+          "start": 7.840000152587891,
+          "end": 8.260000228881836
+        },
+        {
+          "word": "data",
+          "start": 8.260000228881836,
+          "end": 8.739999771118164
+        },
+        {
+          "word": "What",
+          "start": 9.699999809265137,
+          "end": 9.819999694824219
+        },
+        {
+          "word": "is",
+          "start": 9.819999694824219,
+          "end": 10.079999923706055
+        },
+        {
+          "word": "left",
+          "start": 10.079999923706055,
+          "end": 10.359999656677246
+        },
+        {
+          "word": "is",
+          "start": 10.359999656677246,
+          "end": 10.600000381469727
+        },
+        {
+          "word": "the",
+          "start": 10.600000381469727,
+          "end": 10.960000038146973
+        },
+        {
+          "word": "algorithm",
+          "start": 10.960000038146973,
+          "end": 11.239999771118164
+        },
+        {
+          "word": "and",
+          "start": 11.239999771118164,
+          "end": 11.9399995803833
+        },
+        {
+          "word": "its",
+          "start": 11.9399995803833,
+          "end": 12.239999771118164
+        },
+        {
+          "word": "data",
+          "start": 12.239999771118164,
+          "end": 12.600000381469727
+        },
+        {
+          "word": "The",
+          "start": 13.420000076293945,
+          "end": 13.699999809265137
+        },
+        {
+          "word": "guarantees",
+          "start": 13.699999809265137,
+          "end": 14.039999961853027
+        },
+        {
+          "word": "are",
+          "start": 14.039999961853027,
+          "end": 14.9399995803833
+        },
+        {
+          "word": "static",
+          "start": 14.9399995803833,
+          "end": 14.9399995803833
+        },
+        {
+          "word": "so",
+          "start": 15.380000114440918,
+          "end": 15.65999984741211
+        },
+        {
+          "word": "nothing",
+          "start": 15.65999984741211,
+          "end": 15.800000190734863
+        },
+        {
+          "word": "is",
+          "start": 15.800000190734863,
+          "end": 16.1200008392334
+        },
+        {
+          "word": "rechecked",
+          "start": 16.1200008392334,
+          "end": 16.739999771118164
+        },
+        {
+          "word": "at",
+          "start": 16.739999771118164,
+          "end": 17.059999465942383
+        },
+        {
+          "word": "runtime",
+          "start": 17.059999465942383,
+          "end": 17.520000457763672
+        },
+        {
+          "word": "and",
+          "start": 17.920000076293945,
+          "end": 18.1200008392334
+        },
+        {
+          "word": "the",
+          "start": 18.1200008392334,
+          "end": 18.459999084472656
+        },
+        {
+          "word": "cost",
+          "start": 18.459999084472656,
+          "end": 18.520000457763672
+        },
+        {
+          "word": "of",
+          "start": 18.520000457763672,
+          "end": 18.700000762939453
+        },
+        {
+          "word": "having",
+          "start": 18.700000762939453,
+          "end": 18.959999084472656
+        },
+        {
+          "word": "them",
+          "start": 18.959999084472656,
+          "end": 19.239999771118164
+        },
+        {
+          "word": "is",
+          "start": 19.239999771118164,
+          "end": 19.600000381469727
+        },
+        {
+          "word": "zero",
+          "start": 19.600000381469727,
+          "end": 19.940000534057617
+        }
+      ],
+      "transcript": "Compilation erases whatever exists only for the proof. Proofs are propositions, and propositions carry no runtime data. What is left is the algorithm and its data. The guarantees are static, so nothing is rechecked at runtime, and the cost of having them is zero."
+    },
+    "05-from-proof-to-binary/compiler": {
+      "hash": "6e4d144b64b769d5",
+      "file": "audio/05-from-proof-to-binary/compiler.mp3",
+      "bytes": 315184,
+      "durationSeconds": 19.670204,
+      "words": [
+        {
+          "word": "Lean",
+          "start": 0,
+          "end": 0.3400000035762787
+        },
+        {
+          "word": "elaborates",
+          "start": 0.3400000035762787,
+          "end": 1.0199999809265137
+        },
+        {
+          "word": "to",
+          "start": 1.0199999809265137,
+          "end": 1.2799999713897705
+        },
+        {
+          "word": "its",
+          "start": 1.2799999713897705,
+          "end": 1.4800000190734863
+        },
+        {
+          "word": "own",
+          "start": 1.4800000190734863,
+          "end": 1.9800000190734863
+        },
+        {
+          "word": "intermediate",
+          "start": 1.9800000190734863,
+          "end": 2.5
+        },
+        {
+          "word": "representation",
+          "start": 2.5,
+          "end": 3.4200000762939453
+        },
+        {
+          "word": "emits",
+          "start": 4.539999961853027,
+          "end": 4.539999961853027
+        },
+        {
+          "word": "C",
+          "start": 4.539999961853027,
+          "end": 4.980000019073486
+        },
+        {
+          "word": "and",
+          "start": 5.420000076293945,
+          "end": 5.559999942779541
+        },
+        {
+          "word": "links",
+          "start": 5.559999942779541,
+          "end": 5.880000114440918
+        },
+        {
+          "word": "a",
+          "start": 5.880000114440918,
+          "end": 6.139999866485596
+        },
+        {
+          "word": "small",
+          "start": 6.139999866485596,
+          "end": 6.480000019073486
+        },
+        {
+          "word": "runtime",
+          "start": 6.480000019073486,
+          "end": 6.960000038146973
+        },
+        {
+          "word": "into",
+          "start": 6.960000038146973,
+          "end": 7.340000152587891
+        },
+        {
+          "word": "a",
+          "start": 7.340000152587891,
+          "end": 7.519999980926514
+        },
+        {
+          "word": "native",
+          "start": 7.519999980926514,
+          "end": 7.880000114440918
+        },
+        {
+          "word": "binary",
+          "start": 7.880000114440918,
+          "end": 8.380000114440918
+        },
+        {
+          "word": "Memory",
+          "start": 9.619999885559082,
+          "end": 9.619999885559082
+        },
+        {
+          "word": "is",
+          "start": 9.619999885559082,
+          "end": 9.9399995803833
+        },
+        {
+          "word": "managed",
+          "start": 9.9399995803833,
+          "end": 10.199999809265137
+        },
+        {
+          "word": "by",
+          "start": 10.199999809265137,
+          "end": 10.5600004196167
+        },
+        {
+          "word": "reference",
+          "start": 10.5600004196167,
+          "end": 10.960000038146973
+        },
+        {
+          "word": "counting",
+          "start": 10.960000038146973,
+          "end": 11.399999618530273
+        },
+        {
+          "word": "rather",
+          "start": 11.399999618530273,
+          "end": 11.779999732971191
+        },
+        {
+          "word": "than",
+          "start": 11.779999732971191,
+          "end": 12.020000457763672
+        },
+        {
+          "word": "a",
+          "start": 12.020000457763672,
+          "end": 12.260000228881836
+        },
+        {
+          "word": "tracing",
+          "start": 12.260000228881836,
+          "end": 12.5600004196167
+        },
+        {
+          "word": "collector",
+          "start": 12.5600004196167,
+          "end": 13.100000381469727
+        },
+        {
+          "word": "so",
+          "start": 13.800000190734863,
+          "end": 13.960000038146973
+        },
+        {
+          "word": "destruction",
+          "start": 13.960000038146973,
+          "end": 14.420000076293945
+        },
+        {
+          "word": "is",
+          "start": 14.420000076293945,
+          "end": 14.819999694824219
+        },
+        {
+          "word": "deterministic",
+          "start": 14.84000015258789,
+          "end": 15.600000381469727
+        },
+        {
+          "word": "and",
+          "start": 15.600000381469727,
+          "end": 16.31999969482422
+        },
+        {
+          "word": "a",
+          "start": 16.31999969482422,
+          "end": 16.920000076293945
+        },
+        {
+          "word": "uniquely",
+          "start": 16.920000076293945,
+          "end": 16.920000076293945
+        },
+        {
+          "word": "owned",
+          "start": 16.920000076293945,
+          "end": 17.239999771118164
+        },
+        {
+          "word": "value",
+          "start": 17.239999771118164,
+          "end": 17.700000762939453
+        },
+        {
+          "word": "can",
+          "start": 17.700000762939453,
+          "end": 17.979999542236328
+        },
+        {
+          "word": "be",
+          "start": 17.979999542236328,
+          "end": 18.18000030517578
+        },
+        {
+          "word": "updated",
+          "start": 18.18000030517578,
+          "end": 18.559999465942383
+        },
+        {
+          "word": "in",
+          "start": 18.559999465942383,
+          "end": 18.920000076293945
+        },
+        {
+          "word": "place",
+          "start": 18.920000076293945,
+          "end": 19.239999771118164
+        }
+      ],
+      "transcript": "Lean elaborates to its own intermediate representation, emits C, and links a small runtime into a native binary. Memory is managed by reference counting rather than a tracing collector, so destruction is deterministic and a uniquely owned value can be updated in place."
+    },
+    "05-from-proof-to-binary/measurement": {
+      "hash": "8937e3e7ae8527e8",
+      "file": "audio/05-from-proof-to-binary/measurement.mp3",
+      "bytes": 220307,
+      "durationSeconds": 13.740408,
+      "words": [
+        {
+          "word": "In",
+          "start": 0,
+          "end": 0.18000000715255737
+        },
+        {
+          "word": "this",
+          "start": 0.18000000715255737,
+          "end": 0.47999998927116394
+        },
+        {
+          "word": "tutorial's",
+          "start": 0.47999998927116394,
+          "end": 1.340000033378601
+        },
+        {
+          "word": "own",
+          "start": 1.340000033378601,
+          "end": 1.5800000429153442
+        },
+        {
+          "word": "measurement",
+          "start": 1.5800000429153442,
+          "end": 2.0199999809265137
+        },
+        {
+          "word": "the",
+          "start": 2.5999999046325684,
+          "end": 2.859999895095825
+        },
+        {
+          "word": "extracted",
+          "start": 2.859999895095825,
+          "end": 3.2200000286102295
+        },
+        {
+          "word": "sort",
+          "start": 3.2200000286102295,
+          "end": 3.700000047683716
+        },
+        {
+          "word": "compiled",
+          "start": 3.700000047683716,
+          "end": 4.21999979019165
+        },
+        {
+          "word": "to",
+          "start": 4.21999979019165,
+          "end": 4.539999961853027
+        },
+        {
+          "word": "a",
+          "start": 4.539999961853027,
+          "end": 4.760000228881836
+        },
+        {
+          "word": "small",
+          "start": 4.760000228881836,
+          "end": 5.059999942779541
+        },
+        {
+          "word": "binary",
+          "start": 5.059999942779541,
+          "end": 5.519999980926514
+        },
+        {
+          "word": "produced",
+          "start": 5.619999885559082,
+          "end": 6.5
+        },
+        {
+          "word": "byte",
+          "start": 6.5,
+          "end": 6.960000038146973
+        },
+        {
+          "word": "identical",
+          "start": 6.960000038146973,
+          "end": 7.539999961853027
+        },
+        {
+          "word": "output",
+          "start": 7.539999961853027,
+          "end": 8.140000343322754
+        },
+        {
+          "word": "and",
+          "start": 8.140000343322754,
+          "end": 8.9399995803833
+        },
+        {
+          "word": "ran",
+          "start": 8.9399995803833,
+          "end": 9.180000305175781
+        },
+        {
+          "word": "about",
+          "start": 9.180000305175781,
+          "end": 9.5
+        },
+        {
+          "word": "27",
+          "start": 9.5,
+          "end": 10.140000343322754
+        },
+        {
+          "word": "times",
+          "start": 10.140000343322754,
+          "end": 10.619999885559082
+        },
+        {
+          "word": "faster",
+          "start": 10.619999885559082,
+          "end": 11.0600004196167
+        },
+        {
+          "word": "than",
+          "start": 11.0600004196167,
+          "end": 11.779999732971191
+        },
+        {
+          "word": "interpreting",
+          "start": 11.779999732971191,
+          "end": 12.239999771118164
+        },
+        {
+          "word": "the",
+          "start": 12.239999771118164,
+          "end": 12.600000381469727
+        },
+        {
+          "word": "same",
+          "start": 12.600000381469727,
+          "end": 12.960000038146973
+        },
+        {
+          "word": "file",
+          "start": 12.960000038146973,
+          "end": 13.300000190734863
+        }
+      ],
+      "transcript": "In this tutorial's own measurement, the extracted sort compiled to a small binary produced byte-identical output and ran about 27 times faster than interpreting the same file."
+    },
+    "05-from-proof-to-binary/staircase": {
+      "hash": "bad8aeb48ec2e1b8",
+      "file": "audio/05-from-proof-to-binary/staircase.mp3",
+      "bytes": 378714,
+      "durationSeconds": 23.640816,
+      "words": [
+        {
+          "word": "Zoom",
+          "start": 0,
+          "end": 0.3199999928474426
+        },
+        {
+          "word": "out",
+          "start": 0.3199999928474426,
+          "end": 0.800000011920929
+        },
+        {
+          "word": "and",
+          "start": 1.1200000047683716,
+          "end": 1.399999976158142
+        },
+        {
+          "word": "the",
+          "start": 1.399999976158142,
+          "end": 1.5800000429153442
+        },
+        {
+          "word": "whole",
+          "start": 1.5800000429153442,
+          "end": 1.8200000524520874
+        },
+        {
+          "word": "design",
+          "start": 1.8200000524520874,
+          "end": 2.2200000286102295
+        },
+        {
+          "word": "is",
+          "start": 2.2200000286102295,
+          "end": 2.5
+        },
+        {
+          "word": "a",
+          "start": 2.5,
+          "end": 3.319999933242798
+        },
+        {
+          "word": "staircase",
+          "start": 3.319999933242798,
+          "end": 3.319999933242798
+        },
+        {
+          "word": "Within",
+          "start": 3.859999895095825,
+          "end": 3.9200000762939453
+        },
+        {
+          "word": "a",
+          "start": 3.9200000762939453,
+          "end": 4.21999979019165
+        },
+        {
+          "word": "level",
+          "start": 4.21999979019165,
+          "end": 4.420000076293945
+        },
+        {
+          "word": "you",
+          "start": 4.639999866485596,
+          "end": 4.920000076293945
+        },
+        {
+          "word": "optimize",
+          "start": 4.920000076293945,
+          "end": 5.480000019073486
+        },
+        {
+          "word": "Rewrite",
+          "start": 6.400000095367432,
+          "end": 6.400000095367432
+        },
+        {
+          "word": "the",
+          "start": 6.400000095367432,
+          "end": 6.699999809265137
+        },
+        {
+          "word": "program",
+          "start": 6.699999809265137,
+          "end": 7.139999866485596
+        },
+        {
+          "word": "keep",
+          "start": 7.599999904632568,
+          "end": 7.78000020980835
+        },
+        {
+          "word": "its",
+          "start": 7.78000020980835,
+          "end": 8.0600004196167
+        },
+        {
+          "word": "behavior",
+          "start": 8.0600004196167,
+          "end": 8.479999542236328
+        },
+        {
+          "word": "Between",
+          "start": 9.079999923706055,
+          "end": 9.279999732971191
+        },
+        {
+          "word": "levels",
+          "start": 9.279999732971191,
+          "end": 9.800000190734863
+        },
+        {
+          "word": "you",
+          "start": 10.100000381469727,
+          "end": 10.399999618530273
+        },
+        {
+          "word": "lower",
+          "start": 10.399999618530273,
+          "end": 10.65999984741211
+        },
+        {
+          "word": "A",
+          "start": 11.119999885559082,
+          "end": 11.359999656677246
+        },
+        {
+          "word": "source",
+          "start": 11.359999656677246,
+          "end": 11.65999984741211
+        },
+        {
+          "word": "language",
+          "start": 11.65999984741211,
+          "end": 12.039999961853027
+        },
+        {
+          "word": "becomes",
+          "start": 12.039999961853027,
+          "end": 12.420000076293945
+        },
+        {
+          "word": "a",
+          "start": 12.420000076293945,
+          "end": 12.960000038146973
+        },
+        {
+          "word": "simpler",
+          "start": 12.960000038146973,
+          "end": 12.960000038146973
+        },
+        {
+          "word": "one",
+          "start": 12.960000038146973,
+          "end": 13.34000015258789
+        },
+        {
+          "word": "and",
+          "start": 13.399999618530273,
+          "end": 13.600000381469727
+        },
+        {
+          "word": "eventually",
+          "start": 13.600000381469727,
+          "end": 14.079999923706055
+        },
+        {
+          "word": "machine",
+          "start": 14.760000228881836,
+          "end": 15.079999923706055
+        },
+        {
+          "word": "code",
+          "start": 15.079999923706055,
+          "end": 15.5
+        },
+        {
+          "word": "Every",
+          "start": 16.219999313354492,
+          "end": 16.459999084472656
+        },
+        {
+          "word": "vertical",
+          "start": 16.459999084472656,
+          "end": 16.860000610351562
+        },
+        {
+          "word": "edge",
+          "start": 16.860000610351562,
+          "end": 17.239999771118164
+        },
+        {
+          "word": "carries",
+          "start": 17.239999771118164,
+          "end": 17.559999465942383
+        },
+        {
+          "word": "a",
+          "start": 17.559999465942383,
+          "end": 17.920000076293945
+        },
+        {
+          "word": "refinement",
+          "start": 17.920000076293945,
+          "end": 18.219999313354492
+        },
+        {
+          "word": "proof",
+          "start": 18.219999313354492,
+          "end": 18.81999969482422
+        },
+        {
+          "word": "This",
+          "start": 19.3799991607666,
+          "end": 19.719999313354492
+        },
+        {
+          "word": "stack",
+          "start": 19.719999313354492,
+          "end": 20.059999465942383
+        },
+        {
+          "word": "is",
+          "start": 20.059999465942383,
+          "end": 20.219999313354492
+        },
+        {
+          "word": "a",
+          "start": 20.219999313354492,
+          "end": 20.780000686645508
+        },
+        {
+          "word": "proposed",
+          "start": 20.780000686645508,
+          "end": 20.780000686645508
+        },
+        {
+          "word": "architecture",
+          "start": 20.780000686645508,
+          "end": 21.479999542236328
+        },
+        {
+          "word": "not",
+          "start": 22.020000457763672,
+          "end": 22.139999389648438
+        },
+        {
+          "word": "a",
+          "start": 22.139999389648438,
+          "end": 22.6200008392334
+        },
+        {
+          "word": "settled",
+          "start": 22.6200008392334,
+          "end": 22.6200008392334
+        },
+        {
+          "word": "result",
+          "start": 22.6200008392334,
+          "end": 23.1200008392334
+        }
+      ],
+      "transcript": "Zoom out, and the whole design is a staircase. Within a level, you optimize. Rewrite the program, keep its behavior. Between levels, you lower. A source language becomes a simpler one, and eventually, machine code. Every vertical edge carries a refinement proof. This stack is a proposed architecture, not a settled result."
+    },
+    "05-from-proof-to-binary/closing": {
+      "hash": "4715ffb92554d568",
+      "file": "audio/05-from-proof-to-binary/closing.mp3",
+      "bytes": 71096,
+      "durationSeconds": 4.414694,
+      "words": [
+        {
+          "word": "Next",
+          "start": 0,
+          "end": 0.46000000834465027
+        },
+        {
+          "word": "what",
+          "start": 0.6399999856948853,
+          "end": 0.9599999785423279
+        },
+        {
+          "word": "a",
+          "start": 0.9599999785423279,
+          "end": 1.100000023841858
+        },
+        {
+          "word": "verified",
+          "start": 1.100000023841858,
+          "end": 1.5
+        },
+        {
+          "word": "program",
+          "start": 1.5,
+          "end": 2.059999942779541
+        },
+        {
+          "word": "still",
+          "start": 2.059999942779541,
+          "end": 2.440000057220459
+        },
+        {
+          "word": "has",
+          "start": 2.440000057220459,
+          "end": 2.680000066757202
+        },
+        {
+          "word": "to",
+          "start": 2.680000066757202,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "assume",
+          "start": 2.9200000762939453,
+          "end": 3.180000066757202
+        },
+        {
+          "word": "about",
+          "start": 3.180000066757202,
+          "end": 3.4600000381469727
+        },
+        {
+          "word": "the",
+          "start": 3.4600000381469727,
+          "end": 3.619999885559082
+        },
+        {
+          "word": "world",
+          "start": 3.619999885559082,
+          "end": 3.940000057220459
+        }
+      ],
+      "transcript": "Next, what a verified program still has to assume about the world."
+    },
+    "06-building-the-world/title": {
+      "hash": "bec5befa4200b038",
+      "file": "audio/06-building-the-world/title.mp3",
+      "bytes": 127520,
+      "durationSeconds": 7.941224,
+      "words": [
+        {
+          "word": "A",
+          "start": 0,
+          "end": 0.25999999046325684
+        },
+        {
+          "word": "verified",
+          "start": 0.25999999046325684,
+          "end": 0.6800000071525574
+        },
+        {
+          "word": "programme",
+          "start": 0.6800000071525574,
+          "end": 1.2000000476837158
+        },
+        {
+          "word": "still",
+          "start": 1.2000000476837158,
+          "end": 1.6399999856948853
+        },
+        {
+          "word": "has",
+          "start": 1.6399999856948853,
+          "end": 1.8799999952316284
+        },
+        {
+          "word": "to",
+          "start": 1.8799999952316284,
+          "end": 2.2200000286102295
+        },
+        {
+          "word": "talk",
+          "start": 2.2200000286102295,
+          "end": 2.319999933242798
+        },
+        {
+          "word": "to",
+          "start": 2.319999933242798,
+          "end": 2.4800000190734863
+        },
+        {
+          "word": "a",
+          "start": 2.4800000190734863,
+          "end": 2.6600000858306885
+        },
+        {
+          "word": "world",
+          "start": 2.6600000858306885,
+          "end": 2.9600000381469727
+        },
+        {
+          "word": "nobody",
+          "start": 2.9600000381469727,
+          "end": 3.5
+        },
+        {
+          "word": "verified",
+          "start": 3.5,
+          "end": 4.179999828338623
+        },
+        {
+          "word": "The",
+          "start": 4.699999809265137,
+          "end": 4.71999979019165
+        },
+        {
+          "word": "question",
+          "start": 4.71999979019165,
+          "end": 5.139999866485596
+        },
+        {
+          "word": "is",
+          "start": 5.139999866485596,
+          "end": 5.659999847412109
+        },
+        {
+          "word": "what",
+          "start": 6.039999961853027,
+          "end": 6.179999828338623
+        },
+        {
+          "word": "it",
+          "start": 6.179999828338623,
+          "end": 6.320000171661377
+        },
+        {
+          "word": "is",
+          "start": 6.320000171661377,
+          "end": 6.559999942779541
+        },
+        {
+          "word": "allowed",
+          "start": 6.559999942779541,
+          "end": 6.71999979019165
+        },
+        {
+          "word": "to",
+          "start": 6.71999979019165,
+          "end": 7.159999847412109
+        },
+        {
+          "word": "assume",
+          "start": 7.159999847412109,
+          "end": 7.400000095367432
+        }
+      ],
+      "transcript": "A verified programme still has to talk to a world nobody verified. The question is, what it is allowed to assume."
+    },
+    "06-building-the-world/effects": {
+      "hash": "c88f778c8f1665ee",
+      "file": "audio/06-building-the-world/effects.mp3",
+      "bytes": 356980,
+      "durationSeconds": 22.282449,
+      "words": [
+        {
+          "word": "Effects",
+          "start": 0,
+          "end": 0.6000000238418579
+        },
+        {
+          "word": "do",
+          "start": 0.6000000238418579,
+          "end": 1.1200000047683716
+        },
+        {
+          "word": "not",
+          "start": 1.1200000047683716,
+          "end": 1.4199999570846558
+        },
+        {
+          "word": "disappear",
+          "start": 1.4199999570846558,
+          "end": 1.8799999952316284
+        },
+        {
+          "word": "They",
+          "start": 2.4600000381469727,
+          "end": 2.5
+        },
+        {
+          "word": "become",
+          "start": 2.5,
+          "end": 2.9000000953674316
+        },
+        {
+          "word": "explicit",
+          "start": 2.9000000953674316,
+          "end": 3.7200000286102295
+        },
+        {
+          "word": "IO",
+          "start": 4.739999771118164,
+          "end": 4.760000228881836
+        },
+        {
+          "word": "is",
+          "start": 4.760000228881836,
+          "end": 5.039999961853027
+        },
+        {
+          "word": "a",
+          "start": 5.039999961853027,
+          "end": 5.239999771118164
+        },
+        {
+          "word": "type",
+          "start": 5.239999771118164,
+          "end": 5.519999980926514
+        },
+        {
+          "word": "and",
+          "start": 5.519999980926514,
+          "end": 5.71999979019165
+        },
+        {
+          "word": "a",
+          "start": 5.71999979019165,
+          "end": 6.039999961853027
+        },
+        {
+          "word": "function",
+          "start": 6.039999961853027,
+          "end": 6.199999809265137
+        },
+        {
+          "word": "that",
+          "start": 6.199999809265137,
+          "end": 6.579999923706055
+        },
+        {
+          "word": "prints",
+          "start": 6.579999923706055,
+          "end": 6.840000152587891
+        },
+        {
+          "word": "says",
+          "start": 6.840000152587891,
+          "end": 7.28000020980835
+        },
+        {
+          "word": "so",
+          "start": 7.28000020980835,
+          "end": 7.539999961853027
+        },
+        {
+          "word": "in",
+          "start": 7.539999961853027,
+          "end": 7.800000190734863
+        },
+        {
+          "word": "its",
+          "start": 7.800000190734863,
+          "end": 8.100000381469727
+        },
+        {
+          "word": "signature",
+          "start": 8.100000381469727,
+          "end": 8.539999961853027
+        },
+        {
+          "word": "Pure",
+          "start": 9.319999694824219,
+          "end": 9.319999694824219
+        },
+        {
+          "word": "looking",
+          "start": 9.319999694824219,
+          "end": 9.65999984741211
+        },
+        {
+          "word": "code",
+          "start": 9.65999984741211,
+          "end": 10.020000457763672
+        },
+        {
+          "word": "can",
+          "start": 10.020000457763672,
+          "end": 10.359999656677246
+        },
+        {
+          "word": "still",
+          "start": 10.359999656677246,
+          "end": 10.680000305175781
+        },
+        {
+          "word": "run",
+          "start": 10.680000305175781,
+          "end": 10.960000038146973
+        },
+        {
+          "word": "at",
+          "start": 10.960000038146973,
+          "end": 11.399999618530273
+        },
+        {
+          "word": "imperative",
+          "start": 11.399999618530273,
+          "end": 11.779999732971191
+        },
+        {
+          "word": "speed",
+          "start": 11.779999732971191,
+          "end": 12.359999656677246
+        },
+        {
+          "word": "An",
+          "start": 12.779999732971191,
+          "end": 13.220000267028809
+        },
+        {
+          "word": "array",
+          "start": 13.220000267028809,
+          "end": 13.220000267028809
+        },
+        {
+          "word": "is",
+          "start": 13.220000267028809,
+          "end": 13.880000114440918
+        },
+        {
+          "word": "a",
+          "start": 13.880000114440918,
+          "end": 14.100000381469727
+        },
+        {
+          "word": "value",
+          "start": 14.100000381469727,
+          "end": 14.359999656677246
+        },
+        {
+          "word": "in",
+          "start": 14.359999656677246,
+          "end": 14.619999885559082
+        },
+        {
+          "word": "the",
+          "start": 14.619999885559082,
+          "end": 14.680000305175781
+        },
+        {
+          "word": "type",
+          "start": 14.680000305175781,
+          "end": 15
+        },
+        {
+          "word": "system",
+          "start": 15,
+          "end": 15.399999618530273
+        },
+        {
+          "word": "and",
+          "start": 15.4399995803833,
+          "end": 16.1200008392334
+        },
+        {
+          "word": "a",
+          "start": 16.1200008392334,
+          "end": 16.540000915527344
+        },
+        {
+          "word": "mutable",
+          "start": 16.540000915527344,
+          "end": 16.639999389648438
+        },
+        {
+          "word": "buffer",
+          "start": 16.639999389648438,
+          "end": 16.979999542236328
+        },
+        {
+          "word": "in",
+          "start": 16.979999542236328,
+          "end": 17.31999969482422
+        },
+        {
+          "word": "the",
+          "start": 17.31999969482422,
+          "end": 18.31999969482422
+        },
+        {
+          "word": "implementation",
+          "start": 18.31999969482422,
+          "end": 18.31999969482422
+        },
+        {
+          "word": "updated",
+          "start": 19.299999237060547,
+          "end": 19.31999969482422
+        },
+        {
+          "word": "in",
+          "start": 19.31999969482422,
+          "end": 19.68000030517578
+        },
+        {
+          "word": "place",
+          "start": 19.68000030517578,
+          "end": 20.020000457763672
+        },
+        {
+          "word": "when",
+          "start": 20.020000457763672,
+          "end": 20.540000915527344
+        },
+        {
+          "word": "it",
+          "start": 20.540000915527344,
+          "end": 20.65999984741211
+        },
+        {
+          "word": "is",
+          "start": 20.65999984741211,
+          "end": 21.020000457763672
+        },
+        {
+          "word": "uniquely",
+          "start": 21.020000457763672,
+          "end": 21.31999969482422
+        },
+        {
+          "word": "owned",
+          "start": 21.31999969482422,
+          "end": 21.799999237060547
+        }
+      ],
+      "transcript": "Effects do not disappear. They become explicit. IO is a type and a function that prints says so in its signature. Pure looking code can still run at imperative speed. An array is a value in the type system and a mutable buffer in the implementation, updated in place when it is uniquely owned."
+    },
+    "06-building-the-world/binding": {
+      "hash": "bb781208a7347e7f",
+      "file": "audio/06-building-the-world/binding.mp3",
+      "bytes": 374116,
+      "durationSeconds": 23.353469,
+      "words": [
+        {
+          "word": "Real",
+          "start": 0,
+          "end": 0.3799999952316284
+        },
+        {
+          "word": "programs",
+          "start": 0.3799999952316284,
+          "end": 0.9800000190734863
+        },
+        {
+          "word": "need",
+          "start": 0.9800000190734863,
+          "end": 1.399999976158142
+        },
+        {
+          "word": "the",
+          "start": 1.399999976158142,
+          "end": 1.7999999523162842
+        },
+        {
+          "word": "world",
+          "start": 1.7999999523162842,
+          "end": 2.0399999618530273
+        },
+        {
+          "word": "Files",
+          "start": 3.299999952316284,
+          "end": 3.299999952316284
+        },
+        {
+          "word": "sockets",
+          "start": 4.460000038146973,
+          "end": 4.460000038146973
+        },
+        {
+          "word": "databases",
+          "start": 5.21999979019165,
+          "end": 5.539999961853027
+        },
+        {
+          "word": "time",
+          "start": 6.380000114440918,
+          "end": 6.519999980926514
+        },
+        {
+          "word": "Lean",
+          "start": 7.420000076293945,
+          "end": 7.420000076293945
+        },
+        {
+          "word": "can",
+          "start": 7.420000076293945,
+          "end": 7.699999809265137
+        },
+        {
+          "word": "call",
+          "start": 7.699999809265137,
+          "end": 8.020000457763672
+        },
+        {
+          "word": "almost",
+          "start": 8.020000457763672,
+          "end": 8.4399995803833
+        },
+        {
+          "word": "anything",
+          "start": 8.4399995803833,
+          "end": 8.9399995803833
+        },
+        {
+          "word": "so",
+          "start": 9.239999771118164,
+          "end": 9.420000076293945
+        },
+        {
+          "word": "a",
+          "start": 9.420000076293945,
+          "end": 9.819999694824219
+        },
+        {
+          "word": "binding",
+          "start": 9.819999694824219,
+          "end": 9.819999694824219
+        },
+        {
+          "word": "is",
+          "start": 9.819999694824219,
+          "end": 10.180000305175781
+        },
+        {
+          "word": "a",
+          "start": 10.180000305175781,
+          "end": 10.579999923706055
+        },
+        {
+          "word": "few",
+          "start": 10.579999923706055,
+          "end": 10.619999885559082
+        },
+        {
+          "word": "lines",
+          "start": 10.619999885559082,
+          "end": 11.079999923706055
+        },
+        {
+          "word": "But",
+          "start": 11.399999618530273,
+          "end": 11.65999984741211
+        },
+        {
+          "word": "a",
+          "start": 11.65999984741211,
+          "end": 12.100000381469727
+        },
+        {
+          "word": "binding",
+          "start": 12.100000381469727,
+          "end": 12.100000381469727
+        },
+        {
+          "word": "is",
+          "start": 12.100000381469727,
+          "end": 12.460000038146973
+        },
+        {
+          "word": "not",
+          "start": 12.460000038146973,
+          "end": 12.680000305175781
+        },
+        {
+          "word": "a",
+          "start": 12.680000305175781,
+          "end": 13.279999732971191
+        },
+        {
+          "word": "library",
+          "start": 13.279999732971191,
+          "end": 13.279999732971191
+        },
+        {
+          "word": "you",
+          "start": 13.279999732971191,
+          "end": 13.699999809265137
+        },
+        {
+          "word": "can",
+          "start": 13.699999809265137,
+          "end": 14
+        },
+        {
+          "word": "verify",
+          "start": 14,
+          "end": 14.300000190734863
+        },
+        {
+          "word": "against",
+          "start": 14.300000190734863,
+          "end": 14.960000038146973
+        },
+        {
+          "word": "A",
+          "start": 15.4399995803833,
+          "end": 16.059999465942383
+        },
+        {
+          "word": "binding",
+          "start": 16.059999465942383,
+          "end": 16.059999465942383
+        },
+        {
+          "word": "says",
+          "start": 16.059999465942383,
+          "end": 16.639999389648438
+        },
+        {
+          "word": "how",
+          "start": 16.639999389648438,
+          "end": 17.079999923706055
+        },
+        {
+          "word": "to",
+          "start": 17.079999923706055,
+          "end": 17.31999969482422
+        },
+        {
+          "word": "call",
+          "start": 17.31999969482422,
+          "end": 17.559999465942383
+        },
+        {
+          "word": "a",
+          "start": 17.860000610351562,
+          "end": 18.399999618530273
+        },
+        {
+          "word": "theory",
+          "start": 18.399999618530273,
+          "end": 18.399999618530273
+        },
+        {
+          "word": "says",
+          "start": 18.399999618530273,
+          "end": 18.8799991607666
+        },
+        {
+          "word": "what",
+          "start": 18.8799991607666,
+          "end": 19.18000030517578
+        },
+        {
+          "word": "the",
+          "start": 19.18000030517578,
+          "end": 19.360000610351562
+        },
+        {
+          "word": "call",
+          "start": 19.360000610351562,
+          "end": 19.6200008392334
+        },
+        {
+          "word": "means",
+          "start": 19.6200008392334,
+          "end": 20.040000915527344
+        },
+        {
+          "word": "and",
+          "start": 20.299999237060547,
+          "end": 20.68000030517578
+        },
+        {
+          "word": "contracts",
+          "start": 20.68000030517578,
+          "end": 21.219999313354492
+        },
+        {
+          "word": "are",
+          "start": 21.219999313354492,
+          "end": 21.700000762939453
+        },
+        {
+          "word": "written",
+          "start": 21.700000762939453,
+          "end": 21.899999618530273
+        },
+        {
+          "word": "against",
+          "start": 21.899999618530273,
+          "end": 22.360000610351562
+        },
+        {
+          "word": "the",
+          "start": 22.360000610351562,
+          "end": 22.639999389648438
+        },
+        {
+          "word": "meaning",
+          "start": 22.639999389648438,
+          "end": 22.920000076293945
+        }
+      ],
+      "transcript": "Real programs need the world. Files, sockets, databases, time. Lean can call almost anything, so a binding is a few lines. But a binding is not a library you can verify against. A binding says how to call, a theory says what the call means, and contracts are written against the meaning."
+    },
+    "06-building-the-world/axioms": {
+      "hash": "3ba6db502e1a1a0e",
+      "file": "audio/06-building-the-world/axioms.mp3",
+      "bytes": 336082,
+      "durationSeconds": 20.976327,
+      "words": [
+        {
+          "word": "Every",
+          "start": 0,
+          "end": 0.47999998927116394
+        },
+        {
+          "word": "theory",
+          "start": 0.47999998927116394,
+          "end": 0.8199999928474426
+        },
+        {
+          "word": "ends",
+          "start": 0.8199999928474426,
+          "end": 1.1799999475479126
+        },
+        {
+          "word": "in",
+          "start": 1.1799999475479126,
+          "end": 1.5199999809265137
+        },
+        {
+          "word": "an",
+          "start": 1.5199999809265137,
+          "end": 1.7599999904632568
+        },
+        {
+          "word": "assertion",
+          "start": 1.7599999904632568,
+          "end": 2.200000047683716
+        },
+        {
+          "word": "The",
+          "start": 2.819999933242798,
+          "end": 2.8399999141693115
+        },
+        {
+          "word": "operating",
+          "start": 2.8399999141693115,
+          "end": 3.359999895095825
+        },
+        {
+          "word": "system",
+          "start": 3.359999895095825,
+          "end": 3.819999933242798
+        },
+        {
+          "word": "the",
+          "start": 4.179999828338623,
+          "end": 4.380000114440918
+        },
+        {
+          "word": "network",
+          "start": 4.380000114440918,
+          "end": 4.579999923706055
+        },
+        {
+          "word": "card",
+          "start": 4.579999923706055,
+          "end": 4.980000019073486
+        },
+        {
+          "word": "the",
+          "start": 5.179999828338623,
+          "end": 5.900000095367432
+        },
+        {
+          "word": "database",
+          "start": 5.900000095367432,
+          "end": 5.900000095367432
+        },
+        {
+          "word": "are",
+          "start": 5.900000095367432,
+          "end": 6.300000190734863
+        },
+        {
+          "word": "not",
+          "start": 6.300000190734863,
+          "end": 6.599999904632568
+        },
+        {
+          "word": "vericoded",
+          "start": 6.599999904632568,
+          "end": 7.099999904632568
+        },
+        {
+          "word": "So",
+          "start": 7.599999904632568,
+          "end": 7.980000019073486
+        },
+        {
+          "word": "the",
+          "start": 7.980000019073486,
+          "end": 8.300000190734863
+        },
+        {
+          "word": "bottom",
+          "start": 8.300000190734863,
+          "end": 8.34000015258789
+        },
+        {
+          "word": "of",
+          "start": 8.34000015258789,
+          "end": 8.579999923706055
+        },
+        {
+          "word": "the",
+          "start": 8.579999923706055,
+          "end": 9.020000457763672
+        },
+        {
+          "word": "stack",
+          "start": 9.020000457763672,
+          "end": 9.020000457763672
+        },
+        {
+          "word": "is",
+          "start": 9.020000457763672,
+          "end": 9.399999618530273
+        },
+        {
+          "word": "exactly",
+          "start": 9.399999618530273,
+          "end": 9.880000114440918
+        },
+        {
+          "word": "what",
+          "start": 9.880000114440918,
+          "end": 10.180000305175781
+        },
+        {
+          "word": "you",
+          "start": 10.180000305175781,
+          "end": 10.399999618530273
+        },
+        {
+          "word": "assume",
+          "start": 10.399999618530273,
+          "end": 10.720000267028809
+        },
+        {
+          "word": "Keep",
+          "start": 11.399999618530273,
+          "end": 11.399999618530273
+        },
+        {
+          "word": "the",
+          "start": 11.399999618530273,
+          "end": 11.720000267028809
+        },
+        {
+          "word": "assumptions",
+          "start": 11.720000267028809,
+          "end": 12.119999885559082
+        },
+        {
+          "word": "small",
+          "start": 12.119999885559082,
+          "end": 12.65999984741211
+        },
+        {
+          "word": "explicit",
+          "start": 13.359999656677246,
+          "end": 13.359999656677246
+        },
+        {
+          "word": "and",
+          "start": 13.5600004196167,
+          "end": 14.020000457763672
+        },
+        {
+          "word": "testable",
+          "start": 14.020000457763672,
+          "end": 14.239999771118164
+        },
+        {
+          "word": "Differential",
+          "start": 15.079999923706055,
+          "end": 15.359999656677246
+        },
+        {
+          "word": "testing",
+          "start": 15.359999656677246,
+          "end": 15.920000076293945
+        },
+        {
+          "word": "against",
+          "start": 15.920000076293945,
+          "end": 16.420000076293945
+        },
+        {
+          "word": "the",
+          "start": 16.420000076293945,
+          "end": 16.639999389648438
+        },
+        {
+          "word": "real",
+          "start": 16.639999389648438,
+          "end": 16.940000534057617
+        },
+        {
+          "word": "system",
+          "start": 16.940000534057617,
+          "end": 17.34000015258789
+        },
+        {
+          "word": "property",
+          "start": 18.020000457763672,
+          "end": 18.280000686645508
+        },
+        {
+          "word": "based",
+          "start": 18.280000686645508,
+          "end": 18.719999313354492
+        },
+        {
+          "word": "checks",
+          "start": 18.719999313354492,
+          "end": 19.15999984741211
+        },
+        {
+          "word": "fuzzing",
+          "start": 19.65999984741211,
+          "end": 19.799999237060547
+        },
+        {
+          "word": "at",
+          "start": 19.799999237060547,
+          "end": 20
+        },
+        {
+          "word": "the",
+          "start": 20,
+          "end": 20.540000915527344
+        },
+        {
+          "word": "boundary",
+          "start": 20.540000915527344,
+          "end": 20.540000915527344
+        }
+      ],
+      "transcript": "Every theory ends in an assertion. The operating system, the network card, the database are not vericoded. So the bottom of the stack is exactly what you assume. Keep the assumptions small, explicit, and testable. Differential testing against the real system, property-based checks, fuzzing at the boundary."
+    },
+    "06-building-the-world/order": {
+      "hash": "fe6b61e9dd9aecae",
+      "file": "audio/06-building-the-world/order.mp3",
+      "bytes": 412150,
+      "durationSeconds": 25.730612,
+      "words": [
+        {
+          "word": "What",
+          "start": 0,
+          "end": 0.2800000011920929
+        },
+        {
+          "word": "to",
+          "start": 0.2800000011920929,
+          "end": 0.5
+        },
+        {
+          "word": "build",
+          "start": 0.5,
+          "end": 0.6600000262260437
+        },
+        {
+          "word": "first",
+          "start": 0.6600000262260437,
+          "end": 1.2599999904632568
+        },
+        {
+          "word": "rank",
+          "start": 1.7799999713897705,
+          "end": 2
+        },
+        {
+          "word": "by",
+          "start": 2,
+          "end": 2.2799999713897705
+        },
+        {
+          "word": "dependence",
+          "start": 2.2799999713897705,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "then",
+          "start": 3.4000000953674316,
+          "end": 3.5799999237060547
+        },
+        {
+          "word": "by",
+          "start": 3.5799999237060547,
+          "end": 3.9200000762939453
+        },
+        {
+          "word": "purity",
+          "start": 3.9200000762939453,
+          "end": 4.320000171661377
+        },
+        {
+          "word": "Files",
+          "start": 5.380000114440918,
+          "end": 5.380000114440918
+        },
+        {
+          "word": "first",
+          "start": 5.380000114440918,
+          "end": 5.900000095367432
+        },
+        {
+          "word": "because",
+          "start": 6.039999961853027,
+          "end": 6.260000228881836
+        },
+        {
+          "word": "everything",
+          "start": 6.260000228881836,
+          "end": 6.71999979019165
+        },
+        {
+          "word": "sits",
+          "start": 6.71999979019165,
+          "end": 7.019999980926514
+        },
+        {
+          "word": "on",
+          "start": 7.019999980926514,
+          "end": 7.300000190734863
+        },
+        {
+          "word": "them",
+          "start": 7.300000190734863,
+          "end": 7.539999961853027
+        },
+        {
+          "word": "and",
+          "start": 7.960000038146973,
+          "end": 8.279999732971191
+        },
+        {
+          "word": "specify",
+          "start": 8.279999732971191,
+          "end": 8.600000381469727
+        },
+        {
+          "word": "the",
+          "start": 8.600000381469727,
+          "end": 9.479999542236328
+        },
+        {
+          "word": "failures",
+          "start": 9.479999542236328,
+          "end": 9.479999542236328
+        },
+        {
+          "word": "not",
+          "start": 9.899999618530273,
+          "end": 10.079999923706055
+        },
+        {
+          "word": "only",
+          "start": 10.079999923706055,
+          "end": 10.319999694824219
+        },
+        {
+          "word": "the",
+          "start": 10.319999694824219,
+          "end": 10.739999771118164
+        },
+        {
+          "word": "successes",
+          "start": 10.739999771118164,
+          "end": 11.039999961853027
+        },
+        {
+          "word": "Then",
+          "start": 11.720000267028809,
+          "end": 12.15999984741211
+        },
+        {
+          "word": "text",
+          "start": 12.15999984741211,
+          "end": 12.619999885559082
+        },
+        {
+          "word": "Unicode",
+          "start": 13.260000228881836,
+          "end": 13.600000381469727
+        },
+        {
+          "word": "and",
+          "start": 13.600000381469727,
+          "end": 14
+        },
+        {
+          "word": "regular",
+          "start": 14,
+          "end": 14.420000076293945
+        },
+        {
+          "word": "expressions",
+          "start": 14.420000076293945,
+          "end": 14.960000038146973
+        },
+        {
+          "word": "are",
+          "start": 14.960000038146973,
+          "end": 15.4399995803833
+        },
+        {
+          "word": "pure",
+          "start": 15.4399995803833,
+          "end": 15.720000267028809
+        },
+        {
+          "word": "so",
+          "start": 16.200000762939453,
+          "end": 16.299999237060547
+        },
+        {
+          "word": "they",
+          "start": 16.299999237060547,
+          "end": 16.479999542236328
+        },
+        {
+          "word": "can",
+          "start": 16.479999542236328,
+          "end": 16.65999984741211
+        },
+        {
+          "word": "be",
+          "start": 16.65999984741211,
+          "end": 16.899999618530273
+        },
+        {
+          "word": "proved",
+          "start": 16.899999618530273,
+          "end": 17.219999313354492
+        },
+        {
+          "word": "end",
+          "start": 17.219999313354492,
+          "end": 17.68000030517578
+        },
+        {
+          "word": "to",
+          "start": 17.68000030517578,
+          "end": 17.899999618530273
+        },
+        {
+          "word": "end",
+          "start": 17.899999618530273,
+          "end": 18.239999771118164
+        },
+        {
+          "word": "Then",
+          "start": 18.440000534057617,
+          "end": 18.920000076293945
+        },
+        {
+          "word": "time",
+          "start": 18.920000076293945,
+          "end": 19.360000610351562
+        },
+        {
+          "word": "with",
+          "start": 19.579999923706055,
+          "end": 19.860000610351562
+        },
+        {
+          "word": "the",
+          "start": 19.860000610351562,
+          "end": 20.020000457763672
+        },
+        {
+          "word": "wall",
+          "start": 20.020000457763672,
+          "end": 20.299999237060547
+        },
+        {
+          "word": "clock",
+          "start": 20.299999237060547,
+          "end": 20.540000915527344
+        },
+        {
+          "word": "may",
+          "start": 20.540000915527344,
+          "end": 20.899999618530273
+        },
+        {
+          "word": "jump",
+          "start": 20.899999618530273,
+          "end": 21.1200008392334
+        },
+        {
+          "word": "as",
+          "start": 21.1200008392334,
+          "end": 21.31999969482422
+        },
+        {
+          "word": "an",
+          "start": 21.31999969482422,
+          "end": 21.639999389648438
+        },
+        {
+          "word": "explicit",
+          "start": 21.639999389648438,
+          "end": 21.899999618530273
+        },
+        {
+          "word": "axiom",
+          "start": 21.899999618530273,
+          "end": 22.520000457763672
+        },
+        {
+          "word": "Then",
+          "start": 22.860000610351562,
+          "end": 23.5
+        },
+        {
+          "word": "JSON",
+          "start": 23.5,
+          "end": 23.860000610351562
+        },
+        {
+          "word": "and",
+          "start": 23.860000610351562,
+          "end": 24.280000686645508
+        },
+        {
+          "word": "the",
+          "start": 24.280000686645508,
+          "end": 24.5
+        },
+        {
+          "word": "wire",
+          "start": 24.5,
+          "end": 24.739999771118164
+        },
+        {
+          "word": "formats",
+          "start": 24.739999771118164,
+          "end": 25.280000686645508
+        }
+      ],
+      "transcript": "What to build first, rank by dependence, then by purity. Files first, because everything sits on them, and specify the failures, not only the successes. Then text. Unicode and regular expressions are pure, so they can be proved end to end. Then time, with the wall clock may jump as an explicit axiom. Then JSON and the wire formats."
+    },
+    "06-building-the-world/closing": {
+      "hash": "a024b51f70f0a546",
+      "file": "audio/06-building-the-world/closing.mp3",
+      "bytes": 171824,
+      "durationSeconds": 10.710204,
+      "words": [
+        {
+          "word": "VeriCoding",
+          "start": 0,
+          "end": 0.6399999856948853
+        },
+        {
+          "word": "moves",
+          "start": 0.6399999856948853,
+          "end": 1.0399999618530273
+        },
+        {
+          "word": "the",
+          "start": 1.0399999618530273,
+          "end": 1.3799999952316284
+        },
+        {
+          "word": "work",
+          "start": 1.3799999952316284,
+          "end": 1.4600000381469727
+        },
+        {
+          "word": "to",
+          "start": 1.4600000381469727,
+          "end": 1.600000023841858
+        },
+        {
+          "word": "the",
+          "start": 1.600000023841858,
+          "end": 1.840000033378601
+        },
+        {
+          "word": "surface",
+          "start": 1.840000033378601,
+          "end": 2.259999990463257
+        },
+        {
+          "word": "where",
+          "start": 2.259999990463257,
+          "end": 2.5399999618530273
+        },
+        {
+          "word": "a",
+          "start": 2.5399999618530273,
+          "end": 3
+        },
+        {
+          "word": "machine",
+          "start": 3,
+          "end": 3
+        },
+        {
+          "word": "can",
+          "start": 3,
+          "end": 3.3399999141693115
+        },
+        {
+          "word": "check",
+          "start": 3.3399999141693115,
+          "end": 3.559999942779541
+        },
+        {
+          "word": "it",
+          "start": 3.559999942779541,
+          "end": 4.119999885559082
+        },
+        {
+          "word": "what",
+          "start": 4.300000190734863,
+          "end": 4.619999885559082
+        },
+        {
+          "word": "the",
+          "start": 4.619999885559082,
+          "end": 4.800000190734863
+        },
+        {
+          "word": "programme",
+          "start": 4.800000190734863,
+          "end": 5.139999866485596
+        },
+        {
+          "word": "must",
+          "start": 5.139999866485596,
+          "end": 5.480000019073486
+        },
+        {
+          "word": "mean",
+          "start": 5.480000019073486,
+          "end": 5.860000133514404
+        },
+        {
+          "word": "write",
+          "start": 6.619999885559082,
+          "end": 6.840000152587891
+        },
+        {
+          "word": "the",
+          "start": 6.840000152587891,
+          "end": 7.179999828338623
+        },
+        {
+          "word": "specification",
+          "start": 7.179999828338623,
+          "end": 7.900000095367432
+        },
+        {
+          "word": "let",
+          "start": 8.819999694824219,
+          "end": 8.880000114440918
+        },
+        {
+          "word": "the",
+          "start": 8.880000114440918,
+          "end": 9.140000343322754
+        },
+        {
+          "word": "proof",
+          "start": 9.140000343322754,
+          "end": 9.420000076293945
+        },
+        {
+          "word": "be",
+          "start": 9.420000076293945,
+          "end": 9.899999618530273
+        },
+        {
+          "word": "checked",
+          "start": 9.899999618530273,
+          "end": 10.180000305175781
+        }
+      ],
+      "transcript": "VeriCoding moves the work to the surface where a machine can check it, what the programme must mean, write the specification, let the proof be checked."
+    }
+  }
+}

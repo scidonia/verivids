@@ -1,0 +1,15 @@
+{
+  "provider": "elevenlabs",
+  "model": "eleven_multilingual_v2",
+  "voice": "UwtFVYnvYG6hxAbc4I6T",
+  "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+  },
+  "pronunciation": {
+    "Lean": "Leen",
+    "Lean 4": "Leen four"
+  }
+}

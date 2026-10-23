@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:03,270
+A theorem prover is a program that checks
+proofs.
+
+2
+00:00:03,270 --> 00:00:07,340
+Everything else follows from how seriously
+it takes that job.
+
+3
+00:00:08,167 --> 00:00:14,722
+You state a claim, you give a proof, and a
+small trusted kernel verifies every step.
+
+4
+00:00:14,722 --> 00:00:17,063
+Nothing is taken on authority.
+
+5
+00:00:17,063 --> 00:00:22,135
+A proof is a certificate: the checker
+accepts it, or it does not.
+
+6
+00:00:22,135 --> 00:00:26,583
+Keeping the kernel small is what makes it
+worth trusting.
+
+7
+00:00:27,600 --> 00:00:32,530
+The reason this can be a programming
+language is a correspondence.
+
+8
+00:00:32,530 --> 00:00:37,236
+A proposition is a type, and a proof is a
+program of that type.
+
+9
+00:00:37,236 --> 00:00:39,178
+Implication is a function.
+
+10
+00:00:39,178 --> 00:00:40,822
+Conjunction is a pair.
+
+11
+00:00:40,822 --> 00:00:43,062
+Disjunction is a tagged union.
+
+12
+00:00:43,062 --> 00:00:49,935
+For all is a dependent function, and there
+exists is a witness paired with a proof
+about it.
+
+13
+00:00:51,167 --> 00:00:54,064
+That gives types which talk about values.
+
+14
+00:00:54,064 --> 00:00:57,951
+Here is a vector: a list whose type
+records its length.
+
+15
+00:00:57,951 --> 00:01:05,442
+The head of a non-empty vector has no
+empty case to handle, because an empty
+vector cannot have that type.
+
+16
+00:01:05,442 --> 00:01:09,400
+Calling it on nothing is a type error, not
+an exception.
+
+17
+00:01:10,433 --> 00:01:13,705
+So checking a proof is type-checking a
+program.
+
+18
+00:01:13,705 --> 00:01:17,743
+The proof assistant and the compiler are
+the same machine.
+
+19
+00:01:17,743 --> 00:01:23,521
+That is what lets one language carry the
+program, the specification, and the proof.
+
+20
+00:01:24,533 --> 00:01:26,231
+Now, a first contract.
+

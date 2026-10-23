@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:01,881
+A proof is a static claim.
+
+2
+00:00:01,881 --> 00:00:06,583
+What comes out of the compiler is a
+program with no prover in it.
+
+3
+00:00:07,400 --> 00:00:11,626
+Compilation erases whatever exists only
+for the proof.
+
+4
+00:00:11,626 --> 00:00:16,636
+Proofs are propositions, and propositions
+carry no runtime data.
+
+5
+00:00:16,636 --> 00:00:20,001
+What is left is the algorithm and its
+data.
+
+6
+00:00:20,001 --> 00:00:27,828
+The guarantees are static, so nothing is
+re-checked at runtime, and the cost of
+having them is zero.
+
+7
+00:00:28,933 --> 00:00:37,123
+Lean elaborates to its own intermediate
+representation, emits C, and links a small
+runtime into a native binary.
+
+8
+00:00:37,123 --> 00:00:48,604
+Memory is managed by reference counting
+rather than a tracing collector, so
+destruction is deterministic, and a
+uniquely owned value can be updated in
+place.
+
+9
+00:00:49,833 --> 00:01:03,574
+In this tutorial's own measurement, the
+extracted sort compiled to a small binary,
+produced byte-identical output, and ran
+about twenty-seven times faster than
+interpreting the same file.
+
+10
+00:01:04,600 --> 00:01:08,031
+Zoom out, and the whole design is a
+staircase.
+
+11
+00:01:08,031 --> 00:01:13,176
+Within a level you optimise: rewrite the
+program, keep its behaviour.
+
+12
+00:01:13,176 --> 00:01:20,261
+Between levels you lower: a source
+language becomes a simpler one, and
+eventually machine code.
+
+13
+00:01:20,261 --> 00:01:23,766
+Every vertical edge carries a refinement
+proof.
+
+14
+00:01:23,766 --> 00:01:28,241
+This stack is a proposed architecture, not
+a settled result.
+
+15
+00:01:29,867 --> 00:01:34,281
+Next, what a verified program still has to
+assume about the world.
+
