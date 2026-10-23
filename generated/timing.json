@@ -217,28 +217,28 @@
     {
       "id": "02-proofs-are-programs",
       "title": "Proofs are programs",
-      "durationInFrames": 2655,
+      "durationInFrames": 2776,
       "scenes": [
         {
           "id": "title",
           "from": 0,
-          "durationInFrames": 245,
+          "durationInFrames": 366,
           "audio": "audio/02-proofs-are-programs/title.mp3",
           "cues": {
-            "follow": 106
+            "environment": 265
           },
           "visual": {
             "kind": "title",
             "kicker": "An introduction · Episode 2",
             "title": "Proofs are programs",
             "subtitle": "Why a proof assistant and a compiler are the same machine",
-            "subtitleCue": "follow"
+            "subtitleCue": "environment"
           },
-          "narration": "A theorem prover is a program that checks proofs. Everything else follows from how seriously it takes that job."
+          "narration": "A theorem prover is a program for authoring and checking proofs. And since proofs can be seen as programs, the prover can be thought of as a programming language environment."
         },
         {
           "id": "kernel",
-          "from": 245,
+          "from": 366,
           "durationInFrames": 621,
           "audio": "audio/02-proofs-are-programs/kernel.mp3",
           "cues": {
@@ -280,7 +280,7 @@
         },
         {
           "id": "curry-howard",
-          "from": 866,
+          "from": 987,
           "durationInFrames": 707,
           "audio": "audio/02-proofs-are-programs/curry-howard.mp3",
           "cues": {
@@ -336,7 +336,7 @@
         },
         {
           "id": "dependent",
-          "from": 1573,
+          "from": 1694,
           "durationInFrames": 578,
           "audio": "audio/02-proofs-are-programs/dependent.mp3",
           "cues": {
@@ -373,7 +373,7 @@
         },
         {
           "id": "same-machine",
-          "from": 2151,
+          "from": 2272,
           "durationInFrames": 423,
           "audio": "audio/02-proofs-are-programs/same-machine.mp3",
           "cues": {
@@ -406,7 +406,7 @@
         },
         {
           "id": "closing",
-          "from": 2574,
+          "from": 2695,
           "durationInFrames": 81,
           "audio": "audio/02-proofs-are-programs/closing.mp3",
           "cues": {

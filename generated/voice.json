@@ -1128,10 +1128,10 @@
       "transcript": "Next, why a proof is literally a program."
     },
     "02-proofs-are-programs/title": {
-      "hash": "326c008dd4831cb0",
+      "hash": "abaa9ca31fa2ec1b",
       "file": "audio/02-proofs-are-programs/title.mp3",
-      "bytes": 117907,
-      "durationSeconds": 7.340408,
+      "bytes": 181019,
+      "durationSeconds": 11.284898,
       "words": [
         {
           "word": "A",
@@ -1141,95 +1141,150 @@
         {
           "word": "theorem",
           "start": 0.3199999928474426,
-          "end": 0.6600000262260437
+          "end": 0.6000000238418579
         },
         {
           "word": "prover",
-          "start": 0.6600000262260437,
-          "end": 1.1399999856948853
+          "start": 0.6000000238418579,
+          "end": 0.9599999785423279
         },
         {
           "word": "is",
-          "start": 1.1399999856948853,
-          "end": 1.5399999618530273
+          "start": 0.9599999785423279,
+          "end": 1.2400000095367432
         },
         {
           "word": "a",
-          "start": 1.5399999618530273,
-          "end": 1.7599999904632568
+          "start": 1.2400000095367432,
+          "end": 1.5800000429153442
         },
         {
-          "word": "programme",
-          "start": 1.7599999904632568,
-          "end": 2.119999885559082
+          "word": "program",
+          "start": 1.5800000429153442,
+          "end": 1.7400000095367432
         },
         {
-          "word": "that",
-          "start": 2.119999885559082,
-          "end": 2.380000114440918
+          "word": "for",
+          "start": 1.7400000095367432,
+          "end": 2.0399999618530273
         },
         {
-          "word": "checks",
-          "start": 2.380000114440918,
-          "end": 2.6600000858306885
+          "word": "authoring",
+          "start": 2.0399999618530273,
+          "end": 2.640000104904175
+        },
+        {
+          "word": "and",
+          "start": 2.640000104904175,
+          "end": 2.9200000762939453
+        },
+        {
+          "word": "checking",
+          "start": 2.9200000762939453,
+          "end": 3.319999933242798
         },
         {
           "word": "proofs",
-          "start": 2.6600000858306885,
-          "end": 3.4200000762939453
+          "start": 3.319999933242798,
+          "end": 4.199999809265137
         },
         {
-          "word": "Everything",
-          "start": 3.6600000858306885,
-          "end": 3.940000057220459
+          "word": "and",
+          "start": 4.360000133514404,
+          "end": 4.360000133514404
         },
         {
-          "word": "else",
-          "start": 3.940000057220459,
-          "end": 4.380000114440918
+          "word": "since",
+          "start": 4.360000133514404,
+          "end": 4.699999809265137
         },
         {
-          "word": "follows",
-          "start": 4.380000114440918,
-          "end": 4.639999866485596
+          "word": "proofs",
+          "start": 4.699999809265137,
+          "end": 5.179999828338623
         },
         {
-          "word": "from",
-          "start": 4.639999866485596,
-          "end": 4.940000057220459
+          "word": "can",
+          "start": 5.179999828338623,
+          "end": 5.300000190734863
         },
         {
-          "word": "how",
-          "start": 4.940000057220459,
-          "end": 5.199999809265137
+          "word": "be",
+          "start": 5.300000190734863,
+          "end": 5.519999980926514
         },
         {
-          "word": "seriously",
-          "start": 5.199999809265137,
-          "end": 5.739999771118164
+          "word": "seen",
+          "start": 5.519999980926514,
+          "end": 5.659999847412109
         },
         {
-          "word": "it",
-          "start": 5.739999771118164,
+          "word": "as",
+          "start": 5.659999847412109,
           "end": 6.019999980926514
         },
         {
-          "word": "takes",
+          "word": "programs",
           "start": 6.019999980926514,
-          "end": 6.28000020980835
+          "end": 6.480000019073486
         },
         {
-          "word": "that",
-          "start": 6.28000020980835,
-          "end": 6.599999904632568
+          "word": "the",
+          "start": 7.119999885559082,
+          "end": 7.179999828338623
         },
         {
-          "word": "job",
-          "start": 6.599999904632568,
-          "end": 6.900000095367432
+          "word": "prover",
+          "start": 7.179999828338623,
+          "end": 7.579999923706055
+        },
+        {
+          "word": "can",
+          "start": 7.579999923706055,
+          "end": 7.920000076293945
+        },
+        {
+          "word": "be",
+          "start": 7.920000076293945,
+          "end": 8.279999732971191
+        },
+        {
+          "word": "thought",
+          "start": 8.279999732971191,
+          "end": 8.34000015258789
+        },
+        {
+          "word": "of",
+          "start": 8.34000015258789,
+          "end": 8.680000305175781
+        },
+        {
+          "word": "as",
+          "start": 8.680000305175781,
+          "end": 8.960000038146973
+        },
+        {
+          "word": "a",
+          "start": 8.960000038146973,
+          "end": 9.199999809265137
+        },
+        {
+          "word": "programming",
+          "start": 9.199999809265137,
+          "end": 9.520000457763672
+        },
+        {
+          "word": "language",
+          "start": 9.520000457763672,
+          "end": 10.079999923706055
+        },
+        {
+          "word": "environment",
+          "start": 10.079999923706055,
+          "end": 10.680000305175781
         }
       ],
-      "transcript": "A theorem prover is a programme that checks proofs. Everything else follows from how seriously it takes that job."
+      "transcript": "A theorem prover is a program for authoring and checking proofs, and since proofs can be seen as programs, the prover can be thought of as a programming language environment."
     },
     "02-proofs-are-programs/kernel": {
       "hash": "60797d8032fa6a99",

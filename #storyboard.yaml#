@@ -1,0 +1,1235 @@
+# The series. One entry per film; each scene is one shot with its own
+# narration clip. A cue names the spoken phrase that makes something appear,
+# so the edit follows the voice rather than a hand-kept timestamp.
+#
+# `at:` on a cue is a manual override in seconds from the scene's start. It is
+# only needed when alignment cannot place the phrase; `npm run timing` reports
+# which cues it resolved this way.
+
+fps: 30
+series: "Vericoding"
+subtitle: "What it is, and how to do it"
+
+episodes:
+  - id: 01-what-is-vericoding
+    title: "What is vericoding?"
+    scenes:
+      - id: opener
+        narration: >-
+          Scidonia Limited presents Vericoding: an introduction in six parts.
+        tailHold: 0.8
+        cues:
+          title: "presents Vericoding"
+          parts: "an introduction in six parts"
+        visual:
+          kind: brand
+          wordmark: 118
+          title: "Vericoding"
+          subtitle: "An introduction in six parts"
+          titleCue: title
+          subtitleCue: parts
+
+      - id: title
+        narration: >-
+          Vericoding is a way of writing software where the specification, the
+          proof, and the program are all one artefact, checked by a machine.
+        tailHold: 0.9
+        cues:
+          series: "specification, the proof, and the program"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 1"
+          title: "Vericoding"
+          subtitle: "Programs, specifications and proofs, in one language"
+          subtitleCue: series
+
+      - id: sampling
+        narration: >-
+          Normally we test. A test runs the program on a handful of inputs, and
+          we hope the rest behave. A specification is different. It says
+          something about every possible input, and a proof is a certificate
+          that the code meets it. Tests sample. Proofs quantify.
+        tailHold: 1.1
+        cues:
+          tests: "A test runs the program on a handful of inputs"
+          quantify: "It says something about every possible input"
+          conclusion: "Tests sample. Proofs quantify."
+        visual:
+          kind: quantify
+          heading: "Tests sample. Proofs quantify."
+          left:
+            title: "A test suite"
+            caption: "a handful of inputs, observed once"
+            dots: 7
+            cue: tests
+          right:
+            title: "A specification"
+            caption: "a claim about every input, proved"
+            cue: quantify
+          conclusion:
+            text: "The proof is the certificate for the whole region."
+            cue: conclusion
+
+      - id: three-things
+        narration: >-
+          So a vericoded program is three things at once. The code. A statement
+          of what that code must mean. And a proof, machine-checked step by
+          step, that the code meets the statement. One language for all three,
+          so the specification cannot drift away from the implementation.
+        tailHold: 1.0
+        cues:
+          code: "program is three things"
+          spec: "A statement of what that code must mean"
+          proof: "And a proof, machine-checked step by step"
+          one: "One language for all three"
+        visual:
+          kind: converge
+          heading: "One artefact, three obligations"
+          items:
+            - { label: "Program", detail: "the computation", cue: code }
+            - { label: "Specification", detail: "what it must mean", cue: spec }
+            - {
+                label: "Proof",
+                detail: "machine-checked, step by step",
+                cue: proof,
+              }
+          result:
+            label: "One language"
+            detail: "the specification cannot drift away from the implementation"
+            cue: one
+
+      - id: why-now
+        narration: >-
+          Why now? Proving used to be the bottleneck. A theorem prover could
+          check everything, but writing the proofs took specialists far longer
+          than writing the code. Large language models changed the economics.
+          Routine obligations get discharged, lemmas get suggested, broken
+          proofs get repaired. The proof is no longer the expensive part.
+        tailHold: 1.0
+        cues:
+          bottleneck: "Proving used to be the bottleneck"
+          cost: "far longer than writing the code"
+          llm: "Large language models changed the economics"
+          routine: "Routine obligations get discharged"
+          cheap: "The proof is no longer the expensive part"
+        visual:
+          kind: claim
+          eyebrow: "Why now?"
+          heading: "Proof engineering was the bottleneck"
+          points:
+            - { text: "A prover could check everything", cue: bottleneck }
+            - {
+                text: "Writing the proofs took specialists, for far longer than writing the code",
+                cue: cost,
+                accent: rust,
+              }
+            - { text: "Large language models changed the economics", cue: llm }
+            - {
+                text: "Routine goals discharged · lemmas suggested · broken proofs repaired",
+                cue: routine,
+              }
+          emphasis:
+            text: "The proof is no longer the expensive part."
+            cue: cheap
+
+      - id: intent
+        narration: >-
+          That moves the scarce resource. The machine cannot invent what your
+          program must mean. You iterate at the specification surface, in
+          conversation, and the implementation becomes something you can
+          replace later. The dialectic is about intent, not operation.
+        tailHold: 1.0
+        cues:
+          scarce: "The machine cannot invent what your program must mean"
+          iterate: "You iterate at the specification surface"
+          dialectic: "The dialectic is about intent, not operation"
+        visual:
+          kind: compare
+          heading: "Iterate on intent, not operation"
+          left:
+            title: "Without vericoding"
+            lines:
+              - "change the code, hope the meaning survived"
+              - "each feature widens the surface you cannot check"
+              - "correctness is a review opinion"
+          right:
+            title: "With vericoding"
+            lines:
+              - "change the specification, see what breaks"
+              - "the implementation is replaceable"
+              - "correctness is a checked artefact"
+          leftCue: scarce
+          rightCue: iterate
+          noteCue: dialectic
+          note: "The conversation moves to what the program must mean."
+
+      - id: closing
+        narration: >-
+          Next, why a proof is, literally, a program.
+        tailHold: 1.0
+        cues:
+          next: "why a proof is, literally, a program"
+        visual:
+          kind: closing
+          text: "A proof is a program."
+          next: "Episode 2 · Proofs are programs"
+          cue: next
+
+  - id: 02-proofs-are-programs
+    title: "Proofs are programs"
+    scenes:
+      - id: title
+        narration: >-
+          A theorem prover is a program that allows you to author and checks proofs. Everything else
+          follows from how seriously it takes that job.
+        tailHold: 0.8
+        cues:
+          follow: "Everything else follows"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 2"
+          title: "Proofs are programs"
+          subtitle: "Why a proof assistant and a compiler are the same machine"
+          subtitleCue: follow
+
+      - id: kernel
+        narration: >-
+          You state a claim, you give a proof, and a small trusted program —
+          the kernel — verifies every step. Nothing is taken on authority. A
+          proof is a certificate: the checker accepts it, or it does not.
+          Keeping the kernel small is what makes it worth trusting.
+        tailHold: 1.0
+        cues:
+          claim: "You state a claim"
+          proof: "you give a proof"
+          kernel: "verifies every step"
+          authority: "Nothing is taken on authority"
+          small: "what makes it worth trusting"
+        visual:
+          kind: pipeline
+          heading: "A claim, a proof, and a checker that cannot be argued with"
+          stages:
+            - { label: "Claim", detail: "a proposition", cue: claim }
+            - {
+                label: "Proof",
+                detail: "a term that should inhabit it",
+                cue: proof,
+              }
+            - { label: "Kernel", detail: "checks every step", cue: kernel }
+          verdict:
+            accept: "accept"
+            reject: "reject"
+            cue: authority
+          note: "Keeping the kernel small is what makes it worth trusting."
+          noteCue: small
+
+      - id: curry-howard
+        narration: >-
+          The reason this can be a programming language is a correspondence. A
+          proposition is a type, and a proof is a program of that type.
+          Implication is a function. Conjunction is a pair. Disjunction is a
+          tagged union. For all is a dependent function, and there exists is a
+          witness paired with a proof about it.
+        tailHold: 1.2
+        cues:
+          prop: "A proposition is a type"
+          proof: "a proof is a program of that type"
+          implication: "Implication is a function"
+          conjunction: "Conjunction is a pair"
+          disjunction: "Disjunction is a tagged union"
+          quantifiers: "For all is a dependent function"
+        visual:
+          kind: table
+          heading: "Propositions are types"
+          columns: ["Logic", "Programming"]
+          rows:
+            - { left: "A proposition", right: "a type", cue: prop }
+            - { left: "A proof", right: "a program of that type", cue: proof }
+            - { left: "A → B", right: "a function", cue: implication }
+            - { left: "A ∧ B", right: "a pair", cue: conjunction }
+            - { left: "A ∨ B", right: "a tagged union", cue: disjunction }
+            - {
+                left: "∀ x, P x",
+                right: "a dependent function",
+                cue: quantifiers,
+              }
+            - { left: "∃ x, P x", right: "a witness and a proof about it" }
+
+      - id: dependent
+        narration: >-
+          That gives types which talk about values. Here is a vector: a list
+          whose type records its length. The head of a non-empty vector has no
+          empty case to handle, because an empty vector cannot have that type.
+          Calling it on nothing is a type error, not an exception.
+        tailHold: 1.0
+        cues:
+          vector: "Here is a vector"
+          length: "a list whose type records its length"
+          head: "The head of a non-empty vector has no empty case"
+          typeerror: "Calling it on nothing is a type error"
+        visual:
+          kind: code
+          heading: "A type that talks about a value"
+          language: lean
+          code: |
+            inductive Vec (α : Type) : Nat → Type where
+              | nil : Vec α 0
+              | cons (x : α) {n : Nat} : Vec α n → Vec α (n + 1)
+
+            -- There is no case for the empty vector:
+            -- it cannot have this type.
+            def head {α : Type} {n : Nat} (v : Vec α (n + 1)) : α :=
+              match v with
+              | .cons x _ => x
+          reveal:
+            - { cue: vector, lines: [1, 1] }
+            - { cue: length, lines: [2, 3] }
+            - { cue: head, lines: [5, 8] }
+          caption:
+            text: "An empty vector cannot be passed here. That is a type error, not an exception."
+            cue: typeerror
+
+      - id: same-machine
+        narration: >-
+          So checking a proof is type-checking a program. The proof assistant
+          and the compiler are the same machine. That is what lets one language
+          carry the program, the specification, and the proof.
+        tailHold: 1.0
+        cues:
+          typecheck: "checking a proof is type-checking a program"
+          same: "the same machine"
+          carry: "carry the program, the specification, and the proof"
+        visual:
+          kind: converge
+          heading: "Checking a proof is type-checking a program"
+          items:
+            - {
+                label: "Proof assistant",
+                detail: "checks terms",
+                cue: typecheck,
+              }
+            - { label: "Compiler", detail: "checks types", cue: same }
+          result:
+            label: "One machine"
+            detail: "one language carries the program, its specification, and its proof"
+            cue: carry
+
+      - id: closing
+        narration: >-
+          Now, a first contract.
+        tailHold: 1.0
+        cues:
+          next: "a first contract"
+        visual:
+          kind: closing
+          text: "Your first contract."
+          next: "Episode 3 · Your first contract"
+          cue: next
+
+  - id: 03-first-contract
+    title: "Your first contract"
+    scenes:
+      - id: title
+        narration: >-
+          A contract is a theorem about a definition. Here is the smallest one
+          worth writing.
+        tailHold: 0.8
+        cues:
+          smallest: "the smallest one worth writing"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 3"
+          title: "Your first contract"
+          subtitle: "A program, a statement about it, and a checked proof"
+          subtitleCue: smallest
+
+      - id: program
+        narration: >-
+          Here is a very small program. maxOf returns the larger of two natural
+          numbers. It is correct, but nothing about it says so.
+        tailHold: 0.9
+        cues:
+          function: "maxOf returns the larger of two natural numbers"
+          says: "nothing about it says so"
+        visual:
+          kind: code
+          heading: "The program"
+          language: lean
+          code: |
+            def maxOf (a b : Nat) : Nat :=
+              if a ≤ b then b else a
+          reveal:
+            - { cue: function, lines: [1, 2] }
+          caption:
+            text: "Correct, but nothing in this definition says what it means."
+            cue: says
+
+      - id: statement
+        narration: >-
+          The specification is another term in the same language. For all a and
+          b, a is at most maxOf a b. That is a statement about every pair of
+          numbers, not a sample.
+        tailHold: 1.0
+        cues:
+          same: "another term in the same language"
+          every: "not a sample"
+        visual:
+          kind: code
+          heading: "The specification"
+          language: lean
+          code: |
+            def maxOf (a b : Nat) : Nat :=
+              if a ≤ b then b else a
+
+            theorem le_maxOf_left (a b : Nat) : a ≤ maxOf a b := by
+              sorry
+          reveal:
+            - { cue: same, lines: [4, 5] }
+          caption:
+            text: "A statement about every pair of numbers, not a sample. The proof replaces sorry."
+            cue: every
+
+      - id: proof
+        narration: >-
+          The proof is a program of that statement's type. We unfold the
+          definition, split on the comparison, and in each branch the
+          arithmetic closes the goal. Lean prints the goal state after every
+          step, so the proof is not a story about the code; it is the machine's
+          own working.
+        tailHold: 1.3
+        cues:
+          unfold: "We unfold the definition"
+          split: "split on the comparison"
+          arithmetic: "the arithmetic closes the goal"
+          machine: "it is the machine's own working"
+        visual:
+          kind: code
+          heading: "The proof, and the goal state Lean prints"
+          language: lean
+          code: |
+            def maxOf (a b : Nat) : Nat :=
+              if a ≤ b then b else a
+
+            theorem le_maxOf_left (a b : Nat) : a ≤ maxOf a b := by
+              unfold maxOf
+              split
+              · rename_i h
+                omega
+              · omega
+          reveal:
+            - { cue: unfold, lines: [4, 5] }
+            - { cue: split, lines: [6, 7] }
+            - { cue: arithmetic, lines: [8, 9] }
+          goals:
+            - cue: split
+              label: "after split"
+              text: |
+                case isTrue
+                a b : Nat
+                h : a ≤ b
+                ⊢ a ≤ b
+            - cue: arithmetic
+              label: "after omega"
+              text: |
+                no goals
+          caption:
+            text: "Every step is checked by the kernel. The goal text above is Lean's, not ours."
+            cue: machine
+
+      - id: errors
+        narration: >-
+          Two kinds of error now become visible. An error of reasoning,
+          connecting things wrongly, is rejected: the kernel will not accept
+          the step. An error of interpretation, misunderstanding what the code
+          means, leaves an artefact. The specification you wrote is there to be
+          read, and iterated on.
+        tailHold: 1.1
+        cues:
+          reasoning: "An error of reasoning"
+          interpretation: "An error of interpretation"
+          artefact: "leaves an artefact"
+        visual:
+          kind: cards
+          heading: "Two kinds of error"
+          cards:
+            - title: "Error of reasoning"
+              body: "The steps do not follow. The kernel rejects them, and there is nothing to argue with."
+              verdict: "impossible"
+              accent: rust
+              cue: reasoning
+            - title: "Error of interpretation"
+              body: "The specification says the wrong thing. It is written down, in the same language, so it can be read and revised."
+              verdict: "visible, and iterable"
+              accent: purple
+              cue: interpretation
+          note: "Without a specification, both errors are silent."
+          noteCue: artefact
+
+      - id: closing
+        narration: >-
+          The proof is checked, not reviewed. Next, two ways to specify.
+        tailHold: 1.0
+        cues:
+          checked: "The proof is checked, not reviewed"
+        visual:
+          kind: closing
+          text: "Checked, not reviewed."
+          next: "Episode 4 · Two ways to specify"
+          cue: checked
+
+  - id: 04-two-ways-to-specify
+    title: "Two ways to specify"
+    scenes:
+      - id: title
+        narration: >-
+          There are two ways to attach a claim to code, and two ways to embed a
+          language in a prover. Both distinctions matter.
+        tailHold: 0.8
+        cues:
+          distinctions: "Both distinctions matter"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 4"
+          title: "Two ways to specify"
+          subtitle: "Intrinsic or extrinsic, deep or shallow"
+          subtitleCue: distinctions
+
+      - id: intrinsic
+        narration: >-
+          Intrinsic specification puts the claim in the type. Here the caller
+          supplies evidence that the list is not empty, so the function has no
+          empty case. Illegal states become unrepresentable, and every caller
+          gets the guarantee for free. The cost is that types get heavier, and
+          evidence gets threaded through signatures.
+        tailHold: 1.2
+        cues:
+          type: "puts the claim in the type"
+          evidence: "the caller supplies evidence"
+          cost: "types get heavier"
+        visual:
+          kind: code
+          heading: "Intrinsic: the claim is in the type"
+          language: lean
+          code: |
+            def headOf (xs : List Nat) (h : xs ≠ []) : Nat :=
+              match xs with
+              | [] => absurd rfl h
+              | x :: _ => x
+          reveal:
+            - { cue: type, lines: [1, 1] }
+            - { cue: evidence, lines: [2, 4] }
+          caption:
+            text: "The empty case is present only to discharge the impossible hypothesis."
+            cue: cost
+
+      - id: extrinsic
+        narration: >-
+          Extrinsic specification writes the plain program, then states a
+          separate theorem about it. double is just addition, and the theorem
+          says it equals two times its argument. The program stays idiomatic,
+          and the specification can grow by accretion. The cost is that you
+          have to find the right theorems.
+        tailHold: 1.2
+        cues:
+          plain: "writes the plain program"
+          theorem: "states a separate theorem about it"
+          grow: "the specification can grow by accretion"
+        visual:
+          kind: code
+          heading: "Extrinsic: the claim is a theorem about it"
+          language: lean
+          code: |
+            def double (n : Nat) : Nat := n + n
+
+            theorem double_eq (n : Nat) : double n = 2 * n := by
+              simp [double, Nat.two_mul]
+          reveal:
+            - { cue: plain, lines: [1, 1] }
+            - { cue: theorem, lines: [3, 4] }
+          caption:
+            text: "The program stays idiomatic; the specification grows by accretion."
+            cue: grow
+
+      - id: rule
+        narration: >-
+          A rule of thumb. Use intrinsic specification for shape: lengths,
+          non-emptiness, invariants of a data structure. Use extrinsic
+          specification for behaviour: what a sort returns, what a file
+          contains after a write, what a protocol did.
+        tailHold: 1.1
+        cues:
+          shape: "Use intrinsic specification for shape"
+          behaviour: "Use extrinsic specification for behaviour"
+        visual:
+          kind: compare
+          heading: "A rule of thumb"
+          left:
+            title: "Intrinsic · shape"
+            lines:
+              - "lengths, bounds, non-emptiness"
+              - "invariants of a data structure"
+              - "illegal states become unrepresentable"
+          right:
+            title: "Extrinsic · behaviour"
+            lines:
+              - "what a sort returns"
+              - "what a file contains after a write"
+              - "what a protocol did"
+          leftCue: shape
+          rightCue: behaviour
+
+      - id: deep
+        narration: >-
+          There is a second axis. A deep embedding makes the language under
+          study into data inside the prover, with a semantics and a theory
+          built about it. Iris does this for concurrent and unsafe programs;
+          interaction trees do it for effects. It buys reusable reasoning about
+          hard semantics, and it costs you the embedding and its theory.
+        tailHold: 1.2
+        cues:
+          deep: "A deep embedding makes the language"
+          iris: "Iris does this for concurrent and unsafe programs"
+          pay: "it costs you the embedding and its theory"
+        visual:
+          kind: compare
+          heading: "The second axis: what is inside the prover?"
+          left:
+            title: "Deep embedding"
+            lines:
+              - "the object language is data"
+              - "a semantics, then a theory about it"
+              - "Iris for concurrency and unsafe code"
+              - "interaction trees for effects"
+          right:
+            title: "What it buys, and costs"
+            lines:
+              - "reusable reasoning for hard semantics"
+              - "the embedding and its theory are yours to trust"
+              - "getting back to running code is a separate step"
+          leftCue: deep
+          rightCue: pay
+          note: "Power is bought with a trusted model."
+          noteCue: iris
+
+      - id: shallow
+        narration: >-
+          A shallow embedding does not model the language; it uses it. The
+          prover is the programming language. Terms are programs, types are
+          specifications, and proofs are terms checked by the same kernel.
+          There is no gap between the code you reason about and the code that
+          runs.
+        tailHold: 1.1
+        cues:
+          model: "does not model the language; it uses it"
+          prover: "The prover is the programming language"
+          gap: "no gap between the code you reason about"
+        visual:
+          kind: converge
+          heading: "Shallow: the prover is the programming language"
+          items:
+            - { label: "Term", detail: "the program", cue: model }
+            - { label: "Type", detail: "the specification", cue: prover }
+            - {
+                label: "Proof",
+                detail: "a term checked by the same kernel",
+                cue: gap,
+              }
+          result:
+            label: "No gap"
+            detail: "the code you reason about is the code that runs"
+            cue: gap
+
+      - id: closing
+        narration: >-
+          This tutorial takes the shallow path. Next, what happens to the
+          proofs when the code compiles.
+        tailHold: 1.0
+        cues:
+          next: "what happens to the proofs when the code compiles"
+        visual:
+          kind: closing
+          text: "From proof to binary."
+          next: "Episode 5 · From proof to binary"
+          cue: next
+
+  - id: 05-from-proof-to-binary
+    title: "From proof to binary"
+    scenes:
+      - id: title
+        narration: >-
+          A proof is a static claim. What comes out of the compiler is a
+          program with no prover in it.
+        tailHold: 0.8
+        cues:
+          static: "A proof is a static claim"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 5"
+          title: "From proof to binary"
+          subtitle: "Erasure, compilation, and the staircase of levels"
+          subtitleCue: static
+
+      - id: erasure
+        narration: >-
+          Compilation erases whatever exists only for the proof. Proofs are
+          propositions, and propositions carry no runtime data. What is left is
+          the algorithm and its data. The guarantees are static, so nothing is
+          re-checked at runtime, and the cost of having them is zero.
+        tailHold: 1.1
+        cues:
+          erases: "Compilation erases"
+          left: "What is left is the algorithm and its data"
+          static: "The guarantees are static"
+          zero: "the cost of having them is zero"
+        visual:
+          kind: pipeline
+          heading: "What survives compilation"
+          stages:
+            - { label: "Program", detail: "the computation", cue: erases }
+            - {
+                label: "Specification",
+                detail: "a proposition · erased",
+                cue: left,
+              }
+            - { label: "Proof", detail: "a term · erased", cue: static }
+            - {
+                label: "Binary",
+                detail: "the algorithm and its data",
+                cue: zero,
+              }
+          note: "Nothing is re-checked at runtime."
+          noteCue: zero
+
+      - id: compiler
+        narration: >-
+          Lean elaborates to its own intermediate representation, emits C, and
+          links a small runtime into a native binary. Memory is managed by
+          reference counting rather than a tracing collector, so destruction is
+          deterministic, and a uniquely owned value can be updated in place.
+        tailHold: 1.2
+        cues:
+          ir: "Lean elaborates to its own intermediate representation"
+          c: "emits C"
+          rc: "Memory is managed by reference counting"
+          inplace: "a uniquely owned value can be updated in place"
+        visual:
+          kind: pipeline
+          heading: "Lean compiles like a systems language"
+          stages:
+            - { label: "Lean", detail: "elaborated terms", cue: ir }
+            - { label: "IR", detail: "Lean's own", cue: ir }
+            - { label: "C", detail: "emitted", cue: c }
+            - { label: "Binary", detail: "native, small runtime", cue: c }
+          note: "Reference counting: deterministic destruction, no stop-the-world pause, in-place update when uniquely owned."
+          noteCue: rc
+          afterword: "Uniquely owned values are updated in place."
+          afterwordCue: inplace
+
+      - id: measurement
+        narration: >-
+          In this tutorial's own measurement, the extracted sort compiled to a
+          small binary, produced byte-identical output, and ran about
+          twenty-seven times faster than interpreting the same file.
+        tailHold: 1.0
+        cues:
+          binary: "compiled to a small binary"
+          identical: "produced byte-identical output"
+          faster: "twenty-seven times faster"
+        visual:
+          kind: claim
+          eyebrow: "Measured in the tutorial"
+          heading: "Verification does not pay at runtime"
+          points:
+            - {
+                text: "The extracted sort compiled to a 3.4 MB binary",
+                cue: binary,
+              }
+            - {
+                text: "Byte-identical output to the interpreted run",
+                cue: identical,
+              }
+            - { text: "0.025 s, against 0.69 s interpreted", cue: faster }
+          emphasis:
+            text: "A measurement of this program, not a claim that verification makes code faster."
+            cue: faster
+
+      - id: staircase
+        narration: >-
+          Zoom out, and the whole design is a staircase. Within a level you
+          optimise: rewrite the program, keep its behaviour. Between levels you
+          lower: a source language becomes a simpler one, and eventually
+          machine code. Every vertical edge carries a refinement proof. This
+          stack is a proposed architecture, not a settled result.
+        tailHold: 1.6
+        cues:
+          levels: "the whole design is a staircase"
+          optimise: "Within a level you optimise"
+          lower: "Between levels you lower"
+          refine: "Every vertical edge carries a refinement proof"
+          proposed: "a proposed architecture, not a settled result"
+        visual:
+          kind: staircase
+          heading: "One program, many representations"
+          levels:
+            - { name: "Lean", detail: "program and specification" }
+            - { name: "LambdaPure", detail: "pure, total core" }
+            - { name: "LambdaRC", detail: "ownership and reference counting" }
+            - { name: "C", detail: "the whole machine" }
+            - { name: "ISA", detail: "architectural state" }
+            - { name: "Hardware", detail: "pipeline state" }
+          levelsCue: levels
+          optimiseCue: optimise
+          lowerCue: lower
+          refineCue: refine
+          proposed:
+            text: "Proposed architecture · not a settled result"
+            cue: proposed
+
+      - id: closing
+        narration: >-
+          Next, what a verified program still has to assume about the world.
+        tailHold: 1.0
+        cues:
+          next: "what a verified program still has to assume"
+        visual:
+          kind: closing
+          text: "Building the world."
+          next: "Episode 6 · Building the world"
+          cue: next
+
+  - id: 06-building-the-world
+    title: "Building the world"
+    scenes:
+      - id: title
+        narration: >-
+          A verified program still has to talk to a world nobody verified. The
+          question is what it is allowed to assume.
+        tailHold: 0.9
+        cues:
+          allowed: "what it is allowed to assume"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 6"
+          title: "Building the world"
+          subtitle: "Effects, libraries, theories, and the bottom of the stack"
+          subtitleCue: allowed
+
+      - id: effects
+        narration: >-
+          Effects do not disappear. They become explicit. IO is a type, and a
+          function that prints says so in its signature. Pure-looking code can
+          still run at imperative speed: an array is a value in the type system
+          and a mutable buffer in the implementation, updated in place when it
+          is uniquely owned.
+        tailHold: 1.2
+        cues:
+          explicit: "They become explicit"
+          io: "IO is a type"
+          array: "an array is a value in the type system"
+        visual:
+          kind: code
+          heading: "Effects are in the type"
+          language: lean
+          code: |
+            def greet (name : String) : IO Unit :=
+              IO.println s!"hello {name}"
+
+            -- Pure in the type, mutation underneath:
+            -- a uniquely owned array is updated in place.
+            def doubled (xs : Array Nat) : Array Nat :=
+              xs.map (· * 2)
+          reveal:
+            - { cue: io, lines: [1, 2] }
+            - { cue: array, lines: [4, 7] }
+          caption:
+            text: "The signature says the function can print. Nothing is hidden."
+            cue: explicit
+
+      - id: binding
+        narration: >-
+          Real programs need the world: files, sockets, databases, time. Lean
+          can call almost anything, so a binding is a few lines. But a binding
+          is not a library you can verify against. A binding says how to call.
+          A theory says what the call means, and contracts are written against
+          the meaning.
+        tailHold: 1.2
+        cues:
+          binding: "a binding is a few lines"
+          not: "a binding is not a library you can verify against"
+          theory: "A theory says what the call means"
+        visual:
+          kind: compare
+          heading: "A binding is not a theory"
+          left:
+            title: "A binding"
+            lines:
+              - "how to call the operating system"
+              - "a few lines, and it compiles"
+              - "nothing yet says what it means"
+          right:
+            title: "A theory"
+            lines:
+              - "what the call promises"
+              - "which paths, which modes"
+              - "what a read returns, what a write leaves behind"
+          leftCue: binding
+          rightCue: theory
+          note: "Contracts are written against the meaning."
+          noteCue: not
+
+      - id: axioms
+        narration: >-
+          Every theory ends in an assertion. The operating system, the network
+          card, the database, are not vericoded. So the bottom of the stack is
+          exactly what you assume. Keep the assumption small, explicit, and
+          testable: differential testing against the real system,
+          property-based checks, fuzzing at the boundary.
+        tailHold: 1.3
+        cues:
+          assertion: "Every theory ends in an assertion"
+          assumed: "are not vericoded"
+          bottom: "the bottom of the stack is exactly what you assume"
+          discipline: "Keep the assumption small, explicit, and testable"
+        visual:
+          kind: stack
+          heading: "Every theory ends in an assertion"
+          layers:
+            - { label: "Your contracts", detail: "proved", cue: assertion }
+            - { label: "Your program", detail: "proved", cue: assertion }
+            - {
+                label: "File, socket, database",
+                detail: "a theory, mostly proved",
+              }
+            - {
+                label: "The operating system",
+                detail: "assumed",
+                accent: rust,
+                cue: assumed,
+              }
+            - {
+                label: "The network card",
+                detail: "assumed",
+                accent: rust,
+                cue: assumed,
+              }
+          bottom:
+            label: "Assertions"
+            detail: "small, explicit, testable"
+            cue: discipline
+          note: "The bottom is exactly what you assume."
+          noteCue: bottom
+
+      - id: order
+        narration: >-
+          What to build first? Rank by dependents, then by purity. Files first,
+          because everything sits on them, and specify the failures, not only
+          the successes. Then text: Unicode and regular expressions are pure,
+          so they can be proved end to end. Then time, with the wall clock may
+          jump as an explicit axiom. Then JSON and the wire formats.
+        tailHold: 1.2
+        cues:
+          files: "Files first, because everything sits on them"
+          text: "Then text"
+          time: "Then time"
+          json: "Then JSON and the wire formats"
+        visual:
+          kind: cards
+          heading: "What to build first"
+          cards:
+            - title: "Files"
+              body: "Everything sits on them. Specify the failures, not only the successes: permissions, partial writes, rename atomicity."
+              verdict: "POSIX"
+              accent: teal
+              cue: files
+            - title: "Text"
+              body: "Unicode and regular expressions are pure, so they can be proved end to end."
+              verdict: "provable"
+              accent: teal
+              cue: text
+            - title: "Time"
+              body: "Model monotonic and wall clocks separately. The wall clock may jump: state it as an axiom."
+              verdict: "assert the jump"
+              accent: purple
+              cue: time
+          note: "Then JSON, CBOR or Protobuf: round-trip laws, nothing lost."
+          noteCue: json
+
+      - id: closing
+        narration: >-
+          Vericoding moves the work to the surface where a machine can check
+          it: what the program must mean. Write the specification. Let the
+          proof be checked.
+        tailHold: 1.4
+        cues:
+          check: "Let the proof be checked"
+        visual:
+          kind: closing
+          text: "Write the specification. Let the proof be checked."
+          next: "github.com/scidonia/vericoding-tutorial"
+          cue: check
+
+  # ---------------------------------------------------------------------
+  # Draft. `draft: true` keeps this episode out of timing and the default
+  # voice run until the narration is recorded. Edit the `narration` text
+  # here, then: npm run voice -- --episode 07-curry-howard
+  # ---------------------------------------------------------------------
+  - id: 07-curry-howard
+    title: "Types are propositions"
+    draft: true
+    scenes:
+      - id: title
+        narration: >-
+          Curry and Howard noticed that the rules for building proofs are the
+          same as the rules for building programs. This episode shows that
+          correspondence using code you already write.
+        tailHold: 0.9
+        cues:
+          same: "the same as the rules for building programs"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 7"
+          title: "Types are propositions"
+          subtitle: "Curry–Howard for working programmers"
+          subtitleCue: same
+
+      - id: functions
+        narration: >-
+          Start with a function. The Python version takes an integer and
+          returns one. The Lean version takes a natural number and returns one.
+          Look at the shape: an input type, and an output type. In logic, that
+          shape is implication. A proof that A implies B is a function from
+          proofs of A to proofs of B.
+        tailHold: 1.0
+        cues:
+          python: "The Python version takes an integer"
+          lean: "The Lean version takes a natural number"
+          implication: "that shape is implication"
+        visual:
+          kind: compare
+          heading: "A function is an implication"
+          left:
+            title: "Python"
+            code:
+              language: python
+              code: |
+                def add_one(x: int) -> int:
+                    return x + 1
+          right:
+            title: "Lean"
+            code:
+              language: lean
+              code: |
+                def addOne (n : Nat) : Nat :=
+                  n + 1
+          leftCue: python
+          rightCue: lean
+          note: "A function from A to B is a proof that A implies B."
+          noteCue: implication
+
+      - id: pairs
+        narration: >-
+          A pair holds two values. Python has a record with two fields. Lean
+          has a product type, written A times B. In logic, the same shape is
+          conjunction: A and B. A proof of A and B is a pair: a proof of A,
+          and a proof of B.
+        tailHold: 1.0
+        cues:
+          pair: "A pair holds two values"
+          product: "Lean has a product type"
+          conjunction: "the same shape is conjunction"
+        visual:
+          kind: compare
+          heading: "A pair is a conjunction"
+          left:
+            title: "Python"
+            code:
+              language: python
+              code: |
+                @dataclass
+                class Point:
+                    x: int
+                    y: int
+          right:
+            title: "Lean"
+            code:
+              language: lean
+              code: |
+                structure Point where
+                  x : Nat
+                  y : Nat
+
+                def origin : Point := ⟨0, 0⟩
+          leftCue: pair
+          rightCue: product
+          note: "A product type is a conjunction: a proof of A ∧ B is a pair."
+          noteCue: conjunction
+
+      - id: unions
+        narration: >-
+          A tagged union holds one of several values. Python has unions and
+          enums. Lean has a sum type, written A plus B. In logic, that is
+          disjunction: A or B. A proof of A or B is a value carrying a tag that
+          says which side you proved.
+        tailHold: 1.0
+        cues:
+          union: "A tagged union holds one of several values"
+          sum: "Lean has a sum type"
+          disjunction: "that is disjunction"
+        visual:
+          kind: compare
+          heading: "A tagged value is a disjunction"
+          left:
+            title: "Python"
+            code:
+              language: python
+              code: |
+                @dataclass
+                class Hit:
+                    points: int
+
+                @dataclass
+                class Miss:
+                    pass
+
+                Shot = Hit | Miss
+          right:
+            title: "Lean"
+            code:
+              language: lean
+              code: |
+                inductive Shot where
+                  | hit (points : Nat)
+                  | miss
+          leftCue: union
+          rightCue: sum
+          note: "A sum type is a disjunction: a proof of A ∨ B carries a tag."
+          noteCue: disjunction
+
+      - id: counting
+        narration: >-
+          Here is the intuition. A product multiplies: two choices for the
+          first field, and three for the second, give six possible pairs. A sum
+          adds: two cases on the left, and three on the right, give five
+          possible values. And is multiplication. Or is addition.
+        tailHold: 1.0
+        cues:
+          product: "A product multiplies"
+          sum: "A sum adds"
+          punch: "And is multiplication"
+        visual:
+          kind: shapes
+          heading: "And multiplies. Or adds."
+          left:
+            label: "Product · a pair"
+            rows: 2
+            cols: 3
+            cue: product
+          right:
+            label: "Sum · one of"
+            left: 2
+            right: 3
+            cue: sum
+          note: "And is multiplication. Or is addition."
+          noteCue: punch
+
+      - id: correspondence
+        narration: >-
+          Put the two columns side by side. Propositions on the left, types on
+          the right. A proof of A and B is a pair. A proof of A or B is a
+          tagged value. A proof of A implies B is a function. True is the unit
+          type, with one value. False is the empty type, with none.
+        tailHold: 1.2
+        cues:
+          conj: "A proof of A and B is a pair"
+          disj: "A proof of A or B is a tagged value"
+          impl: "A proof of A implies B is a function"
+          unit: "True is the unit type"
+          empty: "False is the empty type"
+        visual:
+          kind: table
+          heading: "Propositions are types"
+          columns: ["Logic", "Programming"]
+          rows:
+            - { left: "A ∧ B", right: "A × B · a pair", cue: conj }
+            - { left: "A ∨ B", right: "A ⊕ B · a tagged value", cue: disj }
+            - { left: "A → B", right: "a function", cue: impl }
+            - { left: "True", right: "Unit · one value", cue: unit }
+            - { left: "False", right: "Empty · no values", cue: empty }
+
+      - id: proofs
+        narration: >-
+          So the programs you would write anyway are the proofs. The identity
+          function proves that A implies A. Taking the first component proves
+          that A and B implies A. Tagging a value on the left proves that A
+          implies A or B. Nothing new is needed: the terms already exist.
+        tailHold: 1.2
+        cues:
+          identity: "The identity function"
+          first: "Taking the first component"
+          tag: "Tagging a value on the left"
+          terms: "the terms already exist"
+        visual:
+          kind: code
+          heading: "The proof is a term you could have written"
+          language: lean
+          code: |
+            theorem identity (A : Prop) : A → A :=
+              fun a => a
+
+            theorem first (A B : Prop) : A ∧ B → A :=
+              fun p => p.left
+
+            theorem tagLeft (A B : Prop) : A → A ∨ B :=
+              fun a => Or.inl a
+          reveal:
+            - { cue: identity, lines: [1, 2] }
+            - { cue: first, lines: [4, 5] }
+            - { cue: tag, lines: [7, 8] }
+          caption:
+            text: "These are ordinary functions; the types read as propositions."
+            cue: terms
+
+      - id: difference
+        narration: >-
+          The difference is what the machine does with them. Python
+          annotations are documentation: nothing checks the call before it
+          runs. Lean checks the term against the type, and rejects it. When the
+          type is a proposition, that check is a proof check. The compiler
+          becomes the proof checker.
+        tailHold: 1.2
+        cues:
+          python: "Python annotations are documentation"
+          lean: "Lean checks the term against the type"
+          punch: "The compiler becomes the proof checker"
+        visual:
+          kind: compare
+          heading: "Same shapes, different guarantees"
+          left:
+            title: "Python"
+            lines:
+              - "annotations are not enforced"
+              - "a mismatch is a runtime error, if it is an error at all"
+              - "the check happens, if ever, while the program runs"
+          right:
+            title: "Lean"
+            lines:
+              - "the term is checked against the type"
+              - "a mismatch is rejected before the program runs"
+              - "the check happens once, at compile time"
+          leftCue: python
+          rightCue: lean
+          note: "When the type is a proposition, the check is a proof check."
+          noteCue: punch
+
+      - id: closing
+        narration: >-
+          Same shapes, different guarantees. That is the whole trick: you have
+          been writing proofs all along.
+        tailHold: 1.2
+        cues:
+          trick: "you have been writing proofs all along"
+        visual:
+          kind: closing
+          text: "You have been writing proofs all along."
+          next: "github.com/scidonia/vericoding-tutorial"
+          cue: trick

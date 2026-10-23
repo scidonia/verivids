@@ -180,17 +180,18 @@ episodes:
     scenes:
       - id: title
         narration: >-
-          A theorem prover is a program that checks proofs. Everything else
-          follows from how seriously it takes that job.
-        tailHold: 0.8
+          A theorem prover is a program for authoring and checking proofs.
+          And since proofs can be seen as programs, the prover can be thought
+          of as a programming language environment.
+        tailHold: 0.9
         cues:
-          follow: "Everything else follows"
+          environment: "a programming language environment"
         visual:
           kind: title
           kicker: "An introduction · Episode 2"
           title: "Proofs are programs"
           subtitle: "Why a proof assistant and a compiler are the same machine"
-          subtitleCue: follow
+          subtitleCue: environment
 
       - id: kernel
         narration: >-
