@@ -75,45 +75,45 @@ real system, property-based checks,
 fuzzing at the boundary.
 
 16
-00:01:19,233 --> 00:01:20,802
-What to build first?
+00:01:19,233 --> 00:01:22,490
+Some of these theories exist, and many do
+not.
 
 17
-00:01:20,802 --> 00:01:23,548
-Rank by dependents, then by purity.
+00:01:22,490 --> 00:01:31,481
+LeanIn is one example: a concurrency
+runtime whose scheduling model is proved,
+and whose runtime is checked against that
+model.
 
 18
-00:01:23,548 --> 00:01:31,000
-Files first, because everything sits on
-them, and specify the failures, not only
-the successes.
+00:01:31,481 --> 00:01:37,215
+A theory of databases would let contracts
+speak about transactions and isolation.
 
 19
-00:01:31,000 --> 00:01:37,747
-Then text: Unicode and regular expressions
-are pure, so they can be proved end to
-end.
+00:01:37,215 --> 00:01:44,294
+Files, text, time and JSON each describe a
+part of the world that someone still has
+to make precise.
 
 20
-00:01:37,747 --> 00:01:42,532
-Then time, with the wall clock may jump as
-an explicit axiom.
+00:01:44,294 --> 00:01:50,241
+Vericoding is only in its infancy, and
+many important parts are still to be
+written.
 
 21
-00:01:42,532 --> 00:01:44,964
-Then JSON and the wire formats.
-
-22
-00:01:46,167 --> 00:01:53,307
+00:01:51,667 --> 00:01:58,807
 Vericoding moves the work to the surface
 where a machine can check it: what the
 program must mean.
 
-23
-00:01:53,307 --> 00:01:55,055
+22
+00:01:58,807 --> 00:02:00,555
 Write the specification.
 
-24
-00:01:55,055 --> 00:01:56,877
+23
+00:02:00,555 --> 00:02:02,377
 Let the proof be checked.
 

@@ -920,40 +920,42 @@ episodes:
           note: "The bottom is exactly what you assume."
           noteCue: bottom
 
-      - id: order
+      - id: theories
         narration: >-
-          What to build first? Rank by dependents, then by purity. Files first,
-          because everything sits on them, and specify the failures, not only
-          the successes. Then text: Unicode and regular expressions are pure,
-          so they can be proved end to end. Then time, with the wall clock may
-          jump as an explicit axiom. Then JSON and the wire formats.
-        tailHold: 1.2
+          Some of these theories exist, and many do not. LeanIn is one example:
+          a concurrency runtime whose scheduling model is proved, and whose
+          runtime is checked against that model. A theory of databases would
+          let contracts speak about transactions and isolation. Files, text,
+          time and JSON each describe a part of the world that someone still
+          has to make precise. Vericoding is only in its infancy, and many
+          important parts are still to be written.
+        tailHold: 1.4
         cues:
-          files: "Files first, because everything sits on them"
-          text: "Then text"
-          time: "Then time"
-          json: "Then JSON and the wire formats"
+          leanin: "LeanIn is one example"
+          databases: "A theory of databases"
+          parts: "Files, text, time and JSON"
+          infancy: "Vericoding is only in its infancy"
         visual:
           kind: cards
-          heading: "What to build first"
+          heading: "Much of the world is still unwritten"
           cards:
-            - title: "Files"
-              body: "Everything sits on them. Specify the failures, not only the successes: permissions, partial writes, rename atomicity."
-              verdict: "POSIX"
+            - title: "LeanIn"
+              body: "A high-performance concurrency runtime whose scheduling model is proved, and whose runtime is checked against it."
+              verdict: "exists"
               accent: teal
-              cue: files
-            - title: "Text"
-              body: "Unicode and regular expressions are pure, so they can be proved end to end."
-              verdict: "provable"
-              accent: teal
-              cue: text
-            - title: "Time"
-              body: "Model monotonic and wall clocks separately. The wall clock may jump: state it as an axiom."
-              verdict: "assert the jump"
+              cue: leanin
+            - title: "Databases"
+              body: "A theory of transactions and isolation would let contracts speak about both."
+              verdict: "to be written"
               accent: purple
-              cue: time
-          note: "Then JSON, CBOR or Protobuf: round-trip laws, nothing lost."
-          noteCue: json
+              cue: databases
+            - title: "Files, text, time, JSON"
+              body: "Each is a part of the world someone still has to make precise."
+              verdict: "to be written"
+              accent: purple
+              cue: parts
+          note: "Vericoding is only in its infancy; many important parts are still to be written."
+          noteCue: infancy
 
       - id: closing
         narration: >-

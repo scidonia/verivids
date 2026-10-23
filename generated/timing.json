@@ -1025,7 +1025,7 @@
     {
       "id": "06-building-the-world",
       "title": "Building the world",
-      "durationInFrames": 3549,
+      "durationInFrames": 3714,
       "scenes": [
         {
           "id": "title",
@@ -1165,50 +1165,50 @@
           "narration": "Every theory ends in an assertion. The operating system, the network card, the database, are not vericoded. So the bottom of the stack is exactly what you assume. Keep the assumption small, explicit, and testable: differential testing against the real system, property-based checks, fuzzing at the boundary."
         },
         {
-          "id": "order",
+          "id": "theories",
           "from": 2377,
-          "durationInFrames": 808,
-          "audio": "audio/06-building-the-world/order.mp3",
+          "durationInFrames": 973,
+          "audio": "audio/06-building-the-world/theories.mp3",
           "cues": {
-            "files": 158,
-            "text": 348,
-            "time": 550,
-            "json": 682
+            "leanin": 105,
+            "databases": 370,
+            "parts": 554,
+            "infancy": 775
           },
           "visual": {
             "kind": "cards",
-            "heading": "What to build first",
+            "heading": "Much of the world is still unwritten",
             "cards": [
               {
-                "title": "Files",
-                "body": "Everything sits on them. Specify the failures, not only the successes: permissions, partial writes, rename atomicity.",
-                "verdict": "POSIX",
+                "title": "LeanIn",
+                "body": "A high-performance concurrency runtime whose scheduling model is proved, and whose runtime is checked against it.",
+                "verdict": "exists",
                 "accent": "teal",
-                "cue": "files"
+                "cue": "leanin"
               },
               {
-                "title": "Text",
-                "body": "Unicode and regular expressions are pure, so they can be proved end to end.",
-                "verdict": "provable",
-                "accent": "teal",
-                "cue": "text"
-              },
-              {
-                "title": "Time",
-                "body": "Model monotonic and wall clocks separately. The wall clock may jump: state it as an axiom.",
-                "verdict": "assert the jump",
+                "title": "Databases",
+                "body": "A theory of transactions and isolation would let contracts speak about both.",
+                "verdict": "to be written",
                 "accent": "purple",
-                "cue": "time"
+                "cue": "databases"
+              },
+              {
+                "title": "Files, text, time, JSON",
+                "body": "Each is a part of the world someone still has to make precise.",
+                "verdict": "to be written",
+                "accent": "purple",
+                "cue": "parts"
               }
             ],
-            "note": "Then JSON, CBOR or Protobuf: round-trip laws, nothing lost.",
-            "noteCue": "json"
+            "note": "Vericoding is only in its infancy; many important parts are still to be written.",
+            "noteCue": "infancy"
           },
-          "narration": "What to build first? Rank by dependents, then by purity. Files first, because everything sits on them, and specify the failures, not only the successes. Then text: Unicode and regular expressions are pure, so they can be proved end to end. Then time, with the wall clock may jump as an explicit axiom. Then JSON and the wire formats."
+          "narration": "Some of these theories exist, and many do not. LeanIn is one example: a concurrency runtime whose scheduling model is proved, and whose runtime is checked against that model. A theory of databases would let contracts speak about transactions and isolation. Files, text, time and JSON each describe a part of the world that someone still has to make precise. Vericoding is only in its infancy, and many important parts are still to be written."
         },
         {
           "id": "closing",
-          "from": 3185,
+          "from": 3350,
           "durationInFrames": 364,
           "audio": "audio/06-building-the-world/closing.mp3",
           "cues": {
