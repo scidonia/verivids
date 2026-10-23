@@ -56,13 +56,17 @@ const ConvergeArrows: React.FC<{ at?: number; count: number }> = ({
   count,
 }) => {
   const progress = useProgress(at, 20);
-  const width = 1600;
+  // Match the card row exactly: the content box is 1920 minus the stage's
+  // 96px padding on each side, and the cards are equal flex items with a
+  // 26px gap. Measuring in those units keeps each arrow on its card.
+  const width = 1728;
+  const gap = 26;
+  const cardWidth = (width - gap * (count - 1)) / count;
   const centre = width / 2;
   return (
     <svg viewBox={`0 0 ${width} 70`} style={{ width: "100%", height: 70 }}>
       {Array.from({ length: count }, (_, index) => {
-        const x =
-          count === 1 ? centre : 80 + (index * (width - 160)) / (count - 1);
+        const x = index * (cardWidth + gap) + cardWidth / 2;
         return (
           <Arrow
             key={index}
