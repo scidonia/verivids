@@ -924,16 +924,16 @@ episodes:
         narration: >-
           Some of these theories exist, and many do not. LeanIn is one example:
           a concurrency runtime whose scheduling model is proved, and whose
-          runtime is checked against that model. A theory of databases would
-          let contracts speak about transactions and isolation. Files, text,
-          time and JSON each describe a part of the world that someone still
-          has to make precise. Vericoding is only in its infancy, and many
-          important parts are still to be written.
+          runtime is checked against that model. JSON already has a complete
+          implementation in Lean. A theory of databases would let contracts
+          speak about transactions and isolation. Files, text and time still
+          have to be made precise in the same way. Vericoding is only in its
+          infancy, and many important parts are still to be written.
         tailHold: 1.4
         cues:
           leanin: "LeanIn is one example"
+          json: "JSON already has a complete implementation"
           databases: "A theory of databases"
-          parts: "Files, text, time and JSON"
           infancy: "Vericoding is only in its infancy"
         visual:
           kind: cards
@@ -944,17 +944,17 @@ episodes:
               verdict: "exists"
               accent: teal
               cue: leanin
+            - title: "JSON"
+              body: "A complete implementation already ships with Lean."
+              verdict: "exists"
+              accent: teal
+              cue: json
             - title: "Databases"
               body: "A theory of transactions and isolation would let contracts speak about both."
               verdict: "to be written"
               accent: purple
               cue: databases
-            - title: "Files, text, time, JSON"
-              body: "Each is a part of the world someone still has to make precise."
-              verdict: "to be written"
-              accent: purple
-              cue: parts
-          note: "Vericoding is only in its infancy; many important parts are still to be written."
+          note: "Files, text and time still need the same treatment. Vericoding is only in its infancy."
           noteCue: infancy
 
       - id: closing

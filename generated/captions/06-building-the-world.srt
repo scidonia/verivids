@@ -75,45 +75,49 @@ real system, property-based checks,
 fuzzing at the boundary.
 
 16
-00:01:19,233 --> 00:01:22,490
+00:01:19,233 --> 00:01:22,493
 Some of these theories exist, and many do
 not.
 
 17
-00:01:22,490 --> 00:01:31,481
+00:01:22,493 --> 00:01:31,493
 LeanIn is one example: a concurrency
 runtime whose scheduling model is proved,
 and whose runtime is checked against that
 model.
 
 18
-00:01:31,481 --> 00:01:37,215
+00:01:31,493 --> 00:01:35,107
+JSON already has a complete implementation
+in Lean.
+
+19
+00:01:35,107 --> 00:01:40,847
 A theory of databases would let contracts
 speak about transactions and isolation.
 
-19
-00:01:37,215 --> 00:01:44,294
-Files, text, time and JSON each describe a
-part of the world that someone still has
-to make precise.
-
 20
-00:01:44,294 --> 00:01:50,241
+00:01:40,847 --> 00:01:45,594
+Files, text and time still have to be made
+precise in the same way.
+
+21
+00:01:45,594 --> 00:01:51,547
 Vericoding is only in its infancy, and
 many important parts are still to be
 written.
 
-21
-00:01:51,667 --> 00:01:58,807
+22
+00:01:52,967 --> 00:02:00,107
 Vericoding moves the work to the surface
 where a machine can check it: what the
 program must mean.
 
-22
-00:01:58,807 --> 00:02:00,555
+23
+00:02:00,107 --> 00:02:01,855
 Write the specification.
 
-23
-00:02:00,555 --> 00:02:02,377
+24
+00:02:01,855 --> 00:02:03,677
 Let the proof be checked.
 
