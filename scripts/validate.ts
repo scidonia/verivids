@@ -26,6 +26,7 @@ const KNOWN_KINDS = [
   "pipeline",
   "code",
   "staircase",
+  "shapes",
   "stack",
 ] as const;
 
@@ -69,6 +70,7 @@ const ALLOWED_KEYS: Record<string, string[]> = {
     "refineCue",
     "proposed",
   ],
+  shapes: ["kind", "heading", "left", "right", "note", "noteCue"],
   stack: ["kind", "heading", "layers", "bottom", "note", "noteCue"],
 };
 
@@ -282,6 +284,7 @@ if (voice.provider === "elevenlabs" && !voice.voice) {
 const episodeIds = new Set<string>();
 for (const episode of storyboard.episodes) {
   const where = episode.id;
+  checkKeys(episode, ["id", "title", "scenes", "draft"], where);
   if (episodeIds.has(episode.id)) fail(where, "duplicate episode id");
   episodeIds.add(episode.id);
   if (!/^[a-z0-9][a-z0-9-]*$/.test(episode.id)) {

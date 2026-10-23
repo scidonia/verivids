@@ -1,56 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="280.25266mm"
-   height="37.841431mm"
-   viewBox="0 0 280.25266 37.841431"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     id="layer1"
-     transform="translate(-7.3669925,-86.079692)">
-    <path
-       id="rect1"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="m 41.270349,59.950679 v 42.465811 h 46.894295 c 10.277117,2.2e-4 18.608236,8.33156 18.608166,18.60868 7e-5,10.27712 -8.331049,18.60846 -18.608166,18.60868 h -0.0088 -46.88551 v 4.44211 a 6.1412266,6.1412266 45 0 0 6.141227,6.14123 h 84.862789 a 21.996339,21.996339 135 0 0 21.99634,-21.99634 V 85.018066 h -46.8943 C 97.099273,85.017847 88.768158,76.6865 88.768225,66.409383 88.768158,56.132266 97.099273,47.800919 107.37639,47.8007 h 0.009 46.88551 V 42.988267 A 5.7709,5.7709 45 0 0 148.5,37.217367 H 64.003661 A 22.733312,22.733312 135 0 0 41.270349,59.950679 Z"
-       transform="matrix(0.33486827,0,0,0.33486827,-6.453133,73.617088)" />
-    <path
-       id="rect11"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="m 59.694548,46.195657 v 19.39411 a 5.3030633,5.3030633 45 0 0 5.303063,5.303063 h 22.939196 a 1.7579765,1.7579765 135 0 0 1.757977,-1.757976 v -2.003551 h -12.672095 -0.0047 C 70.811161,67.131142 65.779581,62.09954 65.779447,55.892712 65.779296,49.685663 70.810989,44.653739 77.018038,44.653605 H 89.694784 V 42.971402 A 2.0788077,2.0788077 45 0 0 87.615976,40.892594 H 64.997611 a 5.3030633,5.3030633 135 0 0 -5.303063,5.303063 z"
-       transform="matrix(1.2613434,0,0,1.2613434,-24.747604,34.500135)" />
-    <path
-       id="rect11-6"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="m 59.694548,46.195657 v 19.39411 a 5.3030633,5.3030633 45 0 0 5.303063,5.303063 h 22.939196 a 1.7579765,1.7579765 135 0 0 1.757977,-1.757976 v -2.003551 h -12.672095 -0.0047 C 70.811161,67.131142 65.779581,62.09954 65.779447,55.892712 65.779296,49.685663 70.810989,44.653739 77.018038,44.653605 H 89.694784 V 42.971402 A 2.0788077,2.0788077 45 0 0 87.615976,40.892594 H 64.997611 a 5.3030633,5.3030633 135 0 0 -5.303063,5.303063 z"
-       transform="matrix(-1.2613434,0,0,-1.2613434,220.11816,175.4999)" />
-    <path
-       id="rect11-6-8"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="m 59.694548,46.195657 v 19.39411 a 5.3030633,5.3030633 45 0 0 5.303063,5.303063 h 22.939196 a 1.7579765,1.7579765 135 0 0 1.757977,-1.757976 v -2.003551 h -12.672095 -0.0047 C 70.811161,67.131142 65.779581,62.09954 65.779447,55.892712 65.779296,49.685663 70.810989,44.653739 77.018038,44.653605 H 89.694784 V 42.971402 A 2.0788077,2.0788077 45 0 0 87.615976,40.892594 H 64.997611 a 5.3030633,5.3030633 135 0 0 -5.303063,5.303063 z"
-       transform="matrix(0,1.2613434,-1.2613434,0,282.76419,10.78467)" />
-    <path
-       id="rect11-6-8-2"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="M 268.69884,86.080017 A 18.9203,18.9203 0 0 0 249.77855,104.96 a 3.9566192,3.9566192 0 0 0 0,0.0403 3.9566192,3.9566192 0 0 0 0,0.0357 v 16.6672 a 2.2174121,2.2174121 0 0 0 2.21744,2.21743 h 2.52749 V 108.9572 h 28.35176 v 14.96343 h 2.12235 a 2.6220904,2.6220904 0 0 0 2.62155,-2.62206 v -16.23053 a 3.9566192,3.9566192 0 0 0 5.1e-4,-0.0677 h -5.1e-4 a 3.9566192,3.9566192 0 0 0 0,-0.009 18.92035,18.92035 0 0 0 -18.9203,-18.910986 z" />
-    <path
-       id="path12"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="m 97.685275,86.079694 a 3.9566193,3.9566193 0 0 0 -3.95653,3.956532 3.9566193,3.9566193 0 0 0 0,0.0066 v 29.914504 0.007 a 3.9566193,3.9566193 0 0 0 3.95653,3.95653 3.9566193,3.9566193 0 0 0 3.956545,-3.95653 V 90.036226 a 3.9566193,3.9566193 0 0 0 -3.956545,-3.956532 z" />
-    <path
-       id="path12-2"
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       d="m 240.48154,86.079951 a 3.9566193,3.9566193 0 0 0 -3.95653,3.956532 3.9566193,3.9566193 0 0 0 0,0.0066 v 29.914507 0.007 a 3.9566193,3.9566193 0 0 0 3.95653,3.95654 3.9566193,3.9566193 0 0 0 3.95653,-3.95654 V 90.036483 a 3.9566193,3.9566193 0 0 0 -3.95653,-3.956532 z" />
-    <circle
-       style="fill:#131d1b;fill-opacity:1;stroke:#761e1f;stroke-width:0;stroke-miterlimit:4.4;stroke-dasharray:none;paint-order:fill markers stroke"
-       id="path13"
-       cx="169.08342"
-       cy="105"
-       r="18.920151" />
+<svg xmlns="http://www.w3.org/2000/svg" width="934" height="176" viewBox="0 0 934 176" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Scidonia</title>
+  <desc id="desc">Custom geometric Scidonia wordmark in deep green, with an open circular O and a mint arc. Outlined vector lettering on a transparent background.</desc>
+  <g id="wordmark" fill="#122C2B" transform="translate(32 32)">
+    <path id="letter-s" d="M112 0H32C12 0 0 12 0 32V62H72C84 62 91 69 91 78S84 94 72 94H0V104Q0 112 8 112H80C100 112 112 100 112 80V50H40C28 50 21 43 21 34S28 18 40 18H112V8Q112 0 104 0Z"/>
+    <path id="letter-c" d="M246 0H170Q134 0 134 36V76Q134 112 170 112H246V92H173Q156 92 156 75V37Q156 20 173 20H246Z"/>
+    <rect id="letter-i-first" x="268" width="22" height="112" rx="7"/>
+    <path id="letter-d" fill-rule="evenodd" d="M312 0H368C402 0 424 22 424 56S402 112 368 112H312ZM334 20V92H367C389 92 402 78 402 56S389 20 367 20Z"/>
+    <g id="letter-o" transform="translate(446)">
+      <path d="M56 0C25.07 0 0 25.07 0 56S25.07 112 56 112 112 86.93 112 56C112 53.7 111.86 51.43 111.59 49.2L89.67 51.83C89.89 53.2 90 54.59 90 56A34 34 0 1 1 56 22C57.41 22 58.8 22.11 60.17 22.33L62.8.41A56.85 56.85 0 0 0 56 0Z"/>
+      <path id="mint-arc" fill="#00B89C" d="M70.44 1.88A56 56 0 0 1 110.12 41.56L88.87 47.25A34 34 0 0 0 64.75 23.13Z"/>
+    </g>
+    <path id="letter-n" d="M580 112V8Q580 0 588 0H602L670 77V0H692V104Q692 112 684 112H670L602 35V112Z"/>
+    <rect id="letter-i-second" x="714" width="22" height="112" rx="7"/>
+    <path id="letter-a" fill-rule="evenodd" d="M758 112V56C758 22 780 0 814 0S870 22 870 56V112H848V79H780V112ZM780 59H848V56C848 34 835 20 814 20S780 34 780 56Z"/>
   </g>
 </svg>

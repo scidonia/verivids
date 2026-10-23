@@ -18,6 +18,10 @@ and needs no network.
 Total: 10 minutes 6 seconds at 1920x1080, 30 fps, with an H.264 MP4 and an
 SRT caption track per episode.
 
+Episode 7 is a draft: **Types are propositions — Curry–Howard for working
+programmers**. Its narration is written and validated; it is not recorded or
+timed yet, and `draft: true` keeps it out of the rendered series.
+
 Every film opens on a Scidonia Limited title card and carries the company
 lockup in the frame chrome of every slide. The content follows the
 `vericoding-tutorial` repository (CC BY 4.0), whose
@@ -76,6 +80,11 @@ storyboard.yaml ──► voice.ts ──► public/audio/<episode>/<scene>.mp3
   explicit override.
 - **Scene duration comes from the audio**, plus `tailHold` seconds of
   stillness. Nothing is padded to a target length.
+- **A script can be edited before it is recorded.** An episode marked
+  `draft: true` is still validated — its Lean and Python compile, its cues are
+  checked — but `timing` leaves it out and a default `voice` run skips it.
+  `npm run voice -- --episode <id>` records it; remove the flag to bring it
+  into the series.
 - **A visual names cues; the point is the one place a cue is declared.**
   `validate.ts` rejects a visual that names an undeclared cue and a declared
   cue that no visual uses.

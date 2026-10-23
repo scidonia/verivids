@@ -169,6 +169,15 @@ export interface StaircaseVisual {
   proposed?: { text: string; cue?: string };
 }
 
+export interface ShapesVisual {
+  kind: "shapes";
+  heading: string;
+  left: { label: string; rows: number; cols: number; cue?: string };
+  right: { label: string; left: number; right: number; cue?: string };
+  note?: string;
+  noteCue?: string;
+}
+
 export interface StackVisual {
   kind: "stack";
   heading: string;
@@ -191,6 +200,7 @@ export type Visual =
   | PipelineVisual
   | CodeVisual
   | StaircaseVisual
+  | ShapesVisual
   | StackVisual;
 
 export type VisualKind = Visual["kind"];
@@ -213,6 +223,11 @@ export interface EpisodeSpec {
   id: string;
   title: string;
   scenes: SceneSpec[];
+  /**
+   * A script under edit: validated, but kept out of timing and the default
+   * voice run until its narration is recorded.
+   */
+  draft?: boolean;
 }
 
 export interface Storyboard {

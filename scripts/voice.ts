@@ -274,6 +274,7 @@ function selectedScenes(): { episodeId: string; scene: SceneSpec }[] {
   const out: { episodeId: string; scene: SceneSpec }[] = [];
   for (const episode of storyboard.episodes) {
     if (onlyEpisode && episode.id !== onlyEpisode) continue;
+    if (!onlyEpisode && episode.draft) continue;
     for (const scene of episode.scenes) {
       if (onlyScene && scene.id !== onlyScene) continue;
       if (scene.silent) continue;

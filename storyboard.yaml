@@ -963,3 +963,269 @@ episodes:
           text: "Write the specification. Let the proof be checked."
           next: "github.com/scidonia/vericoding-tutorial"
           cue: check
+
+  # ---------------------------------------------------------------------
+  # Draft. `draft: true` keeps this episode out of timing and the default
+  # voice run until the narration is recorded. Edit the `narration` text
+  # here, then: npm run voice -- --episode 07-curry-howard
+  # ---------------------------------------------------------------------
+  - id: 07-curry-howard
+    title: "Types are propositions"
+    draft: true
+    scenes:
+      - id: title
+        narration: >-
+          Curry and Howard noticed that the rules for building proofs are the
+          same as the rules for building programs. This episode shows that
+          correspondence using code you already write.
+        tailHold: 0.9
+        cues:
+          same: "the same as the rules for building programs"
+        visual:
+          kind: title
+          kicker: "An introduction · Episode 7"
+          title: "Types are propositions"
+          subtitle: "Curry–Howard for working programmers"
+          subtitleCue: same
+
+      - id: functions
+        narration: >-
+          Start with a function. The Python version takes an integer and
+          returns one. The Lean version takes a natural number and returns one.
+          Look at the shape: an input type, and an output type. In logic, that
+          shape is implication. A proof that A implies B is a function from
+          proofs of A to proofs of B.
+        tailHold: 1.0
+        cues:
+          python: "The Python version takes an integer"
+          lean: "The Lean version takes a natural number"
+          implication: "that shape is implication"
+        visual:
+          kind: compare
+          heading: "A function is an implication"
+          left:
+            title: "Python"
+            code:
+              language: python
+              code: |
+                def add_one(x: int) -> int:
+                    return x + 1
+          right:
+            title: "Lean"
+            code:
+              language: lean
+              code: |
+                def addOne (n : Nat) : Nat :=
+                  n + 1
+          leftCue: python
+          rightCue: lean
+          note: "A function from A to B is a proof that A implies B."
+          noteCue: implication
+
+      - id: pairs
+        narration: >-
+          A pair holds two values. Python has a record with two fields. Lean
+          has a product type, written A times B. In logic, the same shape is
+          conjunction: A and B. A proof of A and B is a pair: a proof of A,
+          and a proof of B.
+        tailHold: 1.0
+        cues:
+          pair: "A pair holds two values"
+          product: "Lean has a product type"
+          conjunction: "the same shape is conjunction"
+        visual:
+          kind: compare
+          heading: "A pair is a conjunction"
+          left:
+            title: "Python"
+            code:
+              language: python
+              code: |
+                @dataclass
+                class Point:
+                    x: int
+                    y: int
+          right:
+            title: "Lean"
+            code:
+              language: lean
+              code: |
+                structure Point where
+                  x : Nat
+                  y : Nat
+
+                def origin : Point := ⟨0, 0⟩
+          leftCue: pair
+          rightCue: product
+          note: "A product type is a conjunction: a proof of A ∧ B is a pair."
+          noteCue: conjunction
+
+      - id: unions
+        narration: >-
+          A tagged union holds one of several values. Python has unions and
+          enums. Lean has a sum type, written A plus B. In logic, that is
+          disjunction: A or B. A proof of A or B is a value carrying a tag that
+          says which side you proved.
+        tailHold: 1.0
+        cues:
+          union: "A tagged union holds one of several values"
+          sum: "Lean has a sum type"
+          disjunction: "that is disjunction"
+        visual:
+          kind: compare
+          heading: "A tagged value is a disjunction"
+          left:
+            title: "Python"
+            code:
+              language: python
+              code: |
+                @dataclass
+                class Hit:
+                    points: int
+
+                @dataclass
+                class Miss:
+                    pass
+
+                Shot = Hit | Miss
+          right:
+            title: "Lean"
+            code:
+              language: lean
+              code: |
+                inductive Shot where
+                  | hit (points : Nat)
+                  | miss
+          leftCue: union
+          rightCue: sum
+          note: "A sum type is a disjunction: a proof of A ∨ B carries a tag."
+          noteCue: disjunction
+
+      - id: counting
+        narration: >-
+          Here is the intuition. A product multiplies: two choices for the
+          first field, and three for the second, give six possible pairs. A sum
+          adds: two cases on the left, and three on the right, give five
+          possible values. And is multiplication. Or is addition.
+        tailHold: 1.0
+        cues:
+          product: "A product multiplies"
+          sum: "A sum adds"
+          punch: "And is multiplication"
+        visual:
+          kind: shapes
+          heading: "And multiplies. Or adds."
+          left:
+            label: "Product · a pair"
+            rows: 2
+            cols: 3
+            cue: product
+          right:
+            label: "Sum · one of"
+            left: 2
+            right: 3
+            cue: sum
+          note: "And is multiplication. Or is addition."
+          noteCue: punch
+
+      - id: correspondence
+        narration: >-
+          Put the two columns side by side. Propositions on the left, types on
+          the right. A proof of A and B is a pair. A proof of A or B is a
+          tagged value. A proof of A implies B is a function. True is the unit
+          type, with one value. False is the empty type, with none.
+        tailHold: 1.2
+        cues:
+          conj: "A proof of A and B is a pair"
+          disj: "A proof of A or B is a tagged value"
+          impl: "A proof of A implies B is a function"
+          unit: "True is the unit type"
+          empty: "False is the empty type"
+        visual:
+          kind: table
+          heading: "Propositions are types"
+          columns: ["Logic", "Programming"]
+          rows:
+            - { left: "A ∧ B", right: "A × B · a pair", cue: conj }
+            - { left: "A ∨ B", right: "A ⊕ B · a tagged value", cue: disj }
+            - { left: "A → B", right: "a function", cue: impl }
+            - { left: "True", right: "Unit · one value", cue: unit }
+            - { left: "False", right: "Empty · no values", cue: empty }
+
+      - id: proofs
+        narration: >-
+          So the programs you would write anyway are the proofs. The identity
+          function proves that A implies A. Taking the first component proves
+          that A and B implies A. Tagging a value on the left proves that A
+          implies A or B. Nothing new is needed: the terms already exist.
+        tailHold: 1.2
+        cues:
+          identity: "The identity function"
+          first: "Taking the first component"
+          tag: "Tagging a value on the left"
+          terms: "the terms already exist"
+        visual:
+          kind: code
+          heading: "The proof is a term you could have written"
+          language: lean
+          code: |
+            theorem identity (A : Prop) : A → A :=
+              fun a => a
+
+            theorem first (A B : Prop) : A ∧ B → A :=
+              fun p => p.left
+
+            theorem tagLeft (A B : Prop) : A → A ∨ B :=
+              fun a => Or.inl a
+          reveal:
+            - { cue: identity, lines: [1, 2] }
+            - { cue: first, lines: [4, 5] }
+            - { cue: tag, lines: [7, 8] }
+          caption:
+            text: "These are ordinary functions; the types read as propositions."
+            cue: terms
+
+      - id: difference
+        narration: >-
+          The difference is what the machine does with them. Python
+          annotations are documentation: nothing checks the call before it
+          runs. Lean checks the term against the type, and rejects it. When the
+          type is a proposition, that check is a proof check. The compiler
+          becomes the proof checker.
+        tailHold: 1.2
+        cues:
+          python: "Python annotations are documentation"
+          lean: "Lean checks the term against the type"
+          punch: "The compiler becomes the proof checker"
+        visual:
+          kind: compare
+          heading: "Same shapes, different guarantees"
+          left:
+            title: "Python"
+            lines:
+              - "annotations are not enforced"
+              - "a mismatch is a runtime error, if it is an error at all"
+              - "the check happens, if ever, while the program runs"
+          right:
+            title: "Lean"
+            lines:
+              - "the term is checked against the type"
+              - "a mismatch is rejected before the program runs"
+              - "the check happens once, at compile time"
+          leftCue: python
+          rightCue: lean
+          note: "When the type is a proposition, the check is a proof check."
+          noteCue: punch
+
+      - id: closing
+        narration: >-
+          Same shapes, different guarantees. That is the whole trick: you have
+          been writing proofs all along.
+        tailHold: 1.2
+        cues:
+          trick: "you have been writing proofs all along"
+        visual:
+          kind: closing
+          text: "You have been writing proofs all along."
+          next: "github.com/scidonia/vericoding-tutorial"
+          cue: trick

@@ -196,6 +196,10 @@ const timing: Timing = {
 const captionsByEpisode = new Map<string, Caption[]>();
 
 for (const episode of storyboard.episodes) {
+  if (episode.draft) {
+    console.log(`skipping draft episode ${episode.id}`);
+    continue;
+  }
   let cursor = 0;
   const scenes: SceneTiming[] = [];
   const captions: Caption[] = [];

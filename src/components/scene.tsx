@@ -9,6 +9,7 @@ import {
   ConvergeKind,
   PipelineKind,
   QuantifyKind,
+  ShapesKind,
   StackKind,
   StaircaseKind,
 } from "./diagram";
@@ -55,6 +56,8 @@ function SceneView({
       return <CodeKind visual={visual} cues={cues} where={where} />;
     case "staircase":
       return <StaircaseKind visual={visual} cues={cues} where={where} />;
+    case "shapes":
+      return <ShapesKind visual={visual} cues={cues} where={where} />;
     case "stack":
       return <StackKind visual={visual} cues={cues} where={where} />;
     default: {

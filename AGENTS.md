@@ -14,6 +14,9 @@ and Chromium comes from the store via `REMOTION_BROWSER_EXECUTABLE`.
 ## Content
 
 - `storyboard.yaml` is the single source of narration, cues and visual specs.
+  A script under edit carries `draft: true`: it is validated, but `timing`
+  leaves it out and a default `voice` run skips it. Record it with
+  `npm run voice -- --episode <id>`, then remove the flag.
   Do not add timestamps by hand when a cue phrase will do; `at:` is for a
   phrase the aligner cannot place, and its use is printed by `npm run timing`.
 - A cue name appears once, in the scene's `cues:` map. Visuals refer to the

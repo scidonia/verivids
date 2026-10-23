@@ -6,6 +6,7 @@ import type {
   ConvergeVisual,
   PipelineVisual,
   QuantifyVisual,
+  ShapesVisual,
   StackVisual,
   StaircaseVisual,
 } from "../spec";
@@ -688,6 +689,138 @@ export const StaircaseKind: React.FC<KindProps<StaircaseVisual>> = ({
     </Stage>
   );
 };
+
+const Cell: React.FC<{ color: string; size?: number }> = ({
+  color,
+  size = 54,
+}) => (
+  <div
+    style={{
+      width: size,
+      height: size,
+      borderRadius: 6,
+      border: `1px solid ${color}`,
+      background: `${color}22`,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}
+  >
+    <div
+      style={{ width: 10, height: 10, borderRadius: 999, background: color }}
+    />
+  </div>
+);
+
+export const ShapesKind: React.FC<KindProps<ShapesVisual>> = ({
+  visual,
+  cues,
+  where,
+}) => (
+  <Stage>
+    <Reveal>
+      <Heading size={50}>{visual.heading}</Heading>
+    </Reveal>
+    <div style={{ display: "flex", gap: 40, marginTop: 6 }}>
+      <Reveal at={cueFrame(cues, visual.left.cue, where)} style={{ flex: 1 }}>
+        <Panel style={{ padding: "26px 30px", minHeight: 380 }}>
+          <div
+            style={{
+              fontFamily: theme.font.body,
+              fontWeight: 650,
+              fontSize: 32,
+            }}
+          >
+            {visual.left.label}
+          </div>
+          <div
+            style={{
+              marginTop: 26,
+              display: "grid",
+              gridTemplateColumns: `repeat(${visual.left.cols}, 54px)`,
+              gap: 12,
+              justifyContent: "center",
+            }}
+          >
+            {Array.from(
+              { length: visual.left.rows * visual.left.cols },
+              (_, index) => (
+                <Cell key={index} color={theme.color.teal} />
+              ),
+            )}
+          </div>
+          <div
+            style={{
+              marginTop: 28,
+              textAlign: "center",
+              fontFamily: theme.font.code,
+              fontSize: 30,
+              color: theme.color.teal,
+            }}
+          >
+            {visual.left.rows} × {visual.left.cols} ={" "}
+            {visual.left.rows * visual.left.cols}
+          </div>
+        </Panel>
+      </Reveal>
+
+      <Reveal at={cueFrame(cues, visual.right.cue, where)} style={{ flex: 1 }}>
+        <Panel style={{ padding: "26px 30px", minHeight: 380 }}>
+          <div
+            style={{
+              fontFamily: theme.font.body,
+              fontWeight: 650,
+              fontSize: 32,
+            }}
+          >
+            {visual.right.label}
+          </div>
+          <div
+            style={{
+              marginTop: 26,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: 12,
+            }}
+          >
+            {Array.from({ length: visual.right.left }, (_, index) => (
+              <Cell key={`l-${index}`} color={theme.color.teal} />
+            ))}
+            <div
+              style={{
+                width: 2,
+                height: 64,
+                background: theme.color.rule,
+                margin: "0 8px",
+              }}
+            />
+            {Array.from({ length: visual.right.right }, (_, index) => (
+              <Cell key={`r-${index}`} color={theme.color.purple} />
+            ))}
+          </div>
+          <div
+            style={{
+              marginTop: 28,
+              textAlign: "center",
+              fontFamily: theme.font.code,
+              fontSize: 30,
+              color: theme.color.purple,
+            }}
+          >
+            {visual.right.left} + {visual.right.right} ={" "}
+            {visual.right.left + visual.right.right}
+          </div>
+        </Panel>
+      </Reveal>
+    </div>
+    {visual.note ? (
+      <NoteBar at={cueFrame(cues, visual.noteCue, where)}>
+        {visual.note}
+      </NoteBar>
+    ) : null}
+  </Stage>
+);
 
 export const StackKind: React.FC<KindProps<StackVisual>> = ({
   visual,
