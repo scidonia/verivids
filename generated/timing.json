@@ -294,10 +294,7 @@
           "visual": {
             "kind": "table",
             "heading": "Propositions are types",
-            "columns": [
-              "Logic",
-              "Programming"
-            ],
+            "columns": ["Logic", "Programming"],
             "rows": [
               {
                 "left": "A proposition",
@@ -356,24 +353,15 @@
             "reveal": [
               {
                 "cue": "vector",
-                "lines": [
-                  1,
-                  1
-                ]
+                "lines": [1, 1]
               },
               {
                 "cue": "length",
-                "lines": [
-                  2,
-                  3
-                ]
+                "lines": [2, 3]
               },
               {
                 "cue": "head",
-                "lines": [
-                  5,
-                  8
-                ]
+                "lines": [5, 8]
               }
             ],
             "caption": {
@@ -473,10 +461,7 @@
             "reveal": [
               {
                 "cue": "function",
-                "lines": [
-                  1,
-                  2
-                ]
+                "lines": [1, 2]
               }
             ],
             "caption": {
@@ -503,10 +488,7 @@
             "reveal": [
               {
                 "cue": "same",
-                "lines": [
-                  4,
-                  5
-                ]
+                "lines": [4, 5]
               }
             ],
             "caption": {
@@ -535,24 +517,15 @@
             "reveal": [
               {
                 "cue": "unfold",
-                "lines": [
-                  4,
-                  5
-                ]
+                "lines": [4, 5]
               },
               {
                 "cue": "split",
-                "lines": [
-                  6,
-                  7
-                ]
+                "lines": [6, 7]
               },
               {
                 "cue": "arithmetic",
-                "lines": [
-                  8,
-                  9
-                ]
+                "lines": [8, 9]
               }
             ],
             "goals": [
@@ -666,17 +639,11 @@
             "reveal": [
               {
                 "cue": "type",
-                "lines": [
-                  1,
-                  1
-                ]
+                "lines": [1, 1]
               },
               {
                 "cue": "evidence",
-                "lines": [
-                  2,
-                  4
-                ]
+                "lines": [2, 4]
               }
             ],
             "caption": {
@@ -704,17 +671,11 @@
             "reveal": [
               {
                 "cue": "plain",
-                "lines": [
-                  1,
-                  1
-                ]
+                "lines": [1, 1]
               },
               {
                 "cue": "theorem",
-                "lines": [
-                  3,
-                  4
-                ]
+                "lines": [3, 4]
               }
             ],
             "caption": {
@@ -1101,17 +1062,11 @@
             "reveal": [
               {
                 "cue": "io",
-                "lines": [
-                  1,
-                  2
-                ]
+                "lines": [1, 2]
               },
               {
                 "cue": "array",
-                "lines": [
-                  4,
-                  7
-                ]
+                "lines": [4, 7]
               }
             ],
             "caption": {
@@ -1438,10 +1393,7 @@
           "visual": {
             "kind": "table",
             "heading": "Propositions are types",
-            "columns": [
-              "Logic",
-              "Programming"
-            ],
+            "columns": ["Logic", "Programming"],
             "rows": [
               {
                 "left": "A ∧ B",
@@ -1491,24 +1443,15 @@
             "reveal": [
               {
                 "cue": "identity",
-                "lines": [
-                  1,
-                  2
-                ]
+                "lines": [1, 2]
               },
               {
                 "cue": "first",
-                "lines": [
-                  4,
-                  5
-                ]
+                "lines": [4, 5]
               },
               {
                 "cue": "tag",
-                "lines": [
-                  7,
-                  8
-                ]
+                "lines": [7, 8]
               }
             ],
             "caption": {
