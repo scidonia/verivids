@@ -10,7 +10,7 @@
     {
       "id": "01-what-is-vericoding",
       "title": "What is vericoding?",
-      "durationInFrames": 3083,
+      "durationInFrames": 3073,
       "scenes": [
         {
           "id": "opener",
@@ -82,13 +82,13 @@
         {
           "id": "three-things",
           "from": 1119,
-          "durationInFrames": 613,
+          "durationInFrames": 603,
           "audio": "audio/01-what-is-vericoding/three-things.mp3",
           "cues": {
-            "code": 0,
-            "spec": 142,
-            "proof": 229,
-            "one": 391
+            "code": 28,
+            "spec": 146,
+            "proof": 227,
+            "one": 400
           },
           "visual": {
             "kind": "converge",
@@ -106,7 +106,7 @@
               },
               {
                 "label": "Proof",
-                "detail": "checked by the kernel",
+                "detail": "machine-checked, step by step",
                 "cue": "proof"
               }
             ],
@@ -116,11 +116,11 @@
               "cue": "one"
             }
           },
-          "narration": "So a vericoded program is three things at once. The code. A statement of what that code must mean. And a proof, checked by the kernel, that the code meets the statement. One language for all three, so the specification cannot drift away from the implementation."
+          "narration": "So a vericoded program is three things at once. The code. A statement of what that code must mean. And a proof, machine-checked step by step, that the code meets the statement. One language for all three, so the specification cannot drift away from the implementation."
         },
         {
           "id": "why-now",
-          "from": 1732,
+          "from": 1722,
           "durationInFrames": 668,
           "audio": "audio/01-what-is-vericoding/why-now.mp3",
           "cues": {
@@ -162,7 +162,7 @@
         },
         {
           "id": "intent",
-          "from": 2400,
+          "from": 2390,
           "durationInFrames": 564,
           "audio": "audio/01-what-is-vericoding/intent.mp3",
           "cues": {
@@ -198,7 +198,7 @@
         },
         {
           "id": "closing",
-          "from": 2964,
+          "from": 2954,
           "durationInFrames": 119,
           "audio": "audio/01-what-is-vericoding/closing.mp3",
           "cues": {
@@ -217,7 +217,7 @@
     {
       "id": "02-proofs-are-programs",
       "title": "Proofs are programs",
-      "durationInFrames": 2617,
+      "durationInFrames": 2655,
       "scenes": [
         {
           "id": "title",
@@ -239,14 +239,14 @@
         {
           "id": "kernel",
           "from": 245,
-          "durationInFrames": 583,
+          "durationInFrames": 621,
           "audio": "audio/02-proofs-are-programs/kernel.mp3",
           "cues": {
             "claim": 0,
             "proof": 43,
-            "kernel": 130,
-            "authority": 220,
-            "small": 491
+            "kernel": 174,
+            "authority": 250,
+            "small": 529
           },
           "visual": {
             "kind": "pipeline",
@@ -276,11 +276,11 @@
             "note": "Keeping the kernel small is what makes it worth trusting.",
             "noteCue": "small"
           },
-          "narration": "You state a claim, you give a proof, and a small trusted kernel verifies every step. Nothing is taken on authority. A proof is a certificate: the checker accepts it, or it does not. Keeping the kernel small is what makes it worth trusting."
+          "narration": "You state a claim, you give a proof, and a small trusted program — the kernel — verifies every step. Nothing is taken on authority. A proof is a certificate: the checker accepts it, or it does not. Keeping the kernel small is what makes it worth trusting."
         },
         {
           "id": "curry-howard",
-          "from": 828,
+          "from": 866,
           "durationInFrames": 707,
           "audio": "audio/02-proofs-are-programs/curry-howard.mp3",
           "cues": {
@@ -336,7 +336,7 @@
         },
         {
           "id": "dependent",
-          "from": 1535,
+          "from": 1573,
           "durationInFrames": 578,
           "audio": "audio/02-proofs-are-programs/dependent.mp3",
           "cues": {
@@ -373,7 +373,7 @@
         },
         {
           "id": "same-machine",
-          "from": 2113,
+          "from": 2151,
           "durationInFrames": 423,
           "audio": "audio/02-proofs-are-programs/same-machine.mp3",
           "cues": {
@@ -406,7 +406,7 @@
         },
         {
           "id": "closing",
-          "from": 2536,
+          "from": 2574,
           "durationInFrames": 81,
           "audio": "audio/02-proofs-are-programs/closing.mp3",
           "cues": {

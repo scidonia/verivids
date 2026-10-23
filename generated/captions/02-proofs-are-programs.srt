@@ -9,88 +9,89 @@ Everything else follows from how seriously
 it takes that job.
 
 3
-00:00:08,167 --> 00:00:14,722
+00:00:08,167 --> 00:00:15,972
 You state a claim, you give a proof, and a
-small trusted kernel verifies every step.
+small trusted program — the kernel —
+verifies every step.
 
 4
-00:00:14,722 --> 00:00:17,063
+00:00:15,972 --> 00:00:18,314
 Nothing is taken on authority.
 
 5
-00:00:17,063 --> 00:00:22,135
+00:00:18,314 --> 00:00:23,388
 A proof is a certificate: the checker
 accepts it, or it does not.
 
 6
-00:00:22,135 --> 00:00:26,583
+00:00:23,388 --> 00:00:27,837
 Keeping the kernel small is what makes it
 worth trusting.
 
 7
-00:00:27,600 --> 00:00:32,530
+00:00:28,867 --> 00:00:33,797
 The reason this can be a programming
 language is a correspondence.
 
 8
-00:00:32,530 --> 00:00:37,236
+00:00:33,797 --> 00:00:38,503
 A proposition is a type, and a proof is a
 program of that type.
 
 9
-00:00:37,236 --> 00:00:39,178
+00:00:38,503 --> 00:00:40,445
 Implication is a function.
 
 10
-00:00:39,178 --> 00:00:40,822
+00:00:40,445 --> 00:00:42,088
 Conjunction is a pair.
 
 11
-00:00:40,822 --> 00:00:43,062
+00:00:42,088 --> 00:00:44,329
 Disjunction is a tagged union.
 
 12
-00:00:43,062 --> 00:00:49,935
+00:00:44,329 --> 00:00:51,201
 For all is a dependent function, and there
 exists is a witness paired with a proof
 about it.
 
 13
-00:00:51,167 --> 00:00:54,064
+00:00:52,433 --> 00:00:55,331
 That gives types which talk about values.
 
 14
-00:00:54,064 --> 00:00:57,951
+00:00:55,331 --> 00:00:59,218
 Here is a vector: a list whose type
 records its length.
 
 15
-00:00:57,951 --> 00:01:05,442
+00:00:59,218 --> 00:01:06,709
 The head of a non-empty vector has no
 empty case to handle, because an empty
 vector cannot have that type.
 
 16
-00:01:05,442 --> 00:01:09,400
+00:01:06,709 --> 00:01:10,667
 Calling it on nothing is a type error, not
 an exception.
 
 17
-00:01:10,433 --> 00:01:13,705
+00:01:11,700 --> 00:01:14,972
 So checking a proof is type-checking a
 program.
 
 18
-00:01:13,705 --> 00:01:17,743
+00:01:14,972 --> 00:01:19,009
 The proof assistant and the compiler are
 the same machine.
 
 19
-00:01:17,743 --> 00:01:23,521
+00:01:19,009 --> 00:01:24,787
 That is what lets one language carry the
 program, the specification, and the proof.
 
 20
-00:01:24,533 --> 00:01:26,231
+00:01:25,800 --> 00:01:27,498
 Now, a first contract.
 

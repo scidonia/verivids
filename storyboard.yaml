@@ -73,14 +73,14 @@ episodes:
       - id: three-things
         narration: >-
           So a vericoded program is three things at once. The code. A statement
-          of what that code must mean. And a proof, checked by the kernel, that
-          the code meets the statement. One language for all three, so the
-          specification cannot drift away from the implementation.
+          of what that code must mean. And a proof, machine-checked step by
+          step, that the code meets the statement. One language for all three,
+          so the specification cannot drift away from the implementation.
         tailHold: 1.0
         cues:
-          code: "So a vericoded program is three things"
+          code: "program is three things"
           spec: "A statement of what that code must mean"
-          proof: "And a proof, checked by the kernel"
+          proof: "And a proof, machine-checked step by step"
           one: "One language for all three"
         visual:
           kind: converge
@@ -88,7 +88,11 @@ episodes:
           items:
             - { label: "Program", detail: "the computation", cue: code }
             - { label: "Specification", detail: "what it must mean", cue: spec }
-            - { label: "Proof", detail: "checked by the kernel", cue: proof }
+            - {
+                label: "Proof",
+                detail: "machine-checked, step by step",
+                cue: proof,
+              }
           result:
             label: "One language"
             detail: "the specification cannot drift away from the implementation"
@@ -190,10 +194,10 @@ episodes:
 
       - id: kernel
         narration: >-
-          You state a claim, you give a proof, and a small trusted kernel
-          verifies every step. Nothing is taken on authority. A proof is a
-          certificate: the checker accepts it, or it does not. Keeping the
-          kernel small is what makes it worth trusting.
+          You state a claim, you give a proof, and a small trusted program —
+          the kernel — verifies every step. Nothing is taken on authority. A
+          proof is a certificate: the checker accepts it, or it does not.
+          Keeping the kernel small is what makes it worth trusting.
         tailHold: 1.0
         cues:
           claim: "You state a claim"

@@ -38,79 +38,79 @@ Tests sample.
 Proofs quantify.
 
 9
-00:00:37,300 --> 00:00:40,850
+00:00:37,300 --> 00:00:40,695
 So a vericoded program is three things at
 once.
 
 10
-00:00:40,850 --> 00:00:41,529
+00:00:40,695 --> 00:00:41,345
 The code.
 
 11
-00:00:41,529 --> 00:00:44,550
+00:00:41,345 --> 00:00:44,234
 A statement of what that code must mean.
 
 12
-00:00:44,550 --> 00:00:49,837
-And a proof, checked by the kernel, that
-the code meets the statement.
+00:00:44,234 --> 00:00:49,796
+And a proof, machine-checked step by step,
+that the code meets the statement.
 
 13
-00:00:49,837 --> 00:00:56,709
+00:00:49,796 --> 00:00:56,369
 One language for all three, so the
 specification cannot drift away from the
 implementation.
 
 14
-00:00:57,733 --> 00:00:58,254
+00:00:57,400 --> 00:00:57,920
 Why now?
 
 15
-00:00:58,254 --> 00:01:00,464
+00:00:57,920 --> 00:01:00,131
 Proving used to be the bottleneck.
 
 16
-00:01:00,464 --> 00:01:07,877
+00:01:00,131 --> 00:01:07,544
 A theorem prover could check everything,
 but writing the proofs took specialists
 far longer than writing the code.
 
 17
-00:01:07,877 --> 00:01:10,739
+00:01:07,544 --> 00:01:10,405
 Large language models changed the
 economics.
 
 18
-00:01:10,739 --> 00:01:16,266
+00:01:10,405 --> 00:01:15,933
 Routine obligations get discharged, lemmas
 get suggested, broken proofs get repaired.
 
 19
-00:01:16,266 --> 00:01:18,997
+00:01:15,933 --> 00:01:18,664
 The proof is no longer the expensive part.
 
 20
-00:01:20,000 --> 00:01:22,188
+00:01:19,667 --> 00:01:21,855
 That moves the scarce resource.
 
 21
-00:01:22,188 --> 00:01:26,000
+00:01:21,855 --> 00:01:25,667
 The machine cannot invent what your
 program must mean.
 
 22
-00:01:26,000 --> 00:01:34,613
+00:01:25,667 --> 00:01:34,279
 You iterate at the specification surface,
 in conversation, and the implementation
 becomes something you can replace later.
 
 23
-00:01:34,613 --> 00:01:37,789
+00:01:34,279 --> 00:01:37,456
 The dialectic is about intent, not
 operation.
 
 24
-00:01:38,800 --> 00:01:41,752
+00:01:38,467 --> 00:01:41,419
 Next, why a proof is, literally, a
 program.
 
