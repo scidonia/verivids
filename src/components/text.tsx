@@ -1,4 +1,5 @@
 import type {
+  BrandVisual,
   ClaimVisual,
   ClosingVisual,
   TableVisual,
@@ -6,6 +7,7 @@ import type {
 } from "../spec";
 import { theme } from "../theme";
 import type { KindProps } from "./kind";
+import { BrandMark } from "./brand";
 import { cueFrame, Eyebrow, Heading, Reveal, Stage } from "./primitives";
 
 const SERIF = '"Inter", system-ui, sans-serif';
@@ -57,6 +59,54 @@ export const TitleKind: React.FC<KindProps<TitleVisual>> = ({
         }}
       />
     </Reveal>
+  </Stage>
+);
+
+export const BrandKind: React.FC<KindProps<BrandVisual>> = ({
+  visual,
+  cues,
+  where,
+}) => (
+  <Stage style={{ justifyContent: "center", gap: 30 }}>
+    <Reveal>
+      <BrandMark height={visual.wordmark} muted={false} />
+    </Reveal>
+    <Reveal fade={24} rise={0}>
+      <div
+        style={{
+          height: 5,
+          width: 190,
+          background: theme.color.teal,
+          margin: "10px 0 6px",
+        }}
+      />
+    </Reveal>
+    <Reveal at={cueFrame(cues, visual.titleCue, where)} fade={20}>
+      <div
+        style={{
+          fontFamily: theme.font.body,
+          fontWeight: 650,
+          fontSize: 88,
+          lineHeight: 1.02,
+          letterSpacing: "-0.03em",
+        }}
+      >
+        {visual.title}
+      </div>
+    </Reveal>
+    {visual.subtitle ? (
+      <Reveal at={cueFrame(cues, visual.subtitleCue, where)} fade={20}>
+        <div
+          style={{
+            fontFamily: theme.font.body,
+            fontSize: theme.size.subtitle,
+            color: theme.color.muted,
+          }}
+        >
+          {visual.subtitle}
+        </div>
+      </Reveal>
+    ) : null}
   </Stage>
 );
 

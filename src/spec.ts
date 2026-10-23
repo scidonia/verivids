@@ -26,6 +26,16 @@ export interface TitleVisual {
   subtitleCue?: string;
 }
 
+export interface BrandVisual {
+  kind: "brand";
+  /** Wordmark height in pixels. */
+  wordmark: number;
+  title: string;
+  subtitle?: string;
+  titleCue?: string;
+  subtitleCue?: string;
+}
+
 export interface ClosingVisual {
   kind: "closing";
   text: string;
@@ -170,6 +180,7 @@ export interface StackVisual {
 
 export type Visual =
   | TitleVisual
+  | BrandVisual
   | ClosingVisual
   | ClaimVisual
   | QuantifyVisual

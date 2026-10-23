@@ -14,6 +14,21 @@ episodes:
   - id: 01-what-is-vericoding
     title: "What is vericoding?"
     scenes:
+      - id: opener
+        narration: >-
+          Scidonia Limited presents Vericoding: an introduction in six parts.
+        tailHold: 0.8
+        cues:
+          title: "presents Vericoding"
+          parts: "an introduction in six parts"
+        visual:
+          kind: brand
+          wordmark: 118
+          title: "Vericoding"
+          subtitle: "An introduction in six parts"
+          titleCue: title
+          subtitleCue: parts
+
       - id: title
         narration: >-
           Vericoding is a way of writing software where the specification, the

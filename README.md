@@ -8,17 +8,19 @@ and needs no network.
 
 | Episode | Length | Question it answers |
 | ------------------------- | ------ | ------------------------------------------------------ |
-| 01 `what-is-vericoding` | 1:36 | What is vericoding, and why is it practical now? |
+| 01 `what-is-vericoding` | 1:43 | What is vericoding, and why is it practical now? |
 | 02 `proofs-are-programs` | 1:27 | Why can a theorem prover also be the compiler? |
 | 03 `first-contract` | 1:17 | What does a program + specification + proof look like? |
 | 04 `two-ways-to-specify` | 2:05 | Intrinsic or extrinsic, deep or shallow? |
 | 05 `from-proof-to-binary` | 1:35 | What survives compilation, and what is the staircase? |
 | 06 `building-the-world` | 1:58 | Effects, libraries, theories, and the trusted base |
 
-Total: 10 minutes at 1920x1080, 30 fps, with an H.264 MP4 and an
+Total: 10 minutes 6 seconds at 1920x1080, 30 fps, with an H.264 MP4 and an
 SRT caption track per episode.
 
-The content follows the `vericoding-tutorial` repository (CC BY 4.0), whose
+Every film opens on a Scidonia Limited title card and carries the company
+lockup in the frame chrome of every slide. The content follows the
+`vericoding-tutorial` repository (CC BY 4.0), whose
 examples are the ones shown in episode 3. The production plan is
 `docs/notes/OMP_2D_Explainer_Video_Suggestion.md`.
 
@@ -116,6 +118,10 @@ Narration synthesis is the only network step. The render is offline.
   the treefmt wrapper.
 - Chromium comes from the store and is passed to Remotion through
   `REMOTION_BROWSER_EXECUTABLE`, so Remotion never downloads a browser.
+- Remotion ships its compositor and ffmpeg as prebuilt glibc binaries. The
+  derivation runs `autoPatchelf` over `@remotion/compositor-linux-x64-gnu`
+  before rendering, because the loader those binaries name does not exist
+  inside the sandbox.
 - `packages.videos` builds with `buildNpmPackage` and runs `npm run render`
   against the committed audio and timing. `npmDepsHash` is pinned; refresh it
   with `nix run nixpkgs#prefetch-npm-deps -- package-lock.json` after changing

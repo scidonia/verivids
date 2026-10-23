@@ -10,11 +10,30 @@
     {
       "id": "01-what-is-vericoding",
       "title": "What is vericoding?",
-      "durationInFrames": 2883,
+      "durationInFrames": 3083,
       "scenes": [
         {
-          "id": "title",
+          "id": "opener",
           "from": 0,
+          "durationInFrames": 200,
+          "audio": "audio/01-what-is-vericoding/opener.mp3",
+          "cues": {
+            "title": 31,
+            "parts": 100
+          },
+          "visual": {
+            "kind": "brand",
+            "wordmark": 118,
+            "title": "Vericoding",
+            "subtitle": "An introduction in six parts",
+            "titleCue": "title",
+            "subtitleCue": "parts"
+          },
+          "narration": "Scidonia Limited presents Vericoding: an introduction in six parts."
+        },
+        {
+          "id": "title",
+          "from": 200,
           "durationInFrames": 302,
           "audio": "audio/01-what-is-vericoding/title.mp3",
           "cues": {
@@ -31,7 +50,7 @@
         },
         {
           "id": "sampling",
-          "from": 302,
+          "from": 502,
           "durationInFrames": 617,
           "audio": "audio/01-what-is-vericoding/sampling.mp3",
           "cues": {
@@ -62,7 +81,7 @@
         },
         {
           "id": "three-things",
-          "from": 919,
+          "from": 1119,
           "durationInFrames": 613,
           "audio": "audio/01-what-is-vericoding/three-things.mp3",
           "cues": {
@@ -101,7 +120,7 @@
         },
         {
           "id": "why-now",
-          "from": 1532,
+          "from": 1732,
           "durationInFrames": 668,
           "audio": "audio/01-what-is-vericoding/why-now.mp3",
           "cues": {
@@ -143,7 +162,7 @@
         },
         {
           "id": "intent",
-          "from": 2200,
+          "from": 2400,
           "durationInFrames": 564,
           "audio": "audio/01-what-is-vericoding/intent.mp3",
           "cues": {
@@ -179,7 +198,7 @@
         },
         {
           "id": "closing",
-          "from": 2764,
+          "from": 2964,
           "durationInFrames": 119,
           "audio": "audio/01-what-is-vericoding/closing.mp3",
           "cues": {

@@ -51,6 +51,9 @@ repository is where a viewer goes to do it.
   a transformation _between_ levels (a lowering). Rust marks an assumption or
   a failure. No other accent colours carry meaning.
 - One meaningful change per cue. Most frames are still.
+- Scidonia Limited branding is persistent: the wordmark and legal suffix sit
+  in the frame chrome of every slide, and each film opens on a branded title
+  card. Branding never occupies the centre of a content slide.
 - Code is set in a monospaced face on a dark panel; prose is never set in the
   code face and code is never paraphrased in prose on screen.
 - Speech and display are separate: the narration says "the implementation's

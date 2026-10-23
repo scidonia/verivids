@@ -52,8 +52,20 @@
               src = ./.;
 
               nativeBuildInputs = [
+                pkgs.autoPatchelfHook
                 pkgs.chromium
                 pkgs.ffmpeg-headless
+              ];
+
+              # Remotion ships its compositor and ffmpeg as prebuilt glibc
+              # binaries. The loader they name does not exist inside the
+              # sandbox, so their interpreter and library paths are rewritten
+              # to the store's before anything tries to execute them.
+              buildInputs = [
+                pkgs.bzip2
+                pkgs.xz
+                pkgs.zlib
+                pkgs.stdenv.cc.cc.lib
               ];
 
               # Remotion's bundler and Chromium both want somewhere to write.
@@ -64,6 +76,10 @@
                 HOME = "/tmp";
                 VERIVIDS_REVISION = self.rev or self.dirtyRev or "uncommitted";
               };
+
+              preBuild = ''
+                autoPatchelf node_modules/@remotion/compositor-linux-x64-gnu
+              '';
 
               buildPhase = ''
                 runHook preBuild

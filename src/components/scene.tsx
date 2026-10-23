@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 import type { Visual } from "../spec";
 import { theme } from "../theme";
+import { BrandMark } from "./brand";
 import { CodeKind } from "./code";
 import {
   CardsKind,
@@ -12,7 +13,13 @@ import {
   StaircaseKind,
 } from "./diagram";
 import type { KindProps } from "./kind";
-import { ClaimKind, ClosingKind, TableKind, TitleKind } from "./text";
+import {
+  BrandKind,
+  ClaimKind,
+  ClosingKind,
+  TableKind,
+  TitleKind,
+} from "./text";
 
 function SceneView({
   visual,
@@ -26,6 +33,8 @@ function SceneView({
   switch (visual.kind) {
     case "title":
       return <TitleKind visual={visual} cues={cues} where={where} />;
+    case "brand":
+      return <BrandKind visual={visual} cues={cues} where={where} />;
     case "closing":
       return <ClosingKind visual={visual} cues={cues} where={where} />;
     case "claim":
@@ -105,7 +114,7 @@ export const Scene: React.FC<{
             color: theme.color.muted,
           }}
         >
-          <span>{series}</span>
+          {visual.kind === "brand" ? <span /> : <BrandMark height={30} />}
           <span>{episodeTitle}</span>
         </div>
         <SceneView visual={visual} cues={cues} where={where} />

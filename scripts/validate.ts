@@ -15,6 +15,7 @@ import {
 
 const KNOWN_KINDS = [
   "title",
+  "brand",
   "closing",
   "claim",
   "quantify",
@@ -30,6 +31,7 @@ const KNOWN_KINDS = [
 
 const ALLOWED_KEYS: Record<string, string[]> = {
   title: ["kind", "kicker", "title", "subtitle", "subtitleCue"],
+  brand: ["kind", "wordmark", "title", "subtitle", "titleCue", "subtitleCue"],
   closing: ["kind", "text", "next", "cue"],
   claim: ["kind", "eyebrow", "heading", "points", "emphasis"],
   quantify: ["kind", "heading", "left", "right", "conclusion"],
@@ -118,8 +120,14 @@ function checkVisual(scene: SceneSpec, where: string): void {
         : visual.text;
   checkNonEmptyString(primaryText, `${where}.visual heading`);
 
-  if (visual.kind === "title") {
+  if (visual.kind === "title" || visual.kind === "brand") {
     checkNonEmptyString(visual.title, `${where}.title`);
+  }
+  if (
+    visual.kind === "brand" &&
+    !(typeof visual.wordmark === "number" && visual.wordmark > 0)
+  ) {
+    fail(`${where}.wordmark`, "expected a positive height in pixels");
   }
   if (visual.kind === "closing") {
     checkNonEmptyString(visual.text, `${where}.text`);

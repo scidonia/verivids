@@ -1,4 +1,4 @@
-import { mkdirSync } from "node:fs";
+import { mkdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { renderStill, selectComposition } from "@remotion/renderer";
 import type { Timing } from "../src/spec";
@@ -34,6 +34,8 @@ for (const episode of episodes) {
     browserExecutable,
   });
   const directory = join(paths.review, episode.id);
+  // Frames from an earlier cut would otherwise sit beside the new ones.
+  rmSync(directory, { recursive: true, force: true });
   mkdirSync(directory, { recursive: true });
 
   for (const scene of episode.scenes) {
