@@ -162,7 +162,7 @@ function resolveScene(
       id: scene.id,
       from: startFrame,
       durationInFrames,
-      audio: scene.silent ? null : `audio/${episodeId}/${scene.id}.mp3`,
+      audio: silent ? null : `audio/${episodeId}/${scene.id}.mp3`,
       cues: cueFrames,
       visual: scene.visual,
       narration: scene.narration,

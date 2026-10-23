@@ -294,7 +294,10 @@
           "visual": {
             "kind": "table",
             "heading": "Propositions are types",
-            "columns": ["Logic", "Programming"],
+            "columns": [
+              "Logic",
+              "Programming"
+            ],
             "rows": [
               {
                 "left": "A proposition",
@@ -353,15 +356,24 @@
             "reveal": [
               {
                 "cue": "vector",
-                "lines": [1, 1]
+                "lines": [
+                  1,
+                  1
+                ]
               },
               {
                 "cue": "length",
-                "lines": [2, 3]
+                "lines": [
+                  2,
+                  3
+                ]
               },
               {
                 "cue": "head",
-                "lines": [5, 8]
+                "lines": [
+                  5,
+                  8
+                ]
               }
             ],
             "caption": {
@@ -461,7 +473,10 @@
             "reveal": [
               {
                 "cue": "function",
-                "lines": [1, 2]
+                "lines": [
+                  1,
+                  2
+                ]
               }
             ],
             "caption": {
@@ -488,7 +503,10 @@
             "reveal": [
               {
                 "cue": "same",
-                "lines": [4, 5]
+                "lines": [
+                  4,
+                  5
+                ]
               }
             ],
             "caption": {
@@ -517,15 +535,24 @@
             "reveal": [
               {
                 "cue": "unfold",
-                "lines": [4, 5]
+                "lines": [
+                  4,
+                  5
+                ]
               },
               {
                 "cue": "split",
-                "lines": [6, 7]
+                "lines": [
+                  6,
+                  7
+                ]
               },
               {
                 "cue": "arithmetic",
-                "lines": [8, 9]
+                "lines": [
+                  8,
+                  9
+                ]
               }
             ],
             "goals": [
@@ -639,11 +666,17 @@
             "reveal": [
               {
                 "cue": "type",
-                "lines": [1, 1]
+                "lines": [
+                  1,
+                  1
+                ]
               },
               {
                 "cue": "evidence",
-                "lines": [2, 4]
+                "lines": [
+                  2,
+                  4
+                ]
               }
             ],
             "caption": {
@@ -671,11 +704,17 @@
             "reveal": [
               {
                 "cue": "plain",
-                "lines": [1, 1]
+                "lines": [
+                  1,
+                  1
+                ]
               },
               {
                 "cue": "theorem",
-                "lines": [3, 4]
+                "lines": [
+                  3,
+                  4
+                ]
               }
             ],
             "caption": {
@@ -1062,11 +1101,17 @@
             "reveal": [
               {
                 "cue": "io",
-                "lines": [1, 2]
+                "lines": [
+                  1,
+                  2
+                ]
               },
               {
                 "cue": "array",
-                "lines": [4, 7]
+                "lines": [
+                  4,
+                  7
+                ]
               }
             ],
             "caption": {
@@ -1233,7 +1278,7 @@
           "id": "title",
           "from": 0,
           "durationInFrames": 207,
-          "audio": "audio/07-curry-howard/title.mp3",
+          "audio": null,
           "cues": {
             "same": 65
           },
@@ -1250,7 +1295,7 @@
           "id": "functions",
           "from": 207,
           "durationInFrames": 210,
-          "audio": "audio/07-curry-howard/functions.mp3",
+          "audio": null,
           "cues": {
             "python": 14,
             "lean": 46,
@@ -1284,7 +1329,7 @@
           "id": "pairs",
           "from": 417,
           "durationInFrames": 210,
-          "audio": "audio/07-curry-howard/pairs.mp3",
+          "audio": null,
           "cues": {
             "pair": 9,
             "product": 51,
@@ -1318,7 +1363,7 @@
           "id": "unions",
           "from": 627,
           "durationInFrames": 210,
-          "audio": "audio/07-curry-howard/unions.mp3",
+          "audio": null,
           "cues": {
             "union": 9,
             "sum": 58,
@@ -1352,7 +1397,7 @@
           "id": "counting",
           "from": 837,
           "durationInFrames": 210,
-          "audio": "audio/07-curry-howard/counting.mp3",
+          "audio": null,
           "cues": {
             "product": 16,
             "sum": 92,
@@ -1382,7 +1427,7 @@
           "id": "correspondence",
           "from": 1047,
           "durationInFrames": 216,
-          "audio": "audio/07-curry-howard/correspondence.mp3",
+          "audio": null,
           "cues": {
             "conj": 56,
             "disj": 76,
@@ -1393,7 +1438,10 @@
           "visual": {
             "kind": "table",
             "heading": "Propositions are types",
-            "columns": ["Logic", "Programming"],
+            "columns": [
+              "Logic",
+              "Programming"
+            ],
             "rows": [
               {
                 "left": "A ∧ B",
@@ -1428,7 +1476,7 @@
           "id": "proofs",
           "from": 1263,
           "durationInFrames": 216,
-          "audio": "audio/07-curry-howard/proofs.mp3",
+          "audio": null,
           "cues": {
             "identity": 37,
             "first": 69,
@@ -1443,15 +1491,24 @@
             "reveal": [
               {
                 "cue": "identity",
-                "lines": [1, 2]
+                "lines": [
+                  1,
+                  2
+                ]
               },
               {
                 "cue": "first",
-                "lines": [4, 5]
+                "lines": [
+                  4,
+                  5
+                ]
               },
               {
                 "cue": "tag",
-                "lines": [7, 8]
+                "lines": [
+                  7,
+                  8
+                ]
               }
             ],
             "caption": {
@@ -1465,7 +1522,7 @@
           "id": "difference",
           "from": 1479,
           "durationInFrames": 216,
-          "audio": "audio/07-curry-howard/difference.mp3",
+          "audio": null,
           "cues": {
             "python": 32,
             "lean": 82,
@@ -1501,7 +1558,7 @@
           "id": "closing",
           "from": 1695,
           "durationInFrames": 216,
-          "audio": "audio/07-curry-howard/closing.mp3",
+          "audio": null,
           "cues": {
             "trick": 109
           },
